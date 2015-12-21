@@ -1,0 +1,5 @@
+<map id="QUsbDevice" name="QUsbDevice">
+<area shape="rect" id="node2" href="$class_q_base_usb_device.html" title="QBaseUsbDevice" alt="" coords="61,184,188,211"/>
+<area shape="rect" id="node4" href="$struct_qt_usb_1_1_device_config.html" title="Device configuration. " alt="" coords="98,5,245,32"/>
+<area shape="rect" id="node5" href="$struct_qt_usb_1_1_device_filter.html" title="Device filter. " alt="" coords="202,95,341,121"/>
+</map>
