@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['vid',['vid',['../struct_qt_usb_1_1_device_filter.html#a7467afa1b89086834616f731f20f3723',1,'QtUsb::DeviceFilter']]]
+  ['timeout',['timeout',['../class_q_usb_device.html#a260f1e066e49dea53ec7834180c5a6d9',1,'QUsbDevice']]]
 ];

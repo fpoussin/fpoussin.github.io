@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['write',['write',['../class_q_base_usb_device.html#a766421536101365bdf74d76aef21e381',1,'QBaseUsbDevice::write(const QByteArray *buf, quint32 maxSize)=0'],['../class_q_base_usb_device.html#a9e53324ca829746af0af59d9f593462c',1,'QBaseUsbDevice::write(const QByteArray &amp;buf)'],['../class_q_base_usb_device.html#a81bd820152ec8f9e0385cb3b2f06f7d8',1,'QBaseUsbDevice::write(char c)'],['../class_q_usb_device.html#acf46f3cf56839196c92dbe276f46b1d9',1,'QUsbDevice::write(const QByteArray *buf, quint32 maxSize)'],['../class_q_usb_device.html#acf46f3cf56839196c92dbe276f46b1d9',1,'QUsbDevice::write(const QByteArray *buf, quint32 maxSize)'],['../class_q_usb_device.html#acf46f3cf56839196c92dbe276f46b1d9',1,'QUsbDevice::write(const QByteArray *buf, quint32 maxSize)']]],
-  ['writeep',['writeEp',['../struct_qt_usb_1_1_device_config.html#a45034628d4a1ab6a69ef0cb3a4b82f96',1,'QtUsb::DeviceConfig']]]
+  ['vid',['vid',['../struct_qt_usb_1_1_device_filter.html#a7467afa1b89086834616f731f20f3723',1,'QtUsb::DeviceFilter::vid()'],['../class_q_usb_device.html#a85e07dcd653d345d57328d23f71425d5',1,'QUsbDevice::vid()']]]
 ];

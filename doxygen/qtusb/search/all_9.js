@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['qbaseusbdevice',['QBaseUsbDevice',['../class_q_base_usb_device.html',1,'QBaseUsbDevice'],['../class_q_base_usb_device.html#a9d0a99d1724c7e73399f645e796a8775',1,'QBaseUsbDevice::QBaseUsbDevice()']]],
-  ['qusbdevice',['QUsbDevice',['../class_q_usb_device.html',1,'QUsbDevice'],['../class_q_usb_device.html#aa33d74f9f620fc4632d53c118bec30a4',1,'QUsbDevice::QUsbDevice(QBaseUsbDevice *parent=0)'],['../class_q_usb_device.html#aa33d74f9f620fc4632d53c118bec30a4',1,'QUsbDevice::QUsbDevice(QBaseUsbDevice *parent=0)'],['../class_q_usb_device.html#aa33d74f9f620fc4632d53c118bec30a4',1,'QUsbDevice::QUsbDevice(QBaseUsbDevice *parent=0)']]],
-  ['qusbmanager',['QUsbManager',['../class_q_usb_manager.html',1,'QUsbManager'],['../class_q_usb_manager.html#a79c8494f29189566c4da73249cccccc3',1,'QUsbManager::QUsbManager()']]]
+  ['qusbdevice',['QUsbDevice',['../class_q_usb_device.html',1,'QUsbDevice'],['../class_q_usb_device.html#af1da0e0b10f21a0c48730b5d605235c4',1,'QUsbDevice::QUsbDevice()']]],
+  ['qusbmanager',['QUsbManager',['../class_q_usb_manager.html',1,'QUsbManager'],['../class_q_usb_manager.html#ac8216cf894db830ce0660b49e0247e84',1,'QUsbManager::QUsbManager()']]]
 ];
