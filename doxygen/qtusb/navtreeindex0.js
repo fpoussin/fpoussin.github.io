@@ -73,8 +73,7 @@ var NAVTREEINDEX0 =
 "struct_qt_usb_1_1_device_config.html#ab63687333c1950d2536bacc82d8ecd15":[0,0,0,0,2],
 "struct_qt_usb_1_1_device_config.html#abb5f803eaab603f6622a8f0c2e31d4a2":[0,0,0,0,1],
 "struct_qt_usb_1_1_device_filter.html":[0,0,0,1],
-"struct_qt_usb_1_1_device_filter.html#a38ceda068459efaac65da80a786d070d":[0,0,0,1,1],
-"struct_qt_usb_1_1_device_filter.html#a7467afa1b89086834616f731f20f3723":[0,0,0,1,3],
-"struct_qt_usb_1_1_device_filter.html#a9cdc2bedd13320452716a39e3db4e093":[0,0,0,1,2],
+"struct_qt_usb_1_1_device_filter.html#a7467afa1b89086834616f731f20f3723":[0,0,0,1,2],
+"struct_qt_usb_1_1_device_filter.html#a9cdc2bedd13320452716a39e3db4e093":[0,0,0,1,1],
 "struct_qt_usb_1_1_device_filter.html#af8da9c8357e32603ac80051bfc6fde5e":[0,0,0,1,0]
 };

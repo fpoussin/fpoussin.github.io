@@ -1,6 +1,4 @@
 var searchData=
 [
-  ['m_5ffilter_5flist',['m_filter_list',['../class_q_usb_manager.html#a72266d213715cb6101288d453bc58586',1,'QUsbManager']]],
-  ['m_5fsystem_5flist',['m_system_list',['../class_q_usb_manager.html#a4553d5a3dd4830126b260cdd2b4bd9c7',1,'QUsbManager']]],
-  ['m_5fused_5fdevice_5flist',['m_used_device_list',['../class_q_usb_manager.html#aaad729dbcf6e43892c2301e08d4241a1',1,'QUsbManager']]]
+  ['pid',['pid',['../struct_qt_usb_1_1_device_filter.html#a9cdc2bedd13320452716a39e3db4e093',1,'QtUsb::DeviceFilter']]]
 ];
