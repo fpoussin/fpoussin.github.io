@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QtHelpProject version="1.0">
+  <namespace>org.qt-project.qtusb</namespace>
+  <virtualFolder>qtusb</virtualFolder>
+  <filterSection>
+    <filterAttribute>doxygen</filterAttribute>
+    <toc>
+      <section title="QtUSB 0.5.x" ref="index.html">
+        <section title="Classes" ref="annotated.html">
+          <section title="Class List" ref="annotated.html">
+            <section title="QUsbDevice" ref="class_q_usb_device.html">
+              <section title="DeviceConfig" ref="struct_q_usb_device_1_1_device_config.html">
+                <section title="alternate" ref="struct_q_usb_device_1_1_device_config.html#a96cf15d7f711bdf1e712b45bc7551e04" />
+                <section title="config" ref="struct_q_usb_device_1_1_device_config.html#ac95863f4e5d02c50542f1069279f21ea" />
+                <section title="interface" ref="struct_q_usb_device_1_1_device_config.html#af6f3b65a800c17ff1304097612fa850e" />
+              </section>
+              <section title="DeviceFilter" ref="struct_q_usb_device_1_1_device_filter.html">
+                <section title="cfg" ref="struct_q_usb_device_1_1_device_filter.html#a78818cdf9696caf236002d09b3fa02e3" />
+                <section title="pid" ref="struct_q_usb_device_1_1_device_filter.html#ad6a075aed59e1576210d5becf93648f2" />
+                <section title="vid" ref="struct_q_usb_device_1_1_device_filter.html#ae3255349e0826f9b1212f887d02019af" />
+              </section>
+              <section title="ConfigList" ref="class_q_usb_device.html#aaade057994a9ca1f3a49b14f2e5883de" />
+              <section title="Endpoint" ref="class_q_usb_device.html#a542756195dd50b53b51bf61c4fca5f9d" />
+              <section title="FilterList" ref="class_q_usb_device.html#ae9c45f38347c311c41e82038f0c8cc2b" />
+              <section title="bmRequestType" ref="class_q_usb_device.html#a1d040aeacd526837e0a303aa694fcec6">
+                <section title="requestStandard" ref="class_q_usb_device.html#a1d040aeacd526837e0a303aa694fcec6a045cc9751ddc76a93d8e4028c8d2cb1c" />
+                <section title="requestClass" ref="class_q_usb_device.html#a1d040aeacd526837e0a303aa694fcec6ad9d739921c1a8381aa5b46d49bae9857" />
+                <section title="requestVendor" ref="class_q_usb_device.html#a1d040aeacd526837e0a303aa694fcec6af96204d6d973e71e552b1a06a48fc84d" />
+                <section title="requestReserved" ref="class_q_usb_device.html#a1d040aeacd526837e0a303aa694fcec6ae79817a0a86ce71ac25e1f160b97081c" />
+                <section title="recipientDevice" ref="class_q_usb_device.html#a1d040aeacd526837e0a303aa694fcec6a1b79a486a1d5ae1a3c2064254a70333b" />
+                <section title="recipientInterface" ref="class_q_usb_device.html#a1d040aeacd526837e0a303aa694fcec6a003501b5944b008d6ed6266a4b5a740b" />
+                <section title="recipientEndpoint" ref="class_q_usb_device.html#a1d040aeacd526837e0a303aa694fcec6aeb0bec5e9338d7e93756f2034df945c4" />
+                <section title="recipientOther" ref="class_q_usb_device.html#a1d040aeacd526837e0a303aa694fcec6a17a05e7386ad61d72abe93163537cbd8" />
+              </section>
+              <section title="bRequest" ref="class_q_usb_device.html#a2101fde3f3d4d00cfa7015f952f8daa1">
+                <section title="requestGetStatus" ref="class_q_usb_device.html#a2101fde3f3d4d00cfa7015f952f8daa1a2709fbe5d653cc70a3c16a0a7a230537" />
+                <section title="requestClearFeature" ref="class_q_usb_device.html#a2101fde3f3d4d00cfa7015f952f8daa1aaebc56b4eed4dcab2bb12d6719bc5496" />
+                <section title="requestSetFeature" ref="class_q_usb_device.html#a2101fde3f3d4d00cfa7015f952f8daa1ac5434790911060e290f312b03e484784" />
+                <section title="requestSetAddress" ref="class_q_usb_device.html#a2101fde3f3d4d00cfa7015f952f8daa1a98e7b0826d89e09a3695f8ab6eafebcb" />
+                <section title="requestGetDescriptor" ref="class_q_usb_device.html#a2101fde3f3d4d00cfa7015f952f8daa1a9a642fae4de122882a5812f7573a5ce4" />
+                <section title="requestSetDescriptor" ref="class_q_usb_device.html#a2101fde3f3d4d00cfa7015f952f8daa1a4f7927fe198b1b88e015e4d36322f216" />
+                <section title="requestGetConfiguration" ref="class_q_usb_device.html#a2101fde3f3d4d00cfa7015f952f8daa1a563035dd650aeb844251045d378be41a" />
+                <section title="requestSetConfiguration" ref="class_q_usb_device.html#a2101fde3f3d4d00cfa7015f952f8daa1ab827ee16e07ff2bd00a5206324e1059e" />
+                <section title="requestGetInterface" ref="class_q_usb_device.html#a2101fde3f3d4d00cfa7015f952f8daa1a98fcf8f8fd1283b82920af5f220948fb" />
+                <section title="requestSetInterface" ref="class_q_usb_device.html#a2101fde3f3d4d00cfa7015f952f8daa1aa544a7dd41b5a4c17e2dfd0642991294" />
+                <section title="requestSynchFrame" ref="class_q_usb_device.html#a2101fde3f3d4d00cfa7015f952f8daa1a3052b472b5a6113e5b514a24a3057011" />
+                <section title="requestSetSel" ref="class_q_usb_device.html#a2101fde3f3d4d00cfa7015f952f8daa1a6ee294fff855a62456ef106b69562b5b" />
+                <section title="requestIsochDelay" ref="class_q_usb_device.html#a2101fde3f3d4d00cfa7015f952f8daa1a561152d4aa057b53029de60442cee2d3" />
+              </section>
+              <section title="DeviceSpeed" ref="class_q_usb_device.html#a4be7b8d3c8913861bc3b68e9c1f630f4">
+                <section title="unknownSpeed" ref="class_q_usb_device.html#a4be7b8d3c8913861bc3b68e9c1f630f4aea4dcc5d0dbcadad6465a2f69258e728" />
+                <section title="lowSpeed" ref="class_q_usb_device.html#a4be7b8d3c8913861bc3b68e9c1f630f4ac4dac2cd5c5d7a3fd0734c967dbf9b5f" />
+                <section title="fullSpeed" ref="class_q_usb_device.html#a4be7b8d3c8913861bc3b68e9c1f630f4a338b4a3e539579fa61724a801f6fe77f" />
+                <section title="highSpeed" ref="class_q_usb_device.html#a4be7b8d3c8913861bc3b68e9c1f630f4a172cf9fa2d24637232501d45f076986b" />
+                <section title="superSpeed" ref="class_q_usb_device.html#a4be7b8d3c8913861bc3b68e9c1f630f4a0b0d32378a78327cdb82669469098a79" />
+                <section title="superSpeedPlus" ref="class_q_usb_device.html#a4be7b8d3c8913861bc3b68e9c1f630f4ab3a16fe591398295104461f9993f57d9" />
+              </section>
+              <section title="DeviceStatus" ref="class_q_usb_device.html#aa9209617649d035aa9ac4150a5271fbd">
+                <section title="statusOK" ref="class_q_usb_device.html#aa9209617649d035aa9ac4150a5271fbdadc7ba2e0ea7fc2beb084351b1e5f69f7" />
+                <section title="statusIoError" ref="class_q_usb_device.html#aa9209617649d035aa9ac4150a5271fbdac14b0779ec0b0bd823164ca3ea314423" />
+                <section title="statusInvalidParam" ref="class_q_usb_device.html#aa9209617649d035aa9ac4150a5271fbda9ae2c7b780b9aaa7ea45173957004418" />
+                <section title="statusAccessDenied" ref="class_q_usb_device.html#aa9209617649d035aa9ac4150a5271fbdab0ae8d11bcff027d51c8d5ec97fbf47d" />
+                <section title="statusNoSuchDevice" ref="class_q_usb_device.html#aa9209617649d035aa9ac4150a5271fbda19e954f89b0b87b9e37386a6b37ac85f" />
+                <section title="statusNotFound" ref="class_q_usb_device.html#aa9209617649d035aa9ac4150a5271fbda758028d49c68df45910b5192c58b1ca1" />
+                <section title="statusBusy" ref="class_q_usb_device.html#aa9209617649d035aa9ac4150a5271fbda1f253c1a011b82e2de9a9cf6b10cd32b" />
+                <section title="statusTimeout" ref="class_q_usb_device.html#aa9209617649d035aa9ac4150a5271fbda09e8175e71042fd9d93173b92ade395e" />
+                <section title="statusOverflow" ref="class_q_usb_device.html#aa9209617649d035aa9ac4150a5271fbda6fbf72239ad181905614f4b4ace143e6" />
+                <section title="statusPipeError" ref="class_q_usb_device.html#aa9209617649d035aa9ac4150a5271fbda7b5c23eb4bf6f1bf6fb88ab4db541b66" />
+                <section title="statusInterrupted" ref="class_q_usb_device.html#aa9209617649d035aa9ac4150a5271fbdaa654d1eb59d59c1db955bf487a625e21" />
+                <section title="statusNoMemory" ref="class_q_usb_device.html#aa9209617649d035aa9ac4150a5271fbda7be457f33e7095f76ee7e246d5774261" />
+                <section title="statusNotSupported" ref="class_q_usb_device.html#aa9209617649d035aa9ac4150a5271fbda6495479b3fc1363568353d9619bc2fec" />
+                <section title="StatusUnknownError" ref="class_q_usb_device.html#aa9209617649d035aa9ac4150a5271fbdafe197b161b78855967870b273639bff2" />
+              </section>
+              <section title="QUsbDevice" ref="class_q_usb_device.html#af1da0e0b10f21a0c48730b5d605235c4" />
+              <section title="~QUsbDevice" ref="class_q_usb_device.html#af38fef5530842ad09783041b9fbd7249" />
+              <section title="close" ref="class_q_usb_device.html#a61417e5b2764e44aee15ef3b5b558d0f" />
+              <section title="config" ref="class_q_usb_device.html#a092c4f504a2e96cf5fbf237ec47c31b8" />
+              <section title="debug" ref="class_q_usb_device.html#ae368cb33773c9ee1f08f55d11a0c1bfd" />
+              <section title="filter" ref="class_q_usb_device.html#ae8d33c96305609ba36eb32abebcab95c" />
+              <section title="isConnected" ref="class_q_usb_device.html#a584013ff4092999d3a0f30ec7f431616" />
+              <section title="open" ref="class_q_usb_device.html#a2f438bde19f0488e87f5896cdf2250a5" />
+              <section title="pid" ref="class_q_usb_device.html#a776ec848eee25a39581800a0d485ce27" />
+              <section title="setConfig" ref="class_q_usb_device.html#a883321e267e207b6adec038ea5210962" />
+              <section title="setDebug" ref="class_q_usb_device.html#a76213a00f25be2e5e04e51973f7d232f" />
+              <section title="setFilter" ref="class_q_usb_device.html#a5aaad541da68aa8399bf3f9bbd72b63c" />
+              <section title="setTimeout" ref="class_q_usb_device.html#ab5539784320d73c4818025cc1856fdc5" />
+              <section title="showSettings" ref="class_q_usb_device.html#ac17ea548ea7fa6f8c55574569104ba2f" />
+              <section title="speed" ref="class_q_usb_device.html#a320cd1e041a87fd6979f31cf4ec059df" />
+              <section title="speedString" ref="class_q_usb_device.html#a788f5ea07f85825e612209db08fd76e6" />
+              <section title="timeout" ref="class_q_usb_device.html#a260f1e066e49dea53ec7834180c5a6d9" />
+              <section title="vid" ref="class_q_usb_device.html#a85e07dcd653d345d57328d23f71425d5" />
+              <section title="config" ref="class_q_usb_device.html#a7713c6c6fd62ab675c745866769208b8" />
+              <section title="debug" ref="class_q_usb_device.html#a5473585a43248b8e2deb774804fcf1d2" />
+              <section title="filter" ref="class_q_usb_device.html#aa195eb28885d03ea205204d00958571f" />
+              <section title="pid" ref="class_q_usb_device.html#a0b855f3fce12d1115d6b91033230dd26" />
+              <section title="speed" ref="class_q_usb_device.html#aa5a83834fbdee9a0e8fee102677ed418" />
+              <section title="timeout" ref="class_q_usb_device.html#a01fd532dea60f3fadc29f77f4566ba6a" />
+              <section title="vid" ref="class_q_usb_device.html#a61f02e2b38add2faddcb35147ba3af07" />
+            </section>
+            <section title="QUsbInfo" ref="class_q_usb_info.html">
+              <section title="QUsbInfo" ref="class_q_usb_info.html#a079031edb1a9ee6d1d328b19883c27bd" />
+              <section title="~QUsbInfo" ref="class_q_usb_info.html#a3a3c6e4c5d5f6995fe4d0dcc4f648ba2" />
+              <section title="addDevice" ref="class_q_usb_info.html#ac45fa7b4b31a826e83e89104bd1f8a9b" />
+              <section title="checkDevices" ref="class_q_usb_info.html#aa298af38ba1870edd14b70ec9fb0e96f" />
+              <section title="closeDevice" ref="class_q_usb_info.html#aa080285ef83dfbb277f5325c32850898" />
+              <section title="debug" ref="class_q_usb_info.html#ae28d73cdcae0e748e7c32e68dcd02217" />
+              <section title="deviceInserted" ref="class_q_usb_info.html#a751eb65193c643642d5fd70c53d36440" />
+              <section title="deviceRemoved" ref="class_q_usb_info.html#ac9b9d874f7ebcb132e31bfa4b022e920" />
+              <section title="findDevice" ref="class_q_usb_info.html#ab7490286a52d86706de3985d0a8a3dbe" />
+              <section title="getPresentDevices" ref="class_q_usb_info.html#adcd1626756407896c859a85fd3b2fb72" />
+              <section title="isPresent" ref="class_q_usb_info.html#aefd8705f980548ceb2e575f44045b5bc" />
+              <section title="monitorDevices" ref="class_q_usb_info.html#a9c8f2334b5ecfad83575bb92b8877512" />
+              <section title="openDevice" ref="class_q_usb_info.html#abb0bac2680592ae2893b37b6ac3c128a" />
+              <section title="removeDevice" ref="class_q_usb_info.html#a165539a34391756114b61a525e431f19" />
+              <section title="setDebug" ref="class_q_usb_info.html#a5de7b37ed56b760bff5fec6259268e0d" />
+              <section title="m_debug" ref="class_q_usb_info.html#a47c4f0bc548a211bfcefc227f59db76c" />
+              <section title="m_filter_list" ref="class_q_usb_info.html#a3ea5f5be0bf25eda2a897fe57ab2041b" />
+              <section title="m_system_list" ref="class_q_usb_info.html#a6b60a9904fed0af18cdd5e3dc4b0020e" />
+              <section title="m_used_device_list" ref="class_q_usb_info.html#a2c993e8a83206b06953a5369715b6b88" />
+            </section>
+            <section title="QUsbTransferHandler" ref="class_q_usb_transfer_handler.html">
+              <section title="TransferStatus" ref="class_q_usb_transfer_handler.html#a9c5af92c558142edbedd991890c6f3f8">
+                <section title="transferCompleted" ref="class_q_usb_transfer_handler.html#a9c5af92c558142edbedd991890c6f3f8ac600bedf28f79cc1e84daa1df2aa442a" />
+                <section title="transferError" ref="class_q_usb_transfer_handler.html#a9c5af92c558142edbedd991890c6f3f8afe96086c267f69b0c049aa023475b653" />
+                <section title="transferTimeout" ref="class_q_usb_transfer_handler.html#a9c5af92c558142edbedd991890c6f3f8a9c6427d345c3323048f376bf8a140458" />
+                <section title="transferCanceled" ref="class_q_usb_transfer_handler.html#a9c5af92c558142edbedd991890c6f3f8a93f03aea5905871239429bd890231eed" />
+                <section title="transferStall" ref="class_q_usb_transfer_handler.html#a9c5af92c558142edbedd991890c6f3f8a730f2b71dba92ae67405eae40fd3e02a" />
+                <section title="transferNoDevice" ref="class_q_usb_transfer_handler.html#a9c5af92c558142edbedd991890c6f3f8ace87648d9dc6e46919b3935c897863d1" />
+                <section title="transferOverflow" ref="class_q_usb_transfer_handler.html#a9c5af92c558142edbedd991890c6f3f8aaef25b781098a1ec4b0513b81beb5fcd" />
+              </section>
+              <section title="TransferType" ref="class_q_usb_transfer_handler.html#a38c55825e003960f615e390be5d6d818">
+                <section title="controlTransfer" ref="class_q_usb_transfer_handler.html#a38c55825e003960f615e390be5d6d818aabd154b0d231a4d17e1fcf65fb8a178b" />
+                <section title="isochronousTransfer" ref="class_q_usb_transfer_handler.html#a38c55825e003960f615e390be5d6d818ace6471c39995c3960dff863299da78ae" />
+                <section title="bulkTransfer" ref="class_q_usb_transfer_handler.html#a38c55825e003960f615e390be5d6d818a076fe4689985a27fc431e6d08dfc0a8b" />
+                <section title="interruptTransfer" ref="class_q_usb_transfer_handler.html#a38c55825e003960f615e390be5d6d818a5d970081cc20c4a83f191e09790afb62" />
+                <section title="streamTransfer" ref="class_q_usb_transfer_handler.html#a38c55825e003960f615e390be5d6d818a88238b9c49f99b64fcaef5e467bbffc1" />
+              </section>
+              <section title="QUsbTransferHandler" ref="class_q_usb_transfer_handler.html#a5d8203a16f106e1c7628c09977455fe7" />
+              <section title="~QUsbTransferHandler" ref="class_q_usb_transfer_handler.html#ae144b52770ad07389e2ca185efe03c0a" />
+              <section title="bytesAvailable" ref="class_q_usb_transfer_handler.html#ac4dde0a2083ffa2414f1983ad27f0759" />
+              <section title="bytesToWrite" ref="class_q_usb_transfer_handler.html#abf76866c09cc204be0de8a827c373667" />
+              <section title="cancelTransfer" ref="class_q_usb_transfer_handler.html#a06d80bee2c304a7308405199de1fd604" />
+              <section title="close" ref="class_q_usb_transfer_handler.html#a75dca6ba4ce30c6eef277e9ff38aaf51" />
+              <section title="endpointIn" ref="class_q_usb_transfer_handler.html#aef65aa3588d5b40fda4e116f596095ce" />
+              <section title="endpointOut" ref="class_q_usb_transfer_handler.html#a16175eb8d307281b9ab645a7fcb4a88f" />
+              <section title="error" ref="class_q_usb_transfer_handler.html#a055c30b0878961ca619a19764640aeee" />
+              <section title="isSequential" ref="class_q_usb_transfer_handler.html#aa65a21996aff6dd3cc05e06830ebdac2" />
+              <section title="makeControlPacket" ref="class_q_usb_transfer_handler.html#ab65abc0bb6ee40881ae550aeb4a3e142" />
+              <section title="open" ref="class_q_usb_transfer_handler.html#aef516d3d6d60606ecd791a98ecb436bb" />
+              <section title="poll" ref="class_q_usb_transfer_handler.html#a0fa521b743f28afa936027edaa5b8df3" />
+              <section title="polling" ref="class_q_usb_transfer_handler.html#a91ac36b15cfbdf447c6b0195474581a2" />
+              <section title="readData" ref="class_q_usb_transfer_handler.html#a577a9b012c80332065d036dd863a87c0" />
+              <section title="setPolling" ref="class_q_usb_transfer_handler.html#a4e22223f7b8d501b5c131ecb6cad8f45" />
+              <section title="status" ref="class_q_usb_transfer_handler.html#a4bfdfba2c10604da9c17acfa8c76689c" />
+              <section title="type" ref="class_q_usb_transfer_handler.html#a16a727d17e37be7af961004565435527" />
+              <section title="waitForBytesWritten" ref="class_q_usb_transfer_handler.html#aae40f134aa6a965c8f34be781f8dfc45" />
+              <section title="waitForReadyRead" ref="class_q_usb_transfer_handler.html#ac413eb7fbac04148dc0d814c44d81154" />
+              <section title="writeData" ref="class_q_usb_transfer_handler.html#a52e218867842ea11b308401304e9b765" />
+              <section title="endpointIn" ref="class_q_usb_transfer_handler.html#a786753f4a9d6de0d216f5017a45a74fc" />
+              <section title="endpointOut" ref="class_q_usb_transfer_handler.html#a894b0295c3fa5ae36cb7b7e46c20936b" />
+              <section title="type" ref="class_q_usb_transfer_handler.html#adebb6dde6231a3142c2c9f970f04b6c6" />
+            </section>
+          </section>
+          <section title="Class Index" ref="classes.html" />
+          <section title="Class Hierarchy" ref="hierarchy.html">
+            <section title="QUsbDevice::DeviceConfig" ref="struct_q_usb_device_1_1_device_config.html" />
+            <section title="QUsbDevice::DeviceFilter" ref="struct_q_usb_device_1_1_device_filter.html" />
+            <section title="QIODevice">
+              <section title="QUsbTransferHandler" ref="class_q_usb_transfer_handler.html" />
+            </section>
+            <section title="QObject">
+              <section title="QUsbDevice" ref="class_q_usb_device.html" />
+              <section title="QUsbInfo" ref="class_q_usb_info.html" />
+            </section>
+          </section>
+          <section title="Class Members" ref="functions.html">
+            <section title="All" ref="functions.html" />
+            <section title="Functions" ref="functions_func.html" />
+            <section title="Variables" ref="functions_vars.html" />
+            <section title="Typedefs" ref="functions_type.html" />
+            <section title="Enumerations" ref="functions_enum.html" />
+            <section title="Enumerator" ref="functions_eval.html" />
+          </section>
+        </section>
+        <section title="Files">
+          <section title="File List" ref="files.html">
+            <section title="src" ref="dir_68267d1309a1af8e8297ef4c3efbcdba.html">
+              <section title="usb" ref="dir_74712b2155551d19e5fc375f21fbf06e.html">
+                <section title="qusbdevice.h" ref="qusbdevice_8h_source.html" />
+                <section title="qusbglobal.h" ref="qusbglobal_8h_source.html" />
+                <section title="qusbinfo.h" ref="qusbinfo_8h_source.html" />
+                <section title="qusbtransferhandler.h" ref="qusbtransferhandler_8h_source.html" />
+              </section>
+            </section>
+          </section>
+        </section>
+      </section>
+    </toc>
+    <keywords>
+      <keyword name="QUsbDevice" id="QUsbDevice" ref="class_q_usb_device.html" />
+      <keyword name="Endpoint" id="QUsbDevice::Endpoint" ref="class_q_usb_device.html#a542756195dd50b53b51bf61c4fca5f9d" />
+      <keyword name="FilterList" id="QUsbDevice::FilterList" ref="class_q_usb_device.html#ae9c45f38347c311c41e82038f0c8cc2b" />
+      <keyword name="ConfigList" id="QUsbDevice::ConfigList" ref="class_q_usb_device.html#aaade057994a9ca1f3a49b14f2e5883de" />
+      <keyword name="open" id="QUsbDevice::open" ref="class_q_usb_device.html#a2f438bde19f0488e87f5896cdf2250a5" />
+      <keyword name="close" id="QUsbDevice::close" ref="class_q_usb_device.html#a61417e5b2764e44aee15ef3b5b558d0f" />
+      <keyword name="showSettings" id="QUsbDevice::showSettings" ref="class_q_usb_device.html#ac17ea548ea7fa6f8c55574569104ba2f" />
+      <keyword name="QUsbDevice" id="QUsbDevice::QUsbDevice" ref="class_q_usb_device.html#af1da0e0b10f21a0c48730b5d605235c4" />
+      <keyword name="setDebug" id="QUsbDevice::setDebug" ref="class_q_usb_device.html#a76213a00f25be2e5e04e51973f7d232f" />
+      <keyword name="setFilter" id="QUsbDevice::setFilter" ref="class_q_usb_device.html#a5aaad541da68aa8399bf3f9bbd72b63c" />
+      <keyword name="setConfig" id="QUsbDevice::setConfig" ref="class_q_usb_device.html#a883321e267e207b6adec038ea5210962" />
+      <keyword name="setTimeout" id="QUsbDevice::setTimeout" ref="class_q_usb_device.html#ab5539784320d73c4818025cc1856fdc5" />
+      <keyword name="filter" id="QUsbDevice::filter" ref="class_q_usb_device.html#ae8d33c96305609ba36eb32abebcab95c" />
+      <keyword name="config" id="QUsbDevice::config" ref="class_q_usb_device.html#a092c4f504a2e96cf5fbf237ec47c31b8" />
+      <keyword name="isConnected" id="QUsbDevice::isConnected" ref="class_q_usb_device.html#a584013ff4092999d3a0f30ec7f431616" />
+      <keyword name="pid" id="QUsbDevice::pid" ref="class_q_usb_device.html#a776ec848eee25a39581800a0d485ce27" />
+      <keyword name="vid" id="QUsbDevice::vid" ref="class_q_usb_device.html#a85e07dcd653d345d57328d23f71425d5" />
+      <keyword name="timeout" id="QUsbDevice::timeout" ref="class_q_usb_device.html#a260f1e066e49dea53ec7834180c5a6d9" />
+      <keyword name="debug" id="QUsbDevice::debug" ref="class_q_usb_device.html#ae368cb33773c9ee1f08f55d11a0c1bfd" />
+      <keyword name="speed" id="QUsbDevice::speed" ref="class_q_usb_device.html#a320cd1e041a87fd6979f31cf4ec059df" />
+      <keyword name="speedString" id="QUsbDevice::speedString" ref="class_q_usb_device.html#a788f5ea07f85825e612209db08fd76e6" />
+      <keyword name="availableDevices" id="QUsbDevice::availableDevices" ref="class_q_usb_device.html#aaf226847b7524051fa7d456129fb7ab5" />
+      <keyword name="DefaultTimeout" id="QUsbDevice::DefaultTimeout" ref="class_q_usb_device.html#a4b6ee1c0f168ab1832e654e9fea02323" />
+      <keyword name="debug" id="QUsbDevice::debug" ref="class_q_usb_device.html#a5473585a43248b8e2deb774804fcf1d2" />
+      <keyword name="filter" id="QUsbDevice::filter" ref="class_q_usb_device.html#aa195eb28885d03ea205204d00958571f" />
+      <keyword name="config" id="QUsbDevice::config" ref="class_q_usb_device.html#a7713c6c6fd62ab675c745866769208b8" />
+      <keyword name="pid" id="QUsbDevice::pid" ref="class_q_usb_device.html#a0b855f3fce12d1115d6b91033230dd26" />
+      <keyword name="vid" id="QUsbDevice::vid" ref="class_q_usb_device.html#a61f02e2b38add2faddcb35147ba3af07" />
+      <keyword name="timeout" id="QUsbDevice::timeout" ref="class_q_usb_device.html#a01fd532dea60f3fadc29f77f4566ba6a" />
+      <keyword name="speed" id="QUsbDevice::speed" ref="class_q_usb_device.html#aa5a83834fbdee9a0e8fee102677ed418" />
+      <keyword name="statusOK" id="QUsbDevice::statusOK" ref="class_q_usb_device.html#aa9209617649d035aa9ac4150a5271fbdadc7ba2e0ea7fc2beb084351b1e5f69f7" />
+      <keyword name="statusIoError" id="QUsbDevice::statusIoError" ref="class_q_usb_device.html#aa9209617649d035aa9ac4150a5271fbdac14b0779ec0b0bd823164ca3ea314423" />
+      <keyword name="statusInvalidParam" id="QUsbDevice::statusInvalidParam" ref="class_q_usb_device.html#aa9209617649d035aa9ac4150a5271fbda9ae2c7b780b9aaa7ea45173957004418" />
+      <keyword name="statusAccessDenied" id="QUsbDevice::statusAccessDenied" ref="class_q_usb_device.html#aa9209617649d035aa9ac4150a5271fbdab0ae8d11bcff027d51c8d5ec97fbf47d" />
+      <keyword name="statusNoSuchDevice" id="QUsbDevice::statusNoSuchDevice" ref="class_q_usb_device.html#aa9209617649d035aa9ac4150a5271fbda19e954f89b0b87b9e37386a6b37ac85f" />
+      <keyword name="statusNotFound" id="QUsbDevice::statusNotFound" ref="class_q_usb_device.html#aa9209617649d035aa9ac4150a5271fbda758028d49c68df45910b5192c58b1ca1" />
+      <keyword name="statusBusy" id="QUsbDevice::statusBusy" ref="class_q_usb_device.html#aa9209617649d035aa9ac4150a5271fbda1f253c1a011b82e2de9a9cf6b10cd32b" />
+      <keyword name="statusTimeout" id="QUsbDevice::statusTimeout" ref="class_q_usb_device.html#aa9209617649d035aa9ac4150a5271fbda09e8175e71042fd9d93173b92ade395e" />
+      <keyword name="statusOverflow" id="QUsbDevice::statusOverflow" ref="class_q_usb_device.html#aa9209617649d035aa9ac4150a5271fbda6fbf72239ad181905614f4b4ace143e6" />
+      <keyword name="statusPipeError" id="QUsbDevice::statusPipeError" ref="class_q_usb_device.html#aa9209617649d035aa9ac4150a5271fbda7b5c23eb4bf6f1bf6fb88ab4db541b66" />
+      <keyword name="statusInterrupted" id="QUsbDevice::statusInterrupted" ref="class_q_usb_device.html#aa9209617649d035aa9ac4150a5271fbdaa654d1eb59d59c1db955bf487a625e21" />
+      <keyword name="statusNoMemory" id="QUsbDevice::statusNoMemory" ref="class_q_usb_device.html#aa9209617649d035aa9ac4150a5271fbda7be457f33e7095f76ee7e246d5774261" />
+      <keyword name="statusNotSupported" id="QUsbDevice::statusNotSupported" ref="class_q_usb_device.html#aa9209617649d035aa9ac4150a5271fbda6495479b3fc1363568353d9619bc2fec" />
+      <keyword name="StatusUnknownError" id="QUsbDevice::StatusUnknownError" ref="class_q_usb_device.html#aa9209617649d035aa9ac4150a5271fbdafe197b161b78855967870b273639bff2" />
+      <keyword name="QUsbDevice::DeviceConfig" id="QUsbDevice::DeviceConfig" ref="struct_q_usb_device_1_1_device_config.html" />
+      <keyword name="config" id="QUsbDevice::DeviceConfig::config" ref="struct_q_usb_device_1_1_device_config.html#ac95863f4e5d02c50542f1069279f21ea" />
+      <keyword name="interface" id="QUsbDevice::DeviceConfig::interface" ref="struct_q_usb_device_1_1_device_config.html#af6f3b65a800c17ff1304097612fa850e" />
+      <keyword name="alternate" id="QUsbDevice::DeviceConfig::alternate" ref="struct_q_usb_device_1_1_device_config.html#a96cf15d7f711bdf1e712b45bc7551e04" />
+      <keyword name="QUsbDevice::DeviceFilter" id="QUsbDevice::DeviceFilter" ref="struct_q_usb_device_1_1_device_filter.html" />
+      <keyword name="pid" id="QUsbDevice::DeviceFilter::pid" ref="struct_q_usb_device_1_1_device_filter.html#ad6a075aed59e1576210d5becf93648f2" />
+      <keyword name="vid" id="QUsbDevice::DeviceFilter::vid" ref="struct_q_usb_device_1_1_device_filter.html#ae3255349e0826f9b1212f887d02019af" />
+      <keyword name="cfg" id="QUsbDevice::DeviceFilter::cfg" ref="struct_q_usb_device_1_1_device_filter.html#a78818cdf9696caf236002d09b3fa02e3" />
+      <keyword name="QUsbInfo" id="QUsbInfo" ref="class_q_usb_info.html" />
+      <keyword name="addDevice" id="QUsbInfo::addDevice" ref="class_q_usb_info.html#ac45fa7b4b31a826e83e89104bd1f8a9b" />
+      <keyword name="removeDevice" id="QUsbInfo::removeDevice" ref="class_q_usb_info.html#a165539a34391756114b61a525e431f19" />
+      <keyword name="findDevice" id="QUsbInfo::findDevice" ref="class_q_usb_info.html#ab7490286a52d86706de3985d0a8a3dbe" />
+      <keyword name="setDebug" id="QUsbInfo::setDebug" ref="class_q_usb_info.html#a5de7b37ed56b760bff5fec6259268e0d" />
+      <keyword name="debug" id="QUsbInfo::debug" ref="class_q_usb_info.html#ae28d73cdcae0e748e7c32e68dcd02217" />
+      <keyword name="openDevice" id="QUsbInfo::openDevice" ref="class_q_usb_info.html#abb0bac2680592ae2893b37b6ac3c128a" />
+      <keyword name="closeDevice" id="QUsbInfo::closeDevice" ref="class_q_usb_info.html#aa080285ef83dfbb277f5325c32850898" />
+      <keyword name="deviceInserted" id="QUsbInfo::deviceInserted" ref="class_q_usb_info.html#a751eb65193c643642d5fd70c53d36440" />
+      <keyword name="deviceRemoved" id="QUsbInfo::deviceRemoved" ref="class_q_usb_info.html#ac9b9d874f7ebcb132e31bfa4b022e920" />
+      <keyword name="QUsbInfo" id="QUsbInfo::QUsbInfo" ref="class_q_usb_info.html#a079031edb1a9ee6d1d328b19883c27bd" />
+      <keyword name="~QUsbInfo" id="QUsbInfo::~QUsbInfo" ref="class_q_usb_info.html#a3a3c6e4c5d5f6995fe4d0dcc4f648ba2" />
+      <keyword name="getPresentDevices" id="QUsbInfo::getPresentDevices" ref="class_q_usb_info.html#adcd1626756407896c859a85fd3b2fb72" />
+      <keyword name="isPresent" id="QUsbInfo::isPresent" ref="class_q_usb_info.html#aefd8705f980548ceb2e575f44045b5bc" />
+      <keyword name="monitorDevices" id="QUsbInfo::monitorDevices" ref="class_q_usb_info.html#a9c8f2334b5ecfad83575bb92b8877512" />
+      <keyword name="checkDevices" id="QUsbInfo::checkDevices" ref="class_q_usb_info.html#aa298af38ba1870edd14b70ec9fb0e96f" />
+      <keyword name="m_debug" id="QUsbInfo::m_debug" ref="class_q_usb_info.html#a47c4f0bc548a211bfcefc227f59db76c" />
+      <keyword name="m_used_device_list" id="QUsbInfo::m_used_device_list" ref="class_q_usb_info.html#a2c993e8a83206b06953a5369715b6b88" />
+      <keyword name="m_filter_list" id="QUsbInfo::m_filter_list" ref="class_q_usb_info.html#a3ea5f5be0bf25eda2a897fe57ab2041b" />
+      <keyword name="m_system_list" id="QUsbInfo::m_system_list" ref="class_q_usb_info.html#a6b60a9904fed0af18cdd5e3dc4b0020e" />
+      <keyword name="QUsbTransferHandler" id="QUsbTransferHandler" ref="class_q_usb_transfer_handler.html" />
+      <keyword name="cancelTransfer" id="QUsbTransferHandler::cancelTransfer" ref="class_q_usb_transfer_handler.html#a06d80bee2c304a7308405199de1fd604" />
+      <keyword name="error" id="QUsbTransferHandler::error" ref="class_q_usb_transfer_handler.html#a055c30b0878961ca619a19764640aeee" />
+      <keyword name="QUsbTransferHandler" id="QUsbTransferHandler::QUsbTransferHandler" ref="class_q_usb_transfer_handler.html#a5d8203a16f106e1c7628c09977455fe7" />
+      <keyword name="open" id="QUsbTransferHandler::open" ref="class_q_usb_transfer_handler.html#aef516d3d6d60606ecd791a98ecb436bb" />
+      <keyword name="close" id="QUsbTransferHandler::close" ref="class_q_usb_transfer_handler.html#a75dca6ba4ce30c6eef277e9ff38aaf51" />
+      <keyword name="type" id="QUsbTransferHandler::type" ref="class_q_usb_transfer_handler.html#a16a727d17e37be7af961004565435527" />
+      <keyword name="endpointIn" id="QUsbTransferHandler::endpointIn" ref="class_q_usb_transfer_handler.html#aef65aa3588d5b40fda4e116f596095ce" />
+      <keyword name="endpointOut" id="QUsbTransferHandler::endpointOut" ref="class_q_usb_transfer_handler.html#a16175eb8d307281b9ab645a7fcb4a88f" />
+      <keyword name="isSequential" id="QUsbTransferHandler::isSequential" ref="class_q_usb_transfer_handler.html#aa65a21996aff6dd3cc05e06830ebdac2" />
+      <keyword name="status" id="QUsbTransferHandler::status" ref="class_q_usb_transfer_handler.html#a4bfdfba2c10604da9c17acfa8c76689c" />
+      <keyword name="bytesAvailable" id="QUsbTransferHandler::bytesAvailable" ref="class_q_usb_transfer_handler.html#ac4dde0a2083ffa2414f1983ad27f0759" />
+      <keyword name="bytesToWrite" id="QUsbTransferHandler::bytesToWrite" ref="class_q_usb_transfer_handler.html#abf76866c09cc204be0de8a827c373667" />
+      <keyword name="waitForBytesWritten" id="QUsbTransferHandler::waitForBytesWritten" ref="class_q_usb_transfer_handler.html#aae40f134aa6a965c8f34be781f8dfc45" />
+      <keyword name="waitForReadyRead" id="QUsbTransferHandler::waitForReadyRead" ref="class_q_usb_transfer_handler.html#ac413eb7fbac04148dc0d814c44d81154" />
+      <keyword name="makeControlPacket" id="QUsbTransferHandler::makeControlPacket" ref="class_q_usb_transfer_handler.html#ab65abc0bb6ee40881ae550aeb4a3e142" />
+      <keyword name="setPolling" id="QUsbTransferHandler::setPolling" ref="class_q_usb_transfer_handler.html#a4e22223f7b8d501b5c131ecb6cad8f45" />
+      <keyword name="polling" id="QUsbTransferHandler::polling" ref="class_q_usb_transfer_handler.html#a91ac36b15cfbdf447c6b0195474581a2" />
+      <keyword name="poll" id="QUsbTransferHandler::poll" ref="class_q_usb_transfer_handler.html#a0fa521b743f28afa936027edaa5b8df3" />
+      <keyword name="readData" id="QUsbTransferHandler::readData" ref="class_q_usb_transfer_handler.html#a577a9b012c80332065d036dd863a87c0" />
+      <keyword name="writeData" id="QUsbTransferHandler::writeData" ref="class_q_usb_transfer_handler.html#a52e218867842ea11b308401304e9b765" />
+      <keyword name="type" id="QUsbTransferHandler::type" ref="class_q_usb_transfer_handler.html#adebb6dde6231a3142c2c9f970f04b6c6" />
+      <keyword name="endpointIn" id="QUsbTransferHandler::endpointIn" ref="class_q_usb_transfer_handler.html#a786753f4a9d6de0d216f5017a45a74fc" />
+      <keyword name="endpointOut" id="QUsbTransferHandler::endpointOut" ref="class_q_usb_transfer_handler.html#a894b0295c3fa5ae36cb7b7e46c20936b" />
+      <keyword name="transferCompleted" id="QUsbTransferHandler::transferCompleted" ref="class_q_usb_transfer_handler.html#a9c5af92c558142edbedd991890c6f3f8ac600bedf28f79cc1e84daa1df2aa442a" />
+      <keyword name="transferError" id="QUsbTransferHandler::transferError" ref="class_q_usb_transfer_handler.html#a9c5af92c558142edbedd991890c6f3f8afe96086c267f69b0c049aa023475b653" />
+      <keyword name="transferTimeout" id="QUsbTransferHandler::transferTimeout" ref="class_q_usb_transfer_handler.html#a9c5af92c558142edbedd991890c6f3f8a9c6427d345c3323048f376bf8a140458" />
+      <keyword name="transferCanceled" id="QUsbTransferHandler::transferCanceled" ref="class_q_usb_transfer_handler.html#a9c5af92c558142edbedd991890c6f3f8a93f03aea5905871239429bd890231eed" />
+      <keyword name="transferStall" id="QUsbTransferHandler::transferStall" ref="class_q_usb_transfer_handler.html#a9c5af92c558142edbedd991890c6f3f8a730f2b71dba92ae67405eae40fd3e02a" />
+      <keyword name="transferNoDevice" id="QUsbTransferHandler::transferNoDevice" ref="class_q_usb_transfer_handler.html#a9c5af92c558142edbedd991890c6f3f8ace87648d9dc6e46919b3935c897863d1" />
+      <keyword name="transferOverflow" id="QUsbTransferHandler::transferOverflow" ref="class_q_usb_transfer_handler.html#a9c5af92c558142edbedd991890c6f3f8aaef25b781098a1ec4b0513b81beb5fcd" />
+    </keywords>
+    <files>
+      <file>tabs.css</file>
+      <file>tab_a.png</file>
+      <file>tab_b.png</file>
+      <file>tab_h.png</file>
+      <file>tab_s.png</file>
+      <file>nav_h.png</file>
+      <file>nav_f.png</file>
+      <file>bc_s.png</file>
+      <file>doxygen.png</file>
+      <file>closed.png</file>
+      <file>open.png</file>
+      <file>bdwn.png</file>
+      <file>sync_on.png</file>
+      <file>sync_off.png</file>
+      <file>doxygen.css</file>
+      <file>jquery.js</file>
+      <file>dynsections.js</file>
+      <file>search/search_l.png</file>
+      <file>search/search_m.png</file>
+      <file>search/search_r.png</file>
+      <file>search/close.png</file>
+      <file>search/mag_sel.png</file>
+      <file>search/search.css</file>
+      <file>search/search.js</file>
+      <file>qusbdevice_8h_source.html</file>
+      <file>qusbglobal_8h_source.html</file>
+      <file>qusbinfo_8h_source.html</file>
+      <file>qusbtransferhandler_8h_source.html</file>
+      <file>class_q_usb_device.html</file>
+      <file>class_q_usb_device__inherit__graph.png</file>
+      <file>class_q_usb_device__coll__graph.png</file>
+      <file>class_q_usb_device-members.html</file>
+      <file>struct_q_usb_device_1_1_device_config.html</file>
+      <file>struct_q_usb_device_1_1_device_config-members.html</file>
+      <file>struct_q_usb_device_1_1_device_filter.html</file>
+      <file>struct_q_usb_device_1_1_device_filter__coll__graph.png</file>
+      <file>struct_q_usb_device_1_1_device_filter-members.html</file>
+      <file>class_q_usb_info.html</file>
+      <file>class_q_usb_info__inherit__graph.png</file>
+      <file>class_q_usb_info__coll__graph.png</file>
+      <file>class_q_usb_info-members.html</file>
+      <file>class_q_usb_transfer_handler.html</file>
+      <file>class_q_usb_transfer_handler__inherit__graph.png</file>
+      <file>class_q_usb_transfer_handler__coll__graph.png</file>
+      <file>class_q_usb_transfer_handler-members.html</file>
+      <file>graph_legend.png</file>
+      <file>graph_legend.html</file>
+      <file>dir_68267d1309a1af8e8297ef4c3efbcdba.html</file>
+      <file>dir_74712b2155551d19e5fc375f21fbf06e.html</file>
+      <file>index.html</file>
+      <file>annotated.html</file>
+      <file>classes.html</file>
+      <file>hierarchy.html</file>
+      <file>inherits.html</file>
+      <file>inherit_graph_0.png</file>
+      <file>inherit_graph_1.png</file>
+      <file>inherit_graph_2.png</file>
+      <file>inherit_graph_3.png</file>
+      <file>functions.html</file>
+      <file>functions.html</file>
+      <file>functions.html</file>
+      <file>functions.html</file>
+      <file>functions.html</file>
+      <file>functions.html</file>
+      <file>functions.html</file>
+      <file>functions.html</file>
+      <file>functions.html</file>
+      <file>functions.html</file>
+      <file>functions.html</file>
+      <file>functions.html</file>
+      <file>functions.html</file>
+      <file>functions.html</file>
+      <file>functions.html</file>
+      <file>functions.html</file>
+      <file>functions.html</file>
+      <file>functions.html</file>
+      <file>functions_func.html</file>
+      <file>functions_func.html</file>
+      <file>functions_func.html</file>
+      <file>functions_func.html</file>
+      <file>functions_func.html</file>
+      <file>functions_func.html</file>
+      <file>functions_func.html</file>
+      <file>functions_func.html</file>
+      <file>functions_func.html</file>
+      <file>functions_func.html</file>
+      <file>functions_func.html</file>
+      <file>functions_func.html</file>
+      <file>functions_func.html</file>
+      <file>functions_func.html</file>
+      <file>functions_func.html</file>
+      <file>functions_func.html</file>
+      <file>functions_func.html</file>
+      <file>functions_func.html</file>
+      <file>functions_vars.html</file>
+      <file>functions_vars.html</file>
+      <file>functions_vars.html</file>
+      <file>functions_vars.html</file>
+      <file>functions_vars.html</file>
+      <file>functions_vars.html</file>
+      <file>functions_vars.html</file>
+      <file>functions_type.html</file>
+      <file>functions_type.html</file>
+      <file>functions_enum.html</file>
+      <file>functions_enum.html</file>
+      <file>functions_enum.html</file>
+      <file>functions_eval.html</file>
+      <file>functions_eval.html</file>
+      <file>files.html</file>
+    </files>
+  </filterSection>
+</QtHelpProject>
