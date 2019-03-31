@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['makecontrolpacket',['makeControlPacket',['../class_q_usb_transfer_handler.html#ab65abc0bb6ee40881ae550aeb4a3e142',1,'QUsbTransferHandler']]],
-  ['monitordevices',['monitorDevices',['../class_q_usb_info.html#a9c8f2334b5ecfad83575bb92b8877512',1,'QUsbInfo']]]
+  ['loglevel',['logLevel',['../class_q_usb_device.html#a4f6853d8f68e7724db3d8914ef123d2b',1,'QUsbDevice::logLevel()'],['../class_q_usb_info.html#a92022a2a700f54a42a46608335187ae0',1,'QUsbInfo::logLevel()']]]
 ];

@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['bytesavailable',['bytesAvailable',['../class_q_usb_transfer_handler.html#ac4dde0a2083ffa2414f1983ad27f0759',1,'QUsbTransferHandler']]],
-  ['bytestowrite',['bytesToWrite',['../class_q_usb_transfer_handler.html#abf76866c09cc204be0de8a827c373667',1,'QUsbTransferHandler']]]
+  ['bytesavailable',['bytesAvailable',['../class_q_usb_transfer.html#a7683604c6c7f7cce7b6152f0f359d05e',1,'QUsbTransfer']]],
+  ['bytestowrite',['bytesToWrite',['../class_q_usb_transfer.html#abd6614690ba0ca03dc3f358081b7c64d',1,'QUsbTransfer']]]
 ];

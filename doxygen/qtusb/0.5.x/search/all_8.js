@@ -1,8 +1,4 @@
 var searchData=
 [
-  ['m_5ffilter_5flist',['m_filter_list',['../class_q_usb_info.html#a3ea5f5be0bf25eda2a897fe57ab2041b',1,'QUsbInfo']]],
-  ['m_5fsystem_5flist',['m_system_list',['../class_q_usb_info.html#a6b60a9904fed0af18cdd5e3dc4b0020e',1,'QUsbInfo']]],
-  ['m_5fused_5fdevice_5flist',['m_used_device_list',['../class_q_usb_info.html#a2c993e8a83206b06953a5369715b6b88',1,'QUsbInfo']]],
-  ['makecontrolpacket',['makeControlPacket',['../class_q_usb_transfer_handler.html#ab65abc0bb6ee40881ae550aeb4a3e142',1,'QUsbTransferHandler']]],
-  ['monitordevices',['monitorDevices',['../class_q_usb_info.html#a9c8f2334b5ecfad83575bb92b8877512',1,'QUsbInfo']]]
+  ['loglevel',['LogLevel',['../class_q_usb_device.html#a5fe94724f73f2288e11c0258edeca6a2',1,'QUsbDevice::LogLevel()'],['../class_q_usb_device.html#a4f6853d8f68e7724db3d8914ef123d2b',1,'QUsbDevice::logLevel(void) const'],['../class_q_usb_info.html#a92022a2a700f54a42a46608335187ae0',1,'QUsbInfo::logLevel()']]]
 ];

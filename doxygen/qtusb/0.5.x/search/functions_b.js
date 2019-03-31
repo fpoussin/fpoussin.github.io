@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['qusbdevice',['QUsbDevice',['../class_q_usb_device.html#af1da0e0b10f21a0c48730b5d605235c4',1,'QUsbDevice']]],
-  ['qusbinfo',['QUsbInfo',['../class_q_usb_info.html#a079031edb1a9ee6d1d328b19883c27bd',1,'QUsbInfo']]],
-  ['qusbtransferhandler',['QUsbTransferHandler',['../class_q_usb_transfer_handler.html#a5d8203a16f106e1c7628c09977455fe7',1,'QUsbTransferHandler']]]
+  ['pid',['pid',['../class_q_usb_device.html#a776ec848eee25a39581800a0d485ce27',1,'QUsbDevice']]],
+  ['poll',['poll',['../class_q_usb_transfer.html#a6b583327ac43e57155a418d63c60ea72',1,'QUsbTransfer']]],
+  ['polling',['polling',['../class_q_usb_transfer.html#a473e09f9f40c62fec1be63766ca3ca2a',1,'QUsbTransfer']]]
 ];

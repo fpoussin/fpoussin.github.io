@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['pid',['pid',['../struct_q_usb_device_1_1_device_filter.html#ad6a075aed59e1576210d5becf93648f2',1,'QUsbDevice::DeviceFilter']]]
+  ['pid',['pid',['../struct_q_usb_device_1_1_id.html#a2d3d003f52718136f83486a746f75eca',1,'QUsbDevice::Id']]]
 ];

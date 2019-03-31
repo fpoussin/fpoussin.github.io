@@ -1,9 +1,9 @@
 var hierarchy =
 [
-    [ "QUsbDevice::DeviceConfig", "struct_q_usb_device_1_1_device_config.html", null ],
-    [ "QUsbDevice::DeviceFilter", "struct_q_usb_device_1_1_device_filter.html", null ],
+    [ "QUsbDevice::Config", "struct_q_usb_device_1_1_config.html", null ],
+    [ "QUsbDevice::Id", "struct_q_usb_device_1_1_id.html", null ],
     [ "QIODevice", null, [
-      [ "QUsbTransferHandler", "class_q_usb_transfer_handler.html", null ]
+      [ "QUsbTransfer", "class_q_usb_transfer.html", null ]
     ] ],
     [ "QObject", null, [
       [ "QUsbDevice", "class_q_usb_device.html", null ],

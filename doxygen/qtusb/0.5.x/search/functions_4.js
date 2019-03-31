@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['endpointin',['endpointIn',['../class_q_usb_transfer_handler.html#aef65aa3588d5b40fda4e116f596095ce',1,'QUsbTransferHandler']]],
-  ['endpointout',['endpointOut',['../class_q_usb_transfer_handler.html#a16175eb8d307281b9ab645a7fcb4a88f',1,'QUsbTransferHandler']]]
+  ['endpointin',['endpointIn',['../class_q_usb_transfer.html#a03ee9587ef3fb919e5af17fceffce384',1,'QUsbTransfer']]],
+  ['endpointout',['endpointOut',['../class_q_usb_transfer.html#a1a582de9ca862e0f223a2861cf4f4d75',1,'QUsbTransfer']]]
 ];

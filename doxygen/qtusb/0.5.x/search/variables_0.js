@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['alternate',['alternate',['../struct_q_usb_device_1_1_device_config.html#a96cf15d7f711bdf1e712b45bc7551e04',1,'QUsbDevice::DeviceConfig']]]
+  ['alternate',['alternate',['../struct_q_usb_device_1_1_config.html#a20bddb316608258beb1e13674580b224',1,'QUsbDevice::Config']]]
 ];

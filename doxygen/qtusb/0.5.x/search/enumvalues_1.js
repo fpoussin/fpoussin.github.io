@@ -1,10 +1,10 @@
 var searchData=
 [
-  ['transfercanceled',['transferCanceled',['../class_q_usb_transfer_handler.html#a9c5af92c558142edbedd991890c6f3f8a93f03aea5905871239429bd890231eed',1,'QUsbTransferHandler']]],
-  ['transfercompleted',['transferCompleted',['../class_q_usb_transfer_handler.html#a9c5af92c558142edbedd991890c6f3f8ac600bedf28f79cc1e84daa1df2aa442a',1,'QUsbTransferHandler']]],
-  ['transfererror',['transferError',['../class_q_usb_transfer_handler.html#a9c5af92c558142edbedd991890c6f3f8afe96086c267f69b0c049aa023475b653',1,'QUsbTransferHandler']]],
-  ['transfernodevice',['transferNoDevice',['../class_q_usb_transfer_handler.html#a9c5af92c558142edbedd991890c6f3f8ace87648d9dc6e46919b3935c897863d1',1,'QUsbTransferHandler']]],
-  ['transferoverflow',['transferOverflow',['../class_q_usb_transfer_handler.html#a9c5af92c558142edbedd991890c6f3f8aaef25b781098a1ec4b0513b81beb5fcd',1,'QUsbTransferHandler']]],
-  ['transferstall',['transferStall',['../class_q_usb_transfer_handler.html#a9c5af92c558142edbedd991890c6f3f8a730f2b71dba92ae67405eae40fd3e02a',1,'QUsbTransferHandler']]],
-  ['transfertimeout',['transferTimeout',['../class_q_usb_transfer_handler.html#a9c5af92c558142edbedd991890c6f3f8a9c6427d345c3323048f376bf8a140458',1,'QUsbTransferHandler']]]
+  ['transfercanceled',['transferCanceled',['../class_q_usb_transfer.html#aedf54174d12edd4b79a49c1e7bf75ca7a14f6ca314fec8a4ab96f72b0dd7fe51e',1,'QUsbTransfer']]],
+  ['transfercompleted',['transferCompleted',['../class_q_usb_transfer.html#aedf54174d12edd4b79a49c1e7bf75ca7a92ccc832e5b0473132ee6dd350f158bf',1,'QUsbTransfer']]],
+  ['transfererror',['transferError',['../class_q_usb_transfer.html#aedf54174d12edd4b79a49c1e7bf75ca7a9056f6f3a5856a76947a6b1fae6d6427',1,'QUsbTransfer']]],
+  ['transfernodevice',['transferNoDevice',['../class_q_usb_transfer.html#aedf54174d12edd4b79a49c1e7bf75ca7ae7a4f827e48add05cfc8d3dceefd7411',1,'QUsbTransfer']]],
+  ['transferoverflow',['transferOverflow',['../class_q_usb_transfer.html#aedf54174d12edd4b79a49c1e7bf75ca7ad33ae46407453ee71f1ae287f4c26120',1,'QUsbTransfer']]],
+  ['transferstall',['transferStall',['../class_q_usb_transfer.html#aedf54174d12edd4b79a49c1e7bf75ca7a791b7fffe98759e3ae5c8404a53d8ad7',1,'QUsbTransfer']]],
+  ['transfertimeout',['transferTimeout',['../class_q_usb_transfer.html#aedf54174d12edd4b79a49c1e7bf75ca7a8a92f6106d60f919e27b33918da4b24b',1,'QUsbTransfer']]]
 ];

@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['debug',['debug',['../class_q_usb_device.html#ae368cb33773c9ee1f08f55d11a0c1bfd',1,'QUsbDevice::debug()'],['../class_q_usb_info.html#ae28d73cdcae0e748e7c32e68dcd02217',1,'QUsbInfo::debug()']]],
-  ['deviceinserted',['deviceInserted',['../class_q_usb_info.html#a751eb65193c643642d5fd70c53d36440',1,'QUsbInfo']]],
-  ['deviceremoved',['deviceRemoved',['../class_q_usb_info.html#ac9b9d874f7ebcb132e31bfa4b022e920',1,'QUsbInfo']]]
+  ['deviceinserted',['deviceInserted',['../class_q_usb_info.html#abe07c07c80e45002778dff4e2a11c577',1,'QUsbInfo']]],
+  ['deviceremoved',['deviceRemoved',['../class_q_usb_info.html#aa1c9ced72577f954ef2ce050d6bb71d8',1,'QUsbInfo']]],
+  ['devices',['devices',['../class_q_usb_device.html#a0d5ec6b740c529778c32c67cfcdff3aa',1,'QUsbDevice']]]
 ];
