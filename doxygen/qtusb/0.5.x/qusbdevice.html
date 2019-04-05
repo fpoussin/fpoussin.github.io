@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- qusbdevice.cpp -->
+  <title>QUsbDevice Class | Qt Usb 0.5</title>
+  <link rel="stylesheet" type="text/css" href="style/offline-simple.css" />
+  <script type="text/javascript">
+    document.getElementsByTagName("link").item(0).setAttribute("href", "style/offline.css");
+    // loading style sheet breaks anchors that were jumped to before
+    // so force jumping to anchor again
+    setTimeout(function() {
+        var anchor = location.hash;
+        // need to jump to different anchor first (e.g. none)
+        location.hash = "#";
+        setTimeout(function() {
+            location.hash = anchor;
+        }, 0);
+    }, 0);
+  </script>
+</head>
+<body>
+<div class="header" id="qtdocheader">
+  <div class="main">
+    <div class="main-rounded">
+      <div class="navigationbar">
+        <table><tr>
+<td >Qt 0.5</td><td ><a href="qtusb-index.html">Qt Usb</a></td><td ><a href="qtusb-module.html">C++ Classes</a></td><td >QUsbDevice</td></tr></table><table class="buildversion"><tr>
+<td id="buildversion" width="100%" align="right">Qt 0.5.0 Reference Documentation</td>
+        </tr></table>
+      </div>
+    </div>
+<div class="content">
+<div class="line">
+<div class="content mainContent">
+<div class="sidebar">
+<div class="toc">
+<h3><a name="toc">Contents</a></h3>
+<ul>
+<li class="level1"><a href="#public-types">Public Types</a></li>
+<li class="level1"><a href="#properties">Properties</a></li>
+<li class="level1"><a href="#public-functions">Public Functions</a></li>
+<li class="level1"><a href="#public-slots">Public Slots</a></li>
+<li class="level1"><a href="#static-public-members">Static Public Members</a></li>
+<li class="level1"><a href="#details">Detailed Description</a></li>
+</ul>
+</div>
+<div class="sidebar-content" id="sidebar-content"></div></div>
+<h1 class="title">QUsbDevice Class</h1>
+<!-- $$$QUsbDevice-brief -->
+<p>This class handles opening and configuring the device. <a href="#details">More...</a></p>
+<!-- @@@QUsbDevice -->
+<div class="table"><table class="alignedsummary">
+<tr><td class="memItemLeft rightAlign topAlign"> Header:</td><td class="memItemRight bottomAlign">   <span class="preprocessor">#include &lt;QUsbDevice&gt;</span>
+</td></tr><tr><td class="memItemLeft rightAlign topAlign"> qmake:</td><td class="memItemRight bottomAlign"> QT += usb</td></tr><tr><td class="memItemLeft rightAlign topAlign"> Inherits:</td><td class="memItemRight bottomAlign"> <a href="../qtcore/qobject.html">QObject</a></td></tr></table></div><ul>
+<li><a href="qusbdevice-members.html">List of all members, including inherited members</a></li>
+</ul>
+<p><b>Note:</b> All functions in this class are <a href="../qtdoc/threads-reentrancy.html">reentrant</a>.</p>
+<a name="public-types"></a>
+<h2 id="public-types">Public Types</h2>
+<div class="table"><table class="alignedsummary">
+<tr><td class="memItemLeft rightAlign topAlign"> class </td><td class="memItemRight bottomAlign"><b><a href="qusbdevice-config.html">Config</a></b></td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> class </td><td class="memItemRight bottomAlign"><b><a href="qusbdevice-id.html">Id</a></b></td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> typedef </td><td class="memItemRight bottomAlign"><b><a href="qusbdevice.html#ConfigList-typedef">ConfigList</a></b></td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> enum </td><td class="memItemRight bottomAlign"><b><a href="qusbdevice.html#DeviceSpeed-enum">DeviceSpeed</a></b> { unknownSpeed, lowSpeed, fullSpeed, highSpeed, superSpeed, superSpeedPlus }</td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> enum </td><td class="memItemRight bottomAlign"><b><a href="qusbdevice.html#DeviceStatus-enum">DeviceStatus</a></b> { statusOK, statusIoError, statusInvalidParam, statusAccessDenied, ..., StatusUnknownError }</td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> typedef </td><td class="memItemRight bottomAlign"><b><a href="qusbdevice.html#Endpoint-typedef">Endpoint</a></b></td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> typedef </td><td class="memItemRight bottomAlign"><b><a href="qusbdevice.html#IdList-typedef">IdList</a></b></td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> enum </td><td class="memItemRight bottomAlign"><b><a href="qusbdevice.html#LogLevel-enum">LogLevel</a></b> { logNone, logError, logWarning, logInfo, logDebug, logDebugAll }</td></tr>
+</table></div>
+<a name="properties"></a>
+<h2 id="properties">Properties</h2>
+<div class="table"><table class="propsummary">
+<tr><td class="topAlign"><ul>
+<li class="fn"><b><a href="qusbdevice.html#config-prop">config</a></b> : Config</li>
+<li class="fn"><b><a href="qusbdevice.html#id-prop">id</a></b> : Id</li>
+<li class="fn"><b><a href="qusbdevice.html#logLevel-prop">logLevel</a></b> : LogLevel</li>
+<li class="fn"><b><a href="qusbdevice.html#pid-prop">pid</a></b> : const quint16</li>
+</ul></td><td class="topAlign"><ul>
+<li class="fn"><b><a href="qusbdevice.html#speed-prop">speed</a></b> : const DeviceSpeed</li>
+<li class="fn"><b><a href="qusbdevice.html#timeout-prop">timeout</a></b> : quint16</li>
+<li class="fn"><b><a href="qusbdevice.html#vid-prop">vid</a></b> : const quint16</li>
+</ul>
+</td></tr>
+</table></div>
+<ul>
+<li class="fn">1 property inherited from <a href="../qtcore/qobject.html#properties">QObject</a></li>
+</ul>
+<a name="public-functions"></a>
+<h2 id="public-functions">Public Functions</h2>
+<div class="table"><table class="alignedsummary">
+<tr><td class="memItemLeft rightAlign topAlign"> </td><td class="memItemRight bottomAlign"><b><a href="qusbdevice.html#QUsbDevice">QUsbDevice</a></b>(QObject *<i>parent</i> = Q_NULLPTR)</td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> </td><td class="memItemRight bottomAlign"><b><a href="qusbdevice.html#dtor.QUsbDevice">~QUsbDevice</a></b>()</td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> Config </td><td class="memItemRight bottomAlign"><b><a href="qusbdevice.html#config">config</a></b>() const</td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> Id </td><td class="memItemRight bottomAlign"><b><a href="qusbdevice.html#id">id</a></b>() const</td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> bool </td><td class="memItemRight bottomAlign"><b><a href="qusbdevice.html#isConnected">isConnected</a></b>() const</td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> LogLevel </td><td class="memItemRight bottomAlign"><b><a href="qusbdevice.html#logLevel">logLevel</a></b>() const</td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> quint16 </td><td class="memItemRight bottomAlign"><b><a href="qusbdevice.html#pid">pid</a></b>() const</td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> void </td><td class="memItemRight bottomAlign"><b><a href="qusbdevice.html#config-prop">setConfig</a></b>(const Config &amp;<i>config</i>)</td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> void </td><td class="memItemRight bottomAlign"><b><a href="qusbdevice.html#id-prop">setId</a></b>(const Id &amp;<i>id</i>)</td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> void </td><td class="memItemRight bottomAlign"><b><a href="qusbdevice.html#setLogLevel">setLogLevel</a></b>(LogLevel <i>level</i>)</td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> void </td><td class="memItemRight bottomAlign"><b><a href="qusbdevice.html#setTimeout">setTimeout</a></b>(quint16 <i>timeout</i>)</td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> DeviceSpeed </td><td class="memItemRight bottomAlign"><b><a href="qusbdevice.html#speed">speed</a></b>() const</td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> QByteArray </td><td class="memItemRight bottomAlign"><b><a href="qusbdevice.html#speedString">speedString</a></b>() const</td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> quint16 </td><td class="memItemRight bottomAlign"><b><a href="qusbdevice.html#timeout">timeout</a></b>() const</td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> quint16 </td><td class="memItemRight bottomAlign"><b><a href="qusbdevice.html#vid">vid</a></b>() const</td></tr>
+</table></div>
+<ul>
+<li class="fn">32 public functions inherited from <a href="../qtcore/qobject.html#public-functions">QObject</a></li>
+</ul>
+<a name="public-slots"></a>
+<h2 id="public-slots">Public Slots</h2>
+<div class="table"><table class="alignedsummary">
+<tr><td class="memItemLeft rightAlign topAlign"> void </td><td class="memItemRight bottomAlign"><b><a href="qusbdevice.html#close">close</a></b>()</td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> qint32 </td><td class="memItemRight bottomAlign"><b><a href="qusbdevice.html#open">open</a></b>()</td></tr>
+</table></div>
+<ul>
+<li class="fn">1 public slot inherited from <a href="../qtcore/qobject.html#public-slots">QObject</a></li>
+</ul>
+<a name="static-public-members"></a>
+<h2 id="static-public-members">Static Public Members</h2>
+<div class="table"><table class="alignedsummary">
+<tr><td class="memItemLeft rightAlign topAlign"> IdList </td><td class="memItemRight bottomAlign"><b><a href="qusbdevice.html#devices">devices</a></b>()</td></tr>
+</table></div>
+<ul>
+<li class="fn">10 static public members inherited from <a href="../qtcore/qobject.html#static-public-members">QObject</a></li>
+</ul>
+<h3>Additional Inherited Members</h3>
+<ul>
+<li class="fn">2 signals inherited from <a href="../qtcore/qobject.html#signals">QObject</a></li>
+<li class="fn">1 public variable inherited from <a href="../qtcore/qobject.html#public-variables">QObject</a></li>
+<li class="fn">9 protected functions inherited from <a href="../qtcore/qobject.html#protected-functions">QObject</a></li>
+<li class="fn">2 protected variables inherited from <a href="../qtcore/qobject.html#protected-variables">QObject</a></li>
+</ul>
+<a name="details"></a>
+<!-- $$$QUsbDevice-description -->
+<div class="descr">
+<h2 id="details">Detailed Description</h2>
+<p>This class handles opening and configuring the device.</p>
+</div>
+<!-- @@@QUsbDevice -->
+<div class="types">
+<h2>Member Type Documentation</h2>
+<!-- $$$ConfigList -->
+<h3 class="fn" id="ConfigList-typedef"><a name="ConfigList-typedef"></a>typedef QUsbDevice::<span class="name">ConfigList</span></h3>
+<p>List of Config structs.</p>
+<!-- @@@ConfigList -->
+<!-- $$$DeviceSpeed$$$unknownSpeed$$$lowSpeed$$$fullSpeed$$$highSpeed$$$superSpeed$$$superSpeedPlus -->
+<h3 class="fn" id="DeviceSpeed-enum"><a name="DeviceSpeed-enum"></a>enum QUsbDevice::<span class="name">DeviceSpeed</span></h3>
+<div class="table"><table class="valuelist"><tr valign="top" class="odd"><th class="tblConst">Constant</th><th class="tblval">Value</th><th class="tbldscr">Description</th></tr>
+<tr><td class="topAlign"><code>QUsbDevice::unknownSpeed</code></td><td class="topAlign tblval"><code>-1</code></td><td class="topAlign">Speed is unkown</td></tr>
+<tr><td class="topAlign"><code>QUsbDevice::lowSpeed</code></td><td class="topAlign tblval"><code>0</code></td><td class="topAlign">USB 1.0</td></tr>
+<tr><td class="topAlign"><code>QUsbDevice::fullSpeed</code></td><td class="topAlign tblval"><code>1</code></td><td class="topAlign">USB 1.1/2.0</td></tr>
+<tr><td class="topAlign"><code>QUsbDevice::highSpeed</code></td><td class="topAlign tblval"><code>2</code></td><td class="topAlign">USB 2.0</td></tr>
+<tr><td class="topAlign"><code>QUsbDevice::superSpeed</code></td><td class="topAlign tblval"><code>3</code></td><td class="topAlign">USB 3.0/3.1 G1</td></tr>
+<tr><td class="topAlign"><code>QUsbDevice::superSpeedPlus</code></td><td class="topAlign tblval"><code>4</code></td><td class="topAlign">USB 3.1 G2</td></tr>
+</table></div>
+<!-- @@@DeviceSpeed -->
+<!-- $$$DeviceStatus$$$statusOK$$$statusIoError$$$statusInvalidParam$$$statusAccessDenied$$$statusNoSuchDevice$$$statusNotFound$$$statusBusy$$$statusTimeout$$$statusOverflow$$$statusPipeError$$$statusInterrupted$$$statusNoMemory$$$statusNotSupported$$$StatusUnknownError -->
+<h3 class="fn" id="DeviceStatus-enum"><a name="DeviceStatus-enum"></a>enum QUsbDevice::<span class="name">DeviceStatus</span></h3>
+<div class="table"><table class="valuelist"><tr valign="top" class="odd"><th class="tblConst">Constant</th><th class="tblval">Value</th><th class="tbldscr">Description</th></tr>
+<tr><td class="topAlign"><code>QUsbDevice::statusOK</code></td><td class="topAlign tblval"><code>0</code></td><td class="topAlign">Success (no error)</td></tr>
+<tr><td class="topAlign"><code>QUsbDevice::statusIoError</code></td><td class="topAlign tblval"><code>-1</code></td><td class="topAlign">Input/output error</td></tr>
+<tr><td class="topAlign"><code>QUsbDevice::statusInvalidParam</code></td><td class="topAlign tblval"><code>-2</code></td><td class="topAlign">Invalid parameter</td></tr>
+<tr><td class="topAlign"><code>QUsbDevice::statusAccessDenied</code></td><td class="topAlign tblval"><code>-3</code></td><td class="topAlign">Access denied (insufficient permissions)</td></tr>
+<tr><td class="topAlign"><code>QUsbDevice::statusNoSuchDevice</code></td><td class="topAlign tblval"><code>-4</code></td><td class="topAlign">No such device (it may have been disconnected)</td></tr>
+<tr><td class="topAlign"><code>QUsbDevice::statusNotFound</code></td><td class="topAlign tblval"><code>-5</code></td><td class="topAlign">Entity not found</td></tr>
+<tr><td class="topAlign"><code>QUsbDevice::statusBusy</code></td><td class="topAlign tblval"><code>-6</code></td><td class="topAlign">Resource busy</td></tr>
+<tr><td class="topAlign"><code>QUsbDevice::statusTimeout</code></td><td class="topAlign tblval"><code>-7</code></td><td class="topAlign">Operation timed out</td></tr>
+<tr><td class="topAlign"><code>QUsbDevice::statusOverflow</code></td><td class="topAlign tblval"><code>-8</code></td><td class="topAlign">Overflow</td></tr>
+<tr><td class="topAlign"><code>QUsbDevice::statusPipeError</code></td><td class="topAlign tblval"><code>-9</code></td><td class="topAlign">Pipe error</td></tr>
+<tr><td class="topAlign"><code>QUsbDevice::statusInterrupted</code></td><td class="topAlign tblval"><code>-10</code></td><td class="topAlign">System call interrupted (perhaps due to signal)</td></tr>
+<tr><td class="topAlign"><code>QUsbDevice::statusNoMemory</code></td><td class="topAlign tblval"><code>-11</code></td><td class="topAlign">Insufficient memory</td></tr>
+<tr><td class="topAlign"><code>QUsbDevice::statusNotSupported</code></td><td class="topAlign tblval"><code>-12</code></td><td class="topAlign">Operation not supported or unimplemented on this platform</td></tr>
+<tr><td class="topAlign"><code>QUsbDevice::StatusUnknownError</code></td><td class="topAlign tblval"><code>-99</code></td><td class="topAlign">Other error</td></tr>
+</table></div>
+<!-- @@@DeviceStatus -->
+<!-- $$$Endpoint -->
+<h3 class="fn" id="Endpoint-typedef"><a name="Endpoint-typedef"></a>typedef QUsbDevice::<span class="name">Endpoint</span></h3>
+<p>An endpoint ID.</p>
+<!-- @@@Endpoint -->
+<!-- $$$IdList -->
+<h3 class="fn" id="IdList-typedef"><a name="IdList-typedef"></a>typedef QUsbDevice::<span class="name">IdList</span></h3>
+<p>List of Id structs.</p>
+<!-- @@@IdList -->
+<!-- $$$LogLevel$$$logNone$$$logError$$$logWarning$$$logInfo$$$logDebug$$$logDebugAll -->
+<h3 class="fn" id="LogLevel-enum"><a name="LogLevel-enum"></a>enum QUsbDevice::<span class="name">LogLevel</span></h3>
+<div class="table"><table class="valuelist"><tr valign="top" class="odd"><th class="tblConst">Constant</th><th class="tblval">Value</th><th class="tbldscr">Description</th></tr>
+<tr><td class="topAlign"><code>QUsbDevice::logNone</code></td><td class="topAlign tblval"><code>0</code></td><td class="topAlign">No debug output</td></tr>
+<tr><td class="topAlign"><code>QUsbDevice::logError</code></td><td class="topAlign tblval"><code>1</code></td><td class="topAlign">Errors only</td></tr>
+<tr><td class="topAlign"><code>QUsbDevice::logWarning</code></td><td class="topAlign tblval"><code>2</code></td><td class="topAlign">Warning and abose</td></tr>
+<tr><td class="topAlign"><code>QUsbDevice::logInfo</code></td><td class="topAlign tblval"><code>3</code></td><td class="topAlign">Info and above</td></tr>
+<tr><td class="topAlign"><code>QUsbDevice::logDebug</code></td><td class="topAlign tblval"><code>4</code></td><td class="topAlign">Everything</td></tr>
+<tr><td class="topAlign"><code>QUsbDevice::logDebugAll</code></td><td class="topAlign tblval"><code>5</code></td><td class="topAlign">Everything + libusb debug output</td></tr>
+</table></div>
+<!-- @@@LogLevel -->
+</div>
+<div class="prop">
+<h2>Property Documentation</h2>
+<!-- $$$config-prop$$$config$$$setConfigconstConfig& -->
+<h3 class="fn" id="config-prop"><a name="config-prop"></a><span class="name">config</span> : <span class="type"><a href="qusbdevice-config.html">Config</a></span></h3>
+<p>Various properties.</p>
+<p><b>Access functions:</b></p>
+<div class="table"><table class="alignedsummary">
+<tr><td class="memItemLeft topAlign rightAlign"> Config </td><td class="memItemRight bottomAlign"><span class="name"><b><a href="qusbdevice.html#config">config</a></b></span>() const</td></tr>
+<tr><td class="memItemLeft topAlign rightAlign"> void </td><td class="memItemRight bottomAlign"><span class="name"><b>setConfig</b></span>(const Config &amp;<i>config</i>)</td></tr>
+</table></div>
+<!-- @@@config -->
+<!-- $$$id-prop$$$id$$$setIdconstId& -->
+<h3 class="fn" id="id-prop"><a name="id-prop"></a><span class="name">id</span> : <span class="type"><a href="qusbdevice-id.html">Id</a></span></h3>
+<p>Various properties.</p>
+<p><b>Access functions:</b></p>
+<div class="table"><table class="alignedsummary">
+<tr><td class="memItemLeft topAlign rightAlign"> Id </td><td class="memItemRight bottomAlign"><span class="name"><b><a href="qusbdevice.html#id">id</a></b></span>() const</td></tr>
+<tr><td class="memItemLeft topAlign rightAlign"> void </td><td class="memItemRight bottomAlign"><span class="name"><b>setId</b></span>(const Id &amp;<i>id</i>)</td></tr>
+</table></div>
+<!-- @@@id -->
+<!-- $$$logLevel-prop$$$logLevel$$$setLogLevelLogLevel -->
+<h3 class="fn" id="logLevel-prop"><a name="logLevel-prop"></a><span class="name">logLevel</span> : <span class="type"><a href="qusbdevice.html#LogLevel-enum">LogLevel</a></span></h3>
+<p>Various properties.</p>
+<p><b>Access functions:</b></p>
+<div class="table"><table class="alignedsummary">
+<tr><td class="memItemLeft topAlign rightAlign"> LogLevel </td><td class="memItemRight bottomAlign"><span class="name"><b><a href="qusbdevice.html#logLevel">logLevel</a></b></span>() const</td></tr>
+<tr><td class="memItemLeft topAlign rightAlign"> void </td><td class="memItemRight bottomAlign"><span class="name"><b><a href="qusbdevice.html#setLogLevel">setLogLevel</a></b></span>(LogLevel <i>level</i>)</td></tr>
+</table></div>
+<!-- @@@logLevel -->
+<!-- $$$pid-prop$$$pid -->
+<h3 class="fn" id="pid-prop"><a name="pid-prop"></a><span class="name">pid</span> : const <span class="type"><a href="../qtcore/qtglobal.html#quint16-typedef">quint16</a></span></h3>
+<p>Various properties.</p>
+<p><b>Access functions:</b></p>
+<div class="table"><table class="alignedsummary">
+<tr><td class="memItemLeft topAlign rightAlign"> quint16 </td><td class="memItemRight bottomAlign"><span class="name"><b><a href="qusbdevice.html#pid">pid</a></b></span>() const</td></tr>
+</table></div>
+<!-- @@@pid -->
+<!-- $$$speed-prop$$$speed -->
+<h3 class="fn" id="speed-prop"><a name="speed-prop"></a><span class="name">speed</span> : const <span class="type"><a href="qusbdevice.html#DeviceSpeed-enum">DeviceSpeed</a></span></h3>
+<p>Various properties.</p>
+<p><b>Access functions:</b></p>
+<div class="table"><table class="alignedsummary">
+<tr><td class="memItemLeft topAlign rightAlign"> DeviceSpeed </td><td class="memItemRight bottomAlign"><span class="name"><b><a href="qusbdevice.html#speed">speed</a></b></span>() const</td></tr>
+</table></div>
+<!-- @@@speed -->
+<!-- $$$timeout-prop$$$timeout$$$setTimeoutquint16 -->
+<h3 class="fn" id="timeout-prop"><a name="timeout-prop"></a><span class="name">timeout</span> : <span class="type"><a href="../qtcore/qtglobal.html#quint16-typedef">quint16</a></span></h3>
+<p>Various properties.</p>
+<p><b>Access functions:</b></p>
+<div class="table"><table class="alignedsummary">
+<tr><td class="memItemLeft topAlign rightAlign"> quint16 </td><td class="memItemRight bottomAlign"><span class="name"><b><a href="qusbdevice.html#timeout">timeout</a></b></span>() const</td></tr>
+<tr><td class="memItemLeft topAlign rightAlign"> void </td><td class="memItemRight bottomAlign"><span class="name"><b><a href="qusbdevice.html#setTimeout">setTimeout</a></b></span>(quint16 <i>timeout</i>)</td></tr>
+</table></div>
+<!-- @@@timeout -->
+<!-- $$$vid-prop$$$vid -->
+<h3 class="fn" id="vid-prop"><a name="vid-prop"></a><span class="name">vid</span> : const <span class="type"><a href="../qtcore/qtglobal.html#quint16-typedef">quint16</a></span></h3>
+<p>Various properties.</p>
+<p><b>Access functions:</b></p>
+<div class="table"><table class="alignedsummary">
+<tr><td class="memItemLeft topAlign rightAlign"> quint16 </td><td class="memItemRight bottomAlign"><span class="name"><b><a href="qusbdevice.html#vid">vid</a></b></span>() const</td></tr>
+</table></div>
+<!-- @@@vid -->
+</div>
+<div class="func">
+<h2>Member Function Documentation</h2>
+<!-- $$$QUsbDevice[overload1]$$$QUsbDeviceQObject* -->
+<h3 class="fn" id="QUsbDevice"><a name="QUsbDevice"></a>QUsbDevice::<span class="name">QUsbDevice</span>(<span class="type"><a href="../qtcore/qobject.html#QObject">QObject</a></span> *<i>parent</i> = Q_NULLPTR)</h3>
+<p>Default constructs an instance of QUsbDevice.</p><!-- @@@QUsbDevice -->
+<!-- $$$~QUsbDevice[overload1]$$$~QUsbDevice -->
+<h3 class="fn" id="dtor.QUsbDevice"><a name="dtor.QUsbDevice"></a>QUsbDevice::<span class="name">~QUsbDevice</span>()</h3>
+<p>Destructor.</p>
+<!-- @@@~QUsbDevice -->
+<!-- $$$close[overload1]$$$close -->
+<h3 class="fn" id="close"><a name="close"></a><code>[slot] </code><span class="type">void</span> QUsbDevice::<span class="name">close</span>()</h3>
+<p>Close the device.</p>
+<!-- @@@close -->
+<!-- $$$config -->
+<h3 class="fn" id="config"><a name="config"></a><span class="type"><a href="qusbdevice-config.html">Config</a></span> QUsbDevice::<span class="name">config</span>() const</h3>
+<p>Returns the current <code>config</code>.</p>
+<p><b>Note:</b> Getter function for property <a href="qusbdevice.html#config-prop">config</a>. </p><p><b>See also </b><a href="qusbdevice.html#config-prop">setConfig</a>().</p>
+<!-- @@@config -->
+<!-- $$$devices[overload1]$$$devices -->
+<h3 class="fn" id="devices"><a name="devices"></a><code>[static] </code><span class="type"><a href="qusbdevice.html#IdList-typedef">IdList</a></span> QUsbDevice::<span class="name">devices</span>()</h3>
+<p>Returns all present <code>devices</code>.</p>
+<!-- @@@devices -->
+<!-- $$$id -->
+<h3 class="fn" id="id"><a name="id"></a><span class="type"><a href="qusbdevice-id.html">Id</a></span> QUsbDevice::<span class="name">id</span>() const</h3>
+<p>Returns the device <code>id</code>.</p>
+<p><b>Note:</b> Getter function for property <a href="qusbdevice.html#id-prop">id</a>. </p><p><b>See also </b><a href="qusbdevice.html#id-prop">setId</a>().</p>
+<!-- @@@id -->
+<!-- $$$isConnected[overload1]$$$isConnected -->
+<h3 class="fn" id="isConnected"><a name="isConnected"></a><span class="type">bool</span> QUsbDevice::<span class="name">isConnected</span>() const</h3>
+<p>Returns <code>true</code> if connected.</p>
+<!-- @@@isConnected -->
+<!-- $$$logLevel -->
+<h3 class="fn" id="logLevel"><a name="logLevel"></a><span class="type"><a href="qusbdevice.html#LogLevel-enum">LogLevel</a></span> QUsbDevice::<span class="name">logLevel</span>() const</h3>
+<p>Returns the log <code>level</code>.</p>
+<p><b>Note:</b> Getter function for property <a href="qusbdevice.html#logLevel-prop">logLevel</a>. </p><p><b>See also </b><a href="qusbdevice.html#setLogLevel">setLogLevel</a>().</p>
+<!-- @@@logLevel -->
+<!-- $$$open[overload1]$$$open -->
+<h3 class="fn" id="open"><a name="open"></a><code>[slot] </code><span class="type"><a href="../qtcore/qtglobal.html#qint32-typedef">qint32</a></span> QUsbDevice::<span class="name">open</span>()</h3>
+<p>Open the device. Returns <code>0</code> on success</p>
+<!-- @@@open -->
+<!-- $$$pid -->
+<h3 class="fn" id="pid"><a name="pid"></a><span class="type"><a href="../qtcore/qtglobal.html#quint16-typedef">quint16</a></span> QUsbDevice::<span class="name">pid</span>() const</h3>
+<p>Return the device <code>pid</code>. (Product id)</p>
+<p><b>Note:</b> Getter function for property <a href="qusbdevice.html#pid-prop">pid</a>. </p><!-- @@@pid -->
+<!-- $$$setLogLevel -->
+<h3 class="fn" id="setLogLevel"><a name="setLogLevel"></a><span class="type">void</span> QUsbDevice::<span class="name">setLogLevel</span>(<span class="type"><a href="qusbdevice.html#LogLevel-enum">LogLevel</a></span> <i>level</i>)</h3>
+<p>Set the log <i>level</i>.</p>
+<p><b>Note:</b> Setter function for property <a href="qusbdevice.html#logLevel-prop">logLevel</a>. </p><p><b>See also </b><a href="qusbdevice.html#logLevel">logLevel</a>().</p>
+<!-- @@@setLogLevel -->
+<!-- $$$setTimeout -->
+<h3 class="fn" id="setTimeout"><a name="setTimeout"></a><span class="type">void</span> QUsbDevice::<span class="name">setTimeout</span>(<span class="type"><a href="../qtcore/qtglobal.html#quint16-typedef">quint16</a></span> <i>timeout</i>)</h3>
+<p>Set the device <i>timeout</i>.</p>
+<p><b>Note:</b> Setter function for property <a href="qusbdevice.html#timeout-prop">timeout</a>. </p><p><b>See also </b><a href="qusbdevice.html#timeout">timeout</a>().</p>
+<!-- @@@setTimeout -->
+<!-- $$$speed -->
+<h3 class="fn" id="speed"><a name="speed"></a><span class="type"><a href="qusbdevice.html#DeviceSpeed-enum">DeviceSpeed</a></span> QUsbDevice::<span class="name">speed</span>() const</h3>
+<p>Returns the device <code>speed</code>.</p>
+<p><b>Note:</b> Getter function for property <a href="qusbdevice.html#speed-prop">speed</a>. </p><!-- @@@speed -->
+<!-- $$$speedString[overload1]$$$speedString -->
+<h3 class="fn" id="speedString"><a name="speedString"></a><span class="type"><a href="../qtcore/qbytearray.html">QByteArray</a></span> QUsbDevice::<span class="name">speedString</span>() const</h3>
+<p>Returns the current speed as a human readable <code>string</code>.</p>
+<!-- @@@speedString -->
+<!-- $$$timeout -->
+<h3 class="fn" id="timeout"><a name="timeout"></a><span class="type"><a href="../qtcore/qtglobal.html#quint16-typedef">quint16</a></span> QUsbDevice::<span class="name">timeout</span>() const</h3>
+<p>Return the <code>timeout</code>.</p>
+<p><b>Note:</b> Getter function for property <a href="qusbdevice.html#timeout-prop">timeout</a>. </p><p><b>See also </b><a href="qusbdevice.html#setTimeout">setTimeout</a>().</p>
+<!-- @@@timeout -->
+<!-- $$$vid -->
+<h3 class="fn" id="vid"><a name="vid"></a><span class="type"><a href="../qtcore/qtglobal.html#quint16-typedef">quint16</a></span> QUsbDevice::<span class="name">vid</span>() const</h3>
+<p>Return the device <code>vid</code>. (Vendor id)</p>
+<p><b>Note:</b> Getter function for property <a href="qusbdevice.html#vid-prop">vid</a>. </p><!-- @@@vid -->
+</div>
+        </div>
+       </div>
+   </div>
+   </div>
+</div>
+<div class="footer">
+   <p>
+   <acronym title="Copyright">&copy;</acronym> 2017 The Qt Company Ltd.
+   Documentation contributions included herein are the copyrights of
+   their respective owners.<br>    The documentation provided herein is licensed under the terms of the    <a href="http://www.gnu.org/licenses/fdl.html">GNU Free Documentation    License version 1.3</a> as published by the Free Software Foundation.<br>    Qt and respective logos are trademarks of The Qt Company Ltd.     in Finland and/or other countries worldwide. All other trademarks are property
+   of their respective owners. </p>
+</div>
+</body>
+</html>

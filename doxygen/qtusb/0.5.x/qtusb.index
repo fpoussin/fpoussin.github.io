@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE QDOCINDEX>
+<INDEX url="http://doc.qt.io/qt-5" title="Qt Usb Reference Documentation" version="0.5.0" project="QtUsb" indexTitle="Qt Usb">
+    <namespace threadsafety="unspecified" name="" status="active" access="public" module="qtusb">
+        <page name="qtusb-index.html" href="qtusb-index.html" status="active" location="index.qdoc" filepath="/home/mobyfab/src/QtUsb/src/usb/doc/src/index.qdoc" lineno="28" since="0.5.0" subtype="page" title="Qt Usb" fulltitle="Qt Usb" subtitle="" module="QtUsb" brief="Provides an API to connect to USB devices">
+            <contents name="related-information" title="Related Information" level="1"/>
+        </page>
+        <class threadsafety="reentrant" name="QUsbDevice" href="qusbdevice.html" status="active" access="public" location="qusbdevice.h" filepath="/home/mobyfab/src/QtUsb/src/usb/qusbdevice.h" lineno="15" module="QtUsb" groups="usb-main" brief="This class handles opening and configuring the device">
+            <function threadsafety="unspecified" name="QUsbDevice" fullname="QUsbDevice::QUsbDevice" href="qusbdevice.html#QUsbDevice" status="active" access="public" location="qusbdevice.h" filepath="/home/mobyfab/src/QtUsb/src/usb/qusbdevice.h" lineno="97" virtual="non" meta="constructor" const="false" static="false" overload="false" delete="false" default="false" final="false" override="false" type="" signature="QUsbDevice(QObject *parent)">
+                <parameter left="QObject *" right="" name="parent" default="Q_NULLPTR"/>
+            </function>
+            <class threadsafety="unspecified" name="Config" fullname="QUsbDevice::Config" href="qusbdevice-config.html" status="active" access="public" location="qusbdevice.h" filepath="/home/mobyfab/src/QtUsb/src/usb/qusbdevice.h" lineno="37" module="QtUsb" groups="usb-main" brief="Device configuration structure">
+                <function threadsafety="unspecified" name="operator=" fullname="QUsbDevice::Config::operator=" href="qusbdevice-config.html#operator-eq" status="active" access="public" location="qusbdevice.h" filepath="/home/mobyfab/src/QtUsb/src/usb/qusbdevice.h" lineno="45" virtual="non" meta="copy-assign" const="false" static="false" overload="false" delete="false" default="false" final="false" override="false" type="QUsbDevice::Config &amp;" signature="QUsbDevice::Config &amp; operator=(const QUsbDevice::Config &amp;other)">
+                    <parameter left="const QUsbDevice::Config &amp;" right="" name="other" default=""/>
+                </function>
+                <function threadsafety="unspecified" name="operator==" fullname="QUsbDevice::Config::operator==" href="qusbdevice-config.html#operator-eq-eq" status="active" access="public" location="qusbdevice.h" filepath="/home/mobyfab/src/QtUsb/src/usb/qusbdevice.h" lineno="44" virtual="non" meta="plain" const="true" static="false" overload="false" delete="false" default="false" final="false" override="false" type="bool" brief="Comparision operator" signature="bool operator==(const QUsbDevice::Config &amp;other) const">
+                    <parameter left="const QUsbDevice::Config &amp;" right="" name="other" default=""/>
+                </function>
+                <variable threadsafety="unspecified" name="alternate" fullname="QUsbDevice::Config::alternate" href="qusbdevice-config.html#alternate-var" status="active" access="public" location="qusbdevice.h" filepath="/home/mobyfab/src/QtUsb/src/usb/qusbdevice.h" lineno="42" type="quint8" static="false" brief="ID"/>
+                <variable threadsafety="unspecified" name="config" fullname="QUsbDevice::Config::config" href="qusbdevice-config.html#config-var" status="active" access="public" location="qusbdevice.h" filepath="/home/mobyfab/src/QtUsb/src/usb/qusbdevice.h" lineno="40" type="quint8" static="false" brief="Configuration ID"/>
+                <variable threadsafety="unspecified" name="interface" fullname="QUsbDevice::Config::interface" href="qusbdevice-config.html#interface-var" status="active" access="public" location="qusbdevice.h" filepath="/home/mobyfab/src/QtUsb/src/usb/qusbdevice.h" lineno="41" type="quint8" static="false" brief="ID"/>
+            </class>
+            <class threadsafety="unspecified" name="Id" fullname="QUsbDevice::Id" href="qusbdevice-id.html" status="active" access="public" location="qusbdevice.h" filepath="/home/mobyfab/src/QtUsb/src/usb/qusbdevice.h" lineno="48" module="QtUsb" groups="usb-main" brief="Device Ids structure">
+                <function threadsafety="unspecified" name="operator=" fullname="QUsbDevice::Id::operator=" href="qusbdevice-id.html#operator-eq" status="active" access="public" location="qusbdevice.h" filepath="/home/mobyfab/src/QtUsb/src/usb/qusbdevice.h" lineno="55" virtual="non" meta="copy-assign" const="false" static="false" overload="false" delete="false" default="false" final="false" override="false" type="QUsbDevice::Id &amp;" signature="QUsbDevice::Id &amp; operator=(const QUsbDevice::Id &amp;other)">
+                    <parameter left="const QUsbDevice::Id &amp;" right="" name="other" default=""/>
+                </function>
+                <function threadsafety="unspecified" name="operator==" fullname="QUsbDevice::Id::operator==" href="qusbdevice-id.html#operator-eq-eq" status="active" access="public" location="qusbdevice.h" filepath="/home/mobyfab/src/QtUsb/src/usb/qusbdevice.h" lineno="54" virtual="non" meta="plain" const="true" static="false" overload="false" delete="false" default="false" final="false" override="false" type="bool" brief="Comparision operator" signature="bool operator==(const QUsbDevice::Id &amp;other) const">
+                    <parameter left="const QUsbDevice::Id &amp;" right="" name="other" default=""/>
+                </function>
+                <variable threadsafety="unspecified" name="pid" fullname="QUsbDevice::Id::pid" href="qusbdevice-id.html#pid-var" status="active" access="public" location="qusbdevice.h" filepath="/home/mobyfab/src/QtUsb/src/usb/qusbdevice.h" lineno="51" type="quint16" static="false" brief="Product ID"/>
+                <variable threadsafety="unspecified" name="vid" fullname="QUsbDevice::Id::vid" href="qusbdevice-id.html#vid-var" status="active" access="public" location="qusbdevice.h" filepath="/home/mobyfab/src/QtUsb/src/usb/qusbdevice.h" lineno="52" type="quint16" static="false" brief="Vendor ID"/>
+            </class>
+            <enum threadsafety="unspecified" name="DeviceSpeed" fullname="QUsbDevice::DeviceSpeed" href="qusbdevice.html#DeviceSpeed-enum" status="active" access="public" location="qusbdevice.h" filepath="/home/mobyfab/src/QtUsb/src/usb/qusbdevice.h" lineno="61">
+                <value name="unknownSpeed" value="-1"/>
+                <value name="lowSpeed" value="0"/>
+                <value name="fullSpeed" value="1"/>
+                <value name="highSpeed" value="2"/>
+                <value name="superSpeed" value="3"/>
+                <value name="superSpeedPlus" value="4"/>
+            </enum>
+            <enum threadsafety="unspecified" name="DeviceStatus" fullname="QUsbDevice::DeviceStatus" href="qusbdevice.html#DeviceStatus-enum" status="active" access="public" location="qusbdevice.h" filepath="/home/mobyfab/src/QtUsb/src/usb/qusbdevice.h" lineno="71">
+                <value name="statusOK" value="0"/>
+                <value name="statusIoError" value="-1"/>
+                <value name="statusInvalidParam" value="-2"/>
+                <value name="statusAccessDenied" value="-3"/>
+                <value name="statusNoSuchDevice" value="-4"/>
+                <value name="statusNotFound" value="-5"/>
+                <value name="statusBusy" value="-6"/>
+                <value name="statusTimeout" value="-7"/>
+                <value name="statusOverflow" value="-8"/>
+                <value name="statusPipeError" value="-9"/>
+                <value name="statusInterrupted" value="-10"/>
+                <value name="statusNoMemory" value="-11"/>
+                <value name="statusNotSupported" value="-12"/>
+                <value name="StatusUnknownError" value="-99"/>
+            </enum>
+            <enum threadsafety="unspecified" name="LogLevel" fullname="QUsbDevice::LogLevel" href="qusbdevice.html#LogLevel-enum" status="active" access="public" location="qusbdevice.h" filepath="/home/mobyfab/src/QtUsb/src/usb/qusbdevice.h" lineno="28">
+                <value name="logNone" value="0"/>
+                <value name="logError" value="1"/>
+                <value name="logWarning" value="2"/>
+                <value name="logInfo" value="3"/>
+                <value name="logDebug" value="4"/>
+                <value name="logDebugAll" value="5"/>
+            </enum>
+            <typedef threadsafety="unspecified" name="ConfigList" fullname="QUsbDevice::ConfigList" href="qusbdevice.html#ConfigList-typedef" status="active" access="public" location="qusbdevice.h" filepath="/home/mobyfab/src/QtUsb/src/usb/qusbdevice.h" lineno="59"/>
+            <typedef threadsafety="unspecified" name="Endpoint" fullname="QUsbDevice::Endpoint" href="qusbdevice.html#Endpoint-typedef" status="active" access="public" location="qusbdevice.h" filepath="/home/mobyfab/src/QtUsb/src/usb/qusbdevice.h" lineno="26"/>
+            <typedef threadsafety="unspecified" name="IdList" fullname="QUsbDevice::IdList" href="qusbdevice.html#IdList-typedef" status="active" access="public" location="qusbdevice.h" filepath="/home/mobyfab/src/QtUsb/src/usb/qusbdevice.h" lineno="58"/>
+            <function threadsafety="unspecified" name="devices" fullname="QUsbDevice::devices" href="qusbdevice.html#devices" status="active" access="public" location="qusbdevice.h" filepath="/home/mobyfab/src/QtUsb/src/usb/qusbdevice.h" lineno="113" virtual="non" meta="plain" const="false" static="true" overload="false" delete="false" default="false" final="false" override="false" type="IdList" brief="Returns all present devices" signature="IdList devices()"/>
+            <function threadsafety="unspecified" name="open" fullname="QUsbDevice::open" href="qusbdevice.html#open" status="active" access="public" location="qusbdevice.h" filepath="/home/mobyfab/src/QtUsb/src/usb/qusbdevice.h" lineno="116" virtual="non" meta="slot" const="false" static="false" overload="false" delete="false" default="false" final="false" override="false" type="qint32" brief="Open the device. Returns 0 on success" signature="qint32 open()"/>
+            <function threadsafety="unspecified" name="close" fullname="QUsbDevice::close" href="qusbdevice.html#close" status="active" access="public" location="qusbdevice.h" filepath="/home/mobyfab/src/QtUsb/src/usb/qusbdevice.h" lineno="117" virtual="non" meta="slot" const="false" static="false" overload="false" delete="false" default="false" final="false" override="false" type="void" brief="Close the device" signature="void close()"/>
+            <function threadsafety="unspecified" name="setConfig" fullname="QUsbDevice::setConfig" href="qusbdevice.html#config-prop" status="active" access="public" location="qusbdevice.h" filepath="/home/mobyfab/src/QtUsb/src/usb/qusbdevice.h" lineno="102" virtual="non" meta="plain" const="false" static="false" overload="false" delete="false" default="false" final="false" override="false" associated-property="config" type="void" signature="void setConfig(const Config &amp;config)">
+                <parameter left="const Config &amp;" right="" name="config" default=""/>
+            </function>
+            <function threadsafety="unspecified" name="setId" fullname="QUsbDevice::setId" href="qusbdevice.html#id-prop" status="active" access="public" location="qusbdevice.h" filepath="/home/mobyfab/src/QtUsb/src/usb/qusbdevice.h" lineno="101" virtual="non" meta="plain" const="false" static="false" overload="false" delete="false" default="false" final="false" override="false" associated-property="id" type="void" signature="void setId(const Id &amp;id)">
+                <parameter left="const Id &amp;" right="" name="id" default=""/>
+            </function>
+            <function threadsafety="unspecified" name="setLogLevel" fullname="QUsbDevice::setLogLevel" href="qusbdevice.html#setLogLevel" status="active" access="public" location="qusbdevice.h" filepath="/home/mobyfab/src/QtUsb/src/usb/qusbdevice.h" lineno="100" virtual="non" meta="plain" const="false" static="false" overload="false" delete="false" default="false" final="false" override="false" associated-property="logLevel" type="void" brief="Set the log level" signature="void setLogLevel(LogLevel level)">
+                <parameter left="LogLevel" right="" name="level" default=""/>
+            </function>
+            <function threadsafety="unspecified" name="setTimeout" fullname="QUsbDevice::setTimeout" href="qusbdevice.html#setTimeout" status="active" access="public" location="qusbdevice.h" filepath="/home/mobyfab/src/QtUsb/src/usb/qusbdevice.h" lineno="103" virtual="non" meta="plain" const="false" static="false" overload="false" delete="false" default="false" final="false" override="false" associated-property="timeout" type="void" brief="Set the device timeout" signature="void setTimeout(quint16 timeout)">
+                <parameter left="quint16" right="" name="timeout" default=""/>
+            </function>
+            <function threadsafety="unspecified" name="~QUsbDevice" fullname="QUsbDevice::~QUsbDevice" href="qusbdevice.html#dtor.QUsbDevice" status="active" access="public" location="qusbdevice.h" filepath="/home/mobyfab/src/QtUsb/src/usb/qusbdevice.h" lineno="98" virtual="non" meta="destructor" const="false" static="false" overload="false" delete="false" default="false" final="false" override="false" type="" brief="Destructor" signature="~QUsbDevice()"/>
+            <function threadsafety="unspecified" name="config" fullname="QUsbDevice::config" href="qusbdevice.html#config" status="active" access="public" location="qusbdevice.h" filepath="/home/mobyfab/src/QtUsb/src/usb/qusbdevice.h" lineno="105" virtual="non" meta="plain" const="true" static="false" overload="false" delete="false" default="false" final="false" override="false" associated-property="config" type="Config" brief="Returns the current config" signature="Config config() const"/>
+            <function threadsafety="unspecified" name="speed" fullname="QUsbDevice::speed" href="qusbdevice.html#speed" status="active" access="public" location="qusbdevice.h" filepath="/home/mobyfab/src/QtUsb/src/usb/qusbdevice.h" lineno="111" virtual="non" meta="plain" const="true" static="false" overload="false" delete="false" default="false" final="false" override="false" associated-property="speed" type="DeviceSpeed" brief="Returns the device speed" signature="DeviceSpeed speed() const"/>
+            <function threadsafety="unspecified" name="id" fullname="QUsbDevice::id" href="qusbdevice.html#id" status="active" access="public" location="qusbdevice.h" filepath="/home/mobyfab/src/QtUsb/src/usb/qusbdevice.h" lineno="104" virtual="non" meta="plain" const="true" static="false" overload="false" delete="false" default="false" final="false" override="false" associated-property="id" type="Id" brief="Returns the device id" signature="Id id() const"/>
+            <function threadsafety="unspecified" name="logLevel" fullname="QUsbDevice::logLevel" href="qusbdevice.html#logLevel" status="active" access="public" location="qusbdevice.h" filepath="/home/mobyfab/src/QtUsb/src/usb/qusbdevice.h" lineno="110" virtual="non" meta="plain" const="true" static="false" overload="false" delete="false" default="false" final="false" override="false" associated-property="logLevel" type="LogLevel" brief="Returns the log level" signature="LogLevel logLevel() const"/>
+            <function threadsafety="unspecified" name="speedString" fullname="QUsbDevice::speedString" href="qusbdevice.html#speedString" status="active" access="public" location="qusbdevice.h" filepath="/home/mobyfab/src/QtUsb/src/usb/qusbdevice.h" lineno="112" virtual="non" meta="plain" const="true" static="false" overload="false" delete="false" default="false" final="false" override="false" type="QByteArray" brief="Returns the current speed as a human readable string" signature="QByteArray speedString() const"/>
+            <function threadsafety="unspecified" name="isConnected" fullname="QUsbDevice::isConnected" href="qusbdevice.html#isConnected" status="active" access="public" location="qusbdevice.h" filepath="/home/mobyfab/src/QtUsb/src/usb/qusbdevice.h" lineno="106" virtual="non" meta="plain" const="true" static="false" overload="false" delete="false" default="false" final="false" override="false" type="bool" brief="Returns true if connected" signature="bool isConnected() const"/>
+            <function threadsafety="unspecified" name="pid" fullname="QUsbDevice::pid" href="qusbdevice.html#pid" status="active" access="public" location="qusbdevice.h" filepath="/home/mobyfab/src/QtUsb/src/usb/qusbdevice.h" lineno="107" virtual="non" meta="plain" const="true" static="false" overload="false" delete="false" default="false" final="false" override="false" associated-property="pid" type="quint16" brief="Return the device pid. (Product id)" signature="quint16 pid() const"/>
+            <function threadsafety="unspecified" name="timeout" fullname="QUsbDevice::timeout" href="qusbdevice.html#timeout" status="active" access="public" location="qusbdevice.h" filepath="/home/mobyfab/src/QtUsb/src/usb/qusbdevice.h" lineno="109" virtual="non" meta="plain" const="true" static="false" overload="false" delete="false" default="false" final="false" override="false" associated-property="timeout" type="quint16" brief="Return the timeout" signature="quint16 timeout() const"/>
+            <function threadsafety="unspecified" name="vid" fullname="QUsbDevice::vid" href="qusbdevice.html#vid" status="active" access="public" location="qusbdevice.h" filepath="/home/mobyfab/src/QtUsb/src/usb/qusbdevice.h" lineno="108" virtual="non" meta="plain" const="true" static="false" overload="false" delete="false" default="false" final="false" override="false" associated-property="vid" type="quint16" brief="Return the device vid. (Vendor id)" signature="quint16 vid() const"/>
+            <property threadsafety="unspecified" name="config" fullname="QUsbDevice::config" href="qusbdevice.html#config-prop" status="active" access="public" location="qusbdevice.h" filepath="/home/mobyfab/src/QtUsb/src/usb/qusbdevice.h" lineno="91" type="Config" brief="Various properties">
+                <getter name="config"/>
+                <setter name="setConfig"/>
+            </property>
+            <property threadsafety="unspecified" name="id" fullname="QUsbDevice::id" href="qusbdevice.html#id-prop" status="active" access="public" location="qusbdevice.h" filepath="/home/mobyfab/src/QtUsb/src/usb/qusbdevice.h" lineno="90" type="Id" brief="Various properties">
+                <getter name="id"/>
+                <setter name="setId"/>
+            </property>
+            <property threadsafety="unspecified" name="logLevel" fullname="QUsbDevice::logLevel" href="qusbdevice.html#logLevel-prop" status="active" access="public" location="qusbdevice.h" filepath="/home/mobyfab/src/QtUsb/src/usb/qusbdevice.h" lineno="89" type="LogLevel" brief="Various properties">
+                <getter name="logLevel"/>
+                <setter name="setLogLevel"/>
+            </property>
+            <property threadsafety="unspecified" name="pid" fullname="QUsbDevice::pid" href="qusbdevice.html#pid-prop" status="active" access="public" location="qusbdevice.h" filepath="/home/mobyfab/src/QtUsb/src/usb/qusbdevice.h" lineno="92" type="quint16" brief="Various properties">
+                <getter name="pid"/>
+            </property>
+            <property threadsafety="unspecified" name="speed" fullname="QUsbDevice::speed" href="qusbdevice.html#speed-prop" status="active" access="public" location="qusbdevice.h" filepath="/home/mobyfab/src/QtUsb/src/usb/qusbdevice.h" lineno="95" type="DeviceSpeed" brief="Various properties">
+                <getter name="speed"/>
+            </property>
+            <property threadsafety="unspecified" name="timeout" fullname="QUsbDevice::timeout" href="qusbdevice.html#timeout-prop" status="active" access="public" location="qusbdevice.h" filepath="/home/mobyfab/src/QtUsb/src/usb/qusbdevice.h" lineno="94" type="quint16" brief="Various properties">
+                <getter name="timeout"/>
+                <setter name="setTimeout"/>
+            </property>
+            <property threadsafety="unspecified" name="vid" fullname="QUsbDevice::vid" href="qusbdevice.html#vid-prop" status="active" access="public" location="qusbdevice.h" filepath="/home/mobyfab/src/QtUsb/src/usb/qusbdevice.h" lineno="93" type="quint16" brief="Various properties">
+                <getter name="vid"/>
+            </property>
+            <variable threadsafety="unspecified" name="DefaultTimeout" fullname="QUsbDevice::DefaultTimeout" href="qusbdevice.html#DefaultTimeout-var" status="active" access="public" location="qusbdevice.h" filepath="/home/mobyfab/src/QtUsb/src/usb/qusbdevice.h" lineno="24" type="const quint16 = 250" static="true"/>
+        </class>
+        <class threadsafety="unspecified" name="QUsbDevicePrivate" href="qusbdeviceprivate.html" status="internal" access="private" location="qusbdevice_p.h" filepath="/home/mobyfab/src/QtUsb/src/usb/qusbdevice_p.h" lineno="26">
+            <function threadsafety="unspecified" name="QUsbDevicePrivate" fullname="QUsbDevicePrivate::QUsbDevicePrivate" href="qusbdeviceprivate.html#QUsbDevicePrivate" status="active" access="public" location="qusbdevice_p.h" filepath="/home/mobyfab/src/QtUsb/src/usb/qusbdevice_p.h" lineno="32" virtual="non" meta="constructor" const="false" static="false" overload="false" delete="false" default="false" final="false" override="false" type="" signature="QUsbDevicePrivate()"/>
+            <function threadsafety="unspecified" name="~QUsbDevicePrivate" fullname="QUsbDevicePrivate::~QUsbDevicePrivate" href="qusbdeviceprivate.html#dtor.QUsbDevicePrivate" status="active" access="public" location="qusbdevice_p.h" filepath="/home/mobyfab/src/QtUsb/src/usb/qusbdevice_p.h" lineno="33" virtual="non" meta="destructor" const="false" static="false" overload="false" delete="false" default="false" final="false" override="false" type="" signature="~QUsbDevicePrivate()"/>
+            <function threadsafety="unspecified" name="printUsbError" fullname="QUsbDevicePrivate::printUsbError" href="qusbdeviceprivate.html#printUsbError" status="active" access="public" location="qusbdevice_p.h" filepath="/home/mobyfab/src/QtUsb/src/usb/qusbdevice_p.h" lineno="35" virtual="non" meta="plain" const="true" static="false" overload="false" delete="false" default="false" final="false" override="false" type="void" signature="void printUsbError(int error_code) const">
+                <parameter left="int" right="" name="error_code" default=""/>
+            </function>
+            <variable threadsafety="unspecified" name="m_ctx" fullname="QUsbDevicePrivate::m_ctx" href="qusbdeviceprivate.html#m_ctx-var" status="active" access="public" location="qusbdevice_p.h" filepath="/home/mobyfab/src/QtUsb/src/usb/qusbdevice_p.h" lineno="39" type="libusb_context *" static="false"/>
+            <variable threadsafety="unspecified" name="m_devHandle" fullname="QUsbDevicePrivate::m_devHandle" href="qusbdeviceprivate.html#m_devHandle-var" status="active" access="public" location="qusbdevice_p.h" filepath="/home/mobyfab/src/QtUsb/src/usb/qusbdevice_p.h" lineno="38" type="libusb_device_handle *" static="false"/>
+            <variable threadsafety="unspecified" name="m_devs" fullname="QUsbDevicePrivate::m_devs" href="qusbdeviceprivate.html#m_devs-var" status="active" access="public" location="qusbdevice_p.h" filepath="/home/mobyfab/src/QtUsb/src/usb/qusbdevice_p.h" lineno="37" type="libusb_device **" static="false"/>
+            <variable threadsafety="unspecified" name="m_events" fullname="QUsbDevicePrivate::m_events" href="qusbdeviceprivate.html#m_events-var" status="active" access="public" location="qusbdevice_p.h" filepath="/home/mobyfab/src/QtUsb/src/usb/qusbdevice_p.h" lineno="41" type="QUsbEventsThread *" static="false"/>
+        </class>
+        <class threadsafety="unspecified" name="QUsbEventsThread" href="qusbeventsthread.html" status="internal" access="private" location="qusbdevice_p.h" filepath="/home/mobyfab/src/QtUsb/src/usb/qusbdevice_p.h" lineno="16">
+            <function threadsafety="unspecified" name="run" fullname="QUsbEventsThread::run" href="qusbeventsthread.html#run" status="active" access="public" location="qusbdevice_p.h" filepath="/home/mobyfab/src/QtUsb/src/usb/qusbdevice_p.h" lineno="19" virtual="non" meta="plain" const="false" static="false" overload="false" delete="false" default="false" final="false" override="false" type="void" signature="void run()"/>
+            <variable threadsafety="unspecified" name="m_ctx" fullname="QUsbEventsThread::m_ctx" href="qusbeventsthread.html#m_ctx-var" status="active" access="public" location="qusbdevice_p.h" filepath="/home/mobyfab/src/QtUsb/src/usb/qusbdevice_p.h" lineno="21" type="libusb_context *" static="false"/>
+        </class>
+        <class threadsafety="reentrant" name="QUsbInfo" href="qusbinfo.html" status="active" access="public" location="qusbinfo.h" filepath="/home/mobyfab/src/QtUsb/src/usb/qusbinfo.h" lineno="11" module="QtUsb" groups="usb-main" brief="This class handles hotplug and device detection">
+            <function threadsafety="unspecified" name="QUsbInfo" fullname="QUsbInfo::QUsbInfo" href="qusbinfo.html#QUsbInfo" status="active" access="public" location="qusbinfo.h" filepath="/home/mobyfab/src/QtUsb/src/usb/qusbinfo.h" lineno="19" virtual="non" meta="constructor" const="false" static="false" overload="false" delete="false" default="false" final="false" override="false" type="" signature="QUsbInfo(QObject *parent)">
+                <parameter left="QObject *" right="" name="parent" default="Q_NULLPTR"/>
+            </function>
+            <function threadsafety="unspecified" name="addDevice" fullname="QUsbInfo::addDevice" href="qusbinfo.html#addDevice" status="active" access="public" location="qusbinfo.h" filepath="/home/mobyfab/src/QtUsb/src/usb/qusbinfo.h" lineno="34" virtual="non" meta="slot" const="false" static="false" overload="false" delete="false" default="false" final="false" override="false" type="bool" signature="bool addDevice(const QUsbDevice::Id &amp;id)">
+                <parameter left="const QUsbDevice::Id &amp;" right="" name="id" default=""/>
+            </function>
+            <function threadsafety="unspecified" name="removeDevice" fullname="QUsbInfo::removeDevice" href="qusbinfo.html#removeDevice" status="active" access="public" location="qusbinfo.h" filepath="/home/mobyfab/src/QtUsb/src/usb/qusbinfo.h" lineno="35" virtual="non" meta="slot" const="false" static="false" overload="false" delete="false" default="false" final="false" override="false" type="bool" brief="Remove id device from the list" signature="bool removeDevice(const QUsbDevice::Id &amp;id)">
+                <parameter left="const QUsbDevice::Id &amp;" right="" name="id" default=""/>
+            </function>
+            <function threadsafety="unspecified" name="checkDevices" fullname="QUsbInfo::checkDevices" href="qusbinfo.html#checkDevices" status="active" access="protected" location="qusbinfo.h" filepath="/home/mobyfab/src/QtUsb/src/usb/qusbinfo.h" lineno="39" virtual="non" meta="slot" const="false" static="false" overload="false" delete="false" default="false" final="false" override="false" type="void" signature="void checkDevices()"/>
+            <function threadsafety="unspecified" name="deviceInserted" fullname="QUsbInfo::deviceInserted" href="qusbinfo.html#deviceInserted" status="active" access="public" location="qusbinfo.h" filepath="/home/mobyfab/src/QtUsb/src/usb/qusbinfo.h" lineno="30" virtual="non" meta="signal" const="false" static="false" overload="false" delete="false" default="false" final="false" override="false" type="void" signature="void deviceInserted(QUsbDevice::IdList list)">
+                <parameter left="QUsbDevice::IdList" right="" name="list" default=""/>
+            </function>
+            <function threadsafety="unspecified" name="deviceRemoved" fullname="QUsbInfo::deviceRemoved" href="qusbinfo.html#deviceRemoved" status="active" access="public" location="qusbinfo.h" filepath="/home/mobyfab/src/QtUsb/src/usb/qusbinfo.h" lineno="31" virtual="non" meta="signal" const="false" static="false" overload="false" delete="false" default="false" final="false" override="false" type="void" signature="void deviceRemoved(QUsbDevice::IdList list)">
+                <parameter left="QUsbDevice::IdList" right="" name="list" default=""/>
+            </function>
+            <function threadsafety="unspecified" name="monitorDevices" fullname="QUsbInfo::monitorDevices" href="qusbinfo.html#monitorDevices" status="active" access="protected" location="qusbinfo.h" filepath="/home/mobyfab/src/QtUsb/src/usb/qusbinfo.h" lineno="38" virtual="non" meta="slot" const="false" static="false" overload="false" delete="false" default="false" final="false" override="false" type="void" signature="void monitorDevices(const QUsbDevice::IdList &amp;list)">
+                <parameter left="const QUsbDevice::IdList &amp;" right="" name="list" default=""/>
+            </function>
+            <function threadsafety="unspecified" name="setLogLevel" fullname="QUsbInfo::setLogLevel" href="qusbinfo.html#setLogLevel" status="active" access="public" location="qusbinfo.h" filepath="/home/mobyfab/src/QtUsb/src/usb/qusbinfo.h" lineno="26" virtual="non" meta="plain" const="false" static="false" overload="false" delete="false" default="false" final="false" override="false" associated-property="logLevel" type="void" signature="void setLogLevel(QUsbDevice::LogLevel level)">
+                <parameter left="QUsbDevice::LogLevel" right="" name="level" default=""/>
+            </function>
+            <function threadsafety="unspecified" name="~QUsbInfo" fullname="QUsbInfo::~QUsbInfo" href="qusbinfo.html#dtor.QUsbInfo" status="active" access="public" location="qusbinfo.h" filepath="/home/mobyfab/src/QtUsb/src/usb/qusbinfo.h" lineno="20" virtual="non" meta="destructor" const="false" static="false" overload="false" delete="false" default="false" final="false" override="false" type="" signature="~QUsbInfo(void )">
+                <parameter left="void" right="" name="" default=""/>
+            </function>
+            <function threadsafety="unspecified" name="getPresentDevices" fullname="QUsbInfo::getPresentDevices" href="qusbinfo.html#getPresentDevices" status="active" access="public" location="qusbinfo.h" filepath="/home/mobyfab/src/QtUsb/src/usb/qusbinfo.h" lineno="22" virtual="non" meta="plain" const="true" static="false" overload="false" delete="false" default="false" final="false" override="false" type="QUsbDevice::IdList" signature="QUsbDevice::IdList getPresentDevices() const"/>
+            <function threadsafety="unspecified" name="logLevel" fullname="QUsbInfo::logLevel" href="qusbinfo.html#logLevel" status="active" access="public" location="qusbinfo.h" filepath="/home/mobyfab/src/QtUsb/src/usb/qusbinfo.h" lineno="27" virtual="non" meta="plain" const="true" static="false" overload="false" delete="false" default="false" final="false" override="false" associated-property="logLevel" type="QUsbDevice::LogLevel" signature="QUsbDevice::LogLevel logLevel() const"/>
+            <function threadsafety="unspecified" name="isPresent" fullname="QUsbInfo::isPresent" href="qusbinfo.html#isPresent" status="active" access="public" location="qusbinfo.h" filepath="/home/mobyfab/src/QtUsb/src/usb/qusbinfo.h" lineno="23" virtual="non" meta="plain" const="true" static="false" overload="false" delete="false" default="false" final="false" override="false" type="bool" signature="bool isPresent(const QUsbDevice::Id &amp;id) const">
+                <parameter left="const QUsbDevice::Id &amp;" right="" name="id" default=""/>
+            </function>
+            <function threadsafety="unspecified" name="findDevice" fullname="QUsbInfo::findDevice" href="qusbinfo.html#findDevice" status="active" access="public" location="qusbinfo.h" filepath="/home/mobyfab/src/QtUsb/src/usb/qusbinfo.h" lineno="24" virtual="non" meta="plain" const="true" static="false" overload="false" delete="false" default="false" final="false" override="false" type="int" signature="int findDevice(const QUsbDevice::Id &amp;id, const QUsbDevice::IdList &amp;list) const">
+                <parameter left="const QUsbDevice::Id &amp;" right="" name="id" default=""/>
+                <parameter left="const QUsbDevice::IdList &amp;" right="" name="list" default=""/>
+            </function>
+            <property threadsafety="unspecified" name="logLevel" fullname="QUsbInfo::logLevel" href="qusbinfo.html#logLevel-prop" status="active" access="public" location="qusbinfo.h" filepath="/home/mobyfab/src/QtUsb/src/usb/qusbinfo.h" lineno="16" type="QUsbDevice::LogLevel" brief="The log level for hotplug/detection">
+                <getter name="logLevel"/>
+                <setter name="setLogLevel"/>
+            </property>
+            <variable threadsafety="unspecified" name="m_log_level" fullname="QUsbInfo::m_log_level" href="qusbinfo.html#m_log_level-var" status="active" access="protected" location="qusbinfo.h" filepath="/home/mobyfab/src/QtUsb/src/usb/qusbinfo.h" lineno="42" type="QUsbDevice::LogLevel" static="false"/>
+        </class>
+        <class threadsafety="unspecified" name="QUsbInfoPrivate" href="qusbinfoprivate.html" status="internal" access="private" location="qusbinfo_p.h" filepath="/home/mobyfab/src/QtUsb/src/usb/qusbinfo_p.h" lineno="16">
+            <function threadsafety="unspecified" name="QUsbInfoPrivate" fullname="QUsbInfoPrivate::QUsbInfoPrivate" href="qusbinfoprivate.html#QUsbInfoPrivate" status="active" access="public" location="qusbinfo_p.h" filepath="/home/mobyfab/src/QtUsb/src/usb/qusbinfo_p.h" lineno="21" virtual="non" meta="constructor" const="false" static="false" overload="false" delete="false" default="false" final="false" override="false" type="" signature="QUsbInfoPrivate()"/>
+            <function threadsafety="unspecified" name="~QUsbInfoPrivate" fullname="QUsbInfoPrivate::~QUsbInfoPrivate" href="qusbinfoprivate.html#dtor.QUsbInfoPrivate" status="active" access="public" location="qusbinfo_p.h" filepath="/home/mobyfab/src/QtUsb/src/usb/qusbinfo_p.h" lineno="22" virtual="non" meta="destructor" const="false" static="false" overload="false" delete="false" default="false" final="false" override="false" type="" signature="~QUsbInfoPrivate()"/>
+            <variable threadsafety="unspecified" name="m_ctx" fullname="QUsbInfoPrivate::m_ctx" href="qusbinfoprivate.html#m_ctx-var" status="active" access="public" location="qusbinfo_p.h" filepath="/home/mobyfab/src/QtUsb/src/usb/qusbinfo_p.h" lineno="25" type="libusb_context *" static="false"/>
+            <variable threadsafety="unspecified" name="m_has_hotplug" fullname="QUsbInfoPrivate::m_has_hotplug" href="qusbinfoprivate.html#m_has_hotplug-var" status="active" access="public" location="qusbinfo_p.h" filepath="/home/mobyfab/src/QtUsb/src/usb/qusbinfo_p.h" lineno="24" type="bool" static="false"/>
+            <variable threadsafety="unspecified" name="m_refresh_timer" fullname="QUsbInfoPrivate::m_refresh_timer" href="qusbinfoprivate.html#m_refresh_timer-var" status="active" access="public" location="qusbinfo_p.h" filepath="/home/mobyfab/src/QtUsb/src/usb/qusbinfo_p.h" lineno="26" type="QTimer *" static="false"/>
+        </class>
+        <class threadsafety="reentrant" name="QUsbTransfer" href="qusbtransfer.html" status="active" access="public" location="qusbtransfer.h" filepath="/home/mobyfab/src/QtUsb/src/usb/qusbtransfer.h" lineno="10" module="QtUsb" groups="usb-main" brief="This class handles transfers between endpoints and the host">
+            <enum threadsafety="unspecified" name="Status" fullname="QUsbTransfer::Status" href="qusbtransfer.html#Status-enum" status="active" access="public" location="qusbtransfer.h" filepath="/home/mobyfab/src/QtUsb/src/usb/qusbtransfer.h" lineno="25">
+                <value name="transferCompleted" value="0"/>
+                <value name="transferError" value="1"/>
+                <value name="transferTimeout" value="2"/>
+                <value name="transferCanceled" value="3"/>
+                <value name="transferStall" value="4"/>
+                <value name="transferNoDevice" value="5"/>
+                <value name="transferOverflow" value="6"/>
+            </enum>
+            <enum threadsafety="unspecified" name="Type" fullname="QUsbTransfer::Type" href="qusbtransfer.html#Type-enum" status="active" access="public" location="qusbtransfer.h" filepath="/home/mobyfab/src/QtUsb/src/usb/qusbtransfer.h" lineno="16">
+                <value name="controlTransfer" value="0"/>
+                <value name="isochronousTransfer" value="1"/>
+                <value name="bulkTransfer" value="2"/>
+                <value name="interruptTransfer" value="3"/>
+                <value name="streamTransfer" value="4"/>
+            </enum>
+            <enum threadsafety="unspecified" name="bRequest" fullname="QUsbTransfer::bRequest" href="qusbtransfer.html#bRequest-enum" status="active" access="public" location="qusbtransfer.h" filepath="/home/mobyfab/src/QtUsb/src/usb/qusbtransfer.h" lineno="48">
+                <value name="requestGetStatus" value="0x00"/>
+                <value name="requestClearFeature" value="0x01"/>
+                <value name="requestSetFeature" value="0x03"/>
+                <value name="requestSetAddress" value="0x05"/>
+                <value name="requestGetDescriptor" value="0x06"/>
+                <value name="requestSetDescriptor" value="0x07"/>
+                <value name="requestGetConfiguration" value="0x08"/>
+                <value name="requestSetConfiguration" value="0x09"/>
+                <value name="requestGetInterface" value="0x0A"/>
+                <value name="requestSetInterface" value="0x0B"/>
+                <value name="requestSynchFrame" value="0x0C"/>
+                <value name="requestSetSel" value="0x30"/>
+                <value name="requestIsochDelay" value="0x31"/>
+            </enum>
+            <enum threadsafety="unspecified" name="bmRequestType" fullname="QUsbTransfer::bmRequestType" href="qusbtransfer.html#bmRequestType-enum" status="active" access="public" location="qusbtransfer.h" filepath="/home/mobyfab/src/QtUsb/src/usb/qusbtransfer.h" lineno="36">
+                <value name="requestStandard" value="( 0x00&lt;5 )"/>
+                <value name="requestClass" value="( 0x01&lt;5 )"/>
+                <value name="requestVendor" value="( 0x02&lt;5 )"/>
+                <value name="requestReserved" value="( 0x03&lt;5 )"/>
+                <value name="recipientDevice" value="0x00"/>
+                <value name="recipientInterface" value="0x01"/>
+                <value name="recipientEndpoint" value="0x02"/>
+                <value name="recipientOther" value="0x03"/>
+            </enum>
+            <function threadsafety="unspecified" name="QUsbTransfer" fullname="QUsbTransfer::QUsbTransfer" href="qusbtransfer.html#QUsbTransfer" status="active" access="public" location="qusbtransfer.h" filepath="/home/mobyfab/src/QtUsb/src/usb/qusbtransfer.h" lineno="70" virtual="non" meta="constructor" const="false" static="false" overload="false" delete="false" default="false" final="false" override="false" type="" brief="Constructor" signature="QUsbTransfer(QUsbDevice *dev, Type type, QUsbDevice::Endpoint in, QUsbDevice::Endpoint out)">
+                <parameter left="QUsbDevice *" right="" name="dev" default=""/>
+                <parameter left="Type" right="" name="type" default=""/>
+                <parameter left="QUsbDevice::Endpoint" right="" name="in" default=""/>
+                <parameter left="QUsbDevice::Endpoint" right="" name="out" default=""/>
+            </function>
+            <function threadsafety="unspecified" name="open" fullname="QUsbTransfer::open" href="qusbtransfer.html#open" status="active" access="public" location="qusbtransfer.h" filepath="/home/mobyfab/src/QtUsb/src/usb/qusbtransfer.h" lineno="76" virtual="non" meta="plain" const="false" static="false" overload="false" delete="false" default="false" final="false" override="false" type="bool" brief="Open the transfer with mode" signature="bool open(QIODevice::OpenMode mode)">
+                <parameter left="QIODevice::OpenMode" right="" name="mode" default=""/>
+            </function>
+            <function threadsafety="unspecified" name="poll" fullname="QUsbTransfer::poll" href="qusbtransfer.html#poll" status="active" access="public" location="qusbtransfer.h" filepath="/home/mobyfab/src/QtUsb/src/usb/qusbtransfer.h" lineno="100" virtual="non" meta="plain" const="false" static="false" overload="false" delete="false" default="false" final="false" override="false" type="bool" brief="Manual IN (read) polling" signature="bool poll()"/>
+            <function threadsafety="unspecified" name="polling" fullname="QUsbTransfer::polling" href="qusbtransfer.html#polling" status="active" access="public" location="qusbtransfer.h" filepath="/home/mobyfab/src/QtUsb/src/usb/qusbtransfer.h" lineno="99" virtual="non" meta="plain" const="false" static="false" overload="false" delete="false" default="false" final="false" override="false" associated-property="polling" type="bool" brief="Get polling status" signature="bool polling()"/>
+            <function threadsafety="unspecified" name="waitForBytesWritten" fullname="QUsbTransfer::waitForBytesWritten" href="qusbtransfer.html#waitForBytesWritten" status="active" access="public" location="qusbtransfer.h" filepath="/home/mobyfab/src/QtUsb/src/usb/qusbtransfer.h" lineno="88" virtual="non" meta="plain" const="false" static="false" overload="false" delete="false" default="false" final="false" override="false" type="bool" brief="Wait for at least one byte to be written for msecs milliseconds" signature="bool waitForBytesWritten(int msecs)">
+                <parameter left="int" right="" name="msecs" default=""/>
+            </function>
+            <function threadsafety="unspecified" name="waitForReadyRead" fullname="QUsbTransfer::waitForReadyRead" href="qusbtransfer.html#waitForReadyRead" status="active" access="public" location="qusbtransfer.h" filepath="/home/mobyfab/src/QtUsb/src/usb/qusbtransfer.h" lineno="89" virtual="non" meta="plain" const="false" static="false" overload="false" delete="false" default="false" final="false" override="false" type="bool" brief="Wait for at least one byte to be available for msecs milliseconds" signature="bool waitForReadyRead(int msecs)">
+                <parameter left="int" right="" name="msecs" default=""/>
+            </function>
+            <function threadsafety="unspecified" name="readData" fullname="QUsbTransfer::readData" href="qusbtransfer.html#readData" status="active" access="protected" location="qusbtransfer.h" filepath="/home/mobyfab/src/QtUsb/src/usb/qusbtransfer.h" lineno="109" virtual="non" meta="plain" const="false" static="false" overload="false" delete="false" default="false" final="false" override="false" type="qint64" brief="Read maxSize bytes from the internal buffer to data" signature="qint64 readData(char *data, qint64 maxSize)">
+                <parameter left="char *" right="" name="data" default=""/>
+                <parameter left="qint64" right="" name="maxSize" default=""/>
+            </function>
+            <function threadsafety="unspecified" name="writeData" fullname="QUsbTransfer::writeData" href="qusbtransfer.html#writeData" status="active" access="protected" location="qusbtransfer.h" filepath="/home/mobyfab/src/QtUsb/src/usb/qusbtransfer.h" lineno="110" virtual="non" meta="plain" const="false" static="false" overload="false" delete="false" default="false" final="false" override="false" type="qint64" brief="Copies maxSize bytes from data to the internal write buffer and schedules an OUT transfer" signature="qint64 writeData(const char *data, qint64 maxSize)">
+                <parameter left="const char *" right="" name="data" default=""/>
+                <parameter left="qint64" right="" name="maxSize" default=""/>
+            </function>
+            <function threadsafety="unspecified" name="cancelTransfer" fullname="QUsbTransfer::cancelTransfer" href="qusbtransfer.html#cancelTransfer" status="active" access="public" location="qusbtransfer.h" filepath="/home/mobyfab/src/QtUsb/src/usb/qusbtransfer.h" lineno="103" virtual="non" meta="slot" const="false" static="false" overload="false" delete="false" default="false" final="false" override="false" type="void" signature="void cancelTransfer()"/>
+            <function threadsafety="unspecified" name="close" fullname="QUsbTransfer::close" href="qusbtransfer.html#close" status="active" access="public" location="qusbtransfer.h" filepath="/home/mobyfab/src/QtUsb/src/usb/qusbtransfer.h" lineno="77" virtual="non" meta="plain" const="false" static="false" overload="false" delete="false" default="false" final="false" override="false" type="void" brief="Close the transfer" signature="void close()"/>
+            <function threadsafety="unspecified" name="error" fullname="QUsbTransfer::error" href="qusbtransfer.html#error" status="active" access="public" location="qusbtransfer.h" filepath="/home/mobyfab/src/QtUsb/src/usb/qusbtransfer.h" lineno="106" virtual="non" meta="signal" const="false" static="false" overload="false" delete="false" default="false" final="false" override="false" type="void" brief="Emits a signal on any transfer error" signature="void error(Status error)">
+                <parameter left="Status" right="" name="error" default=""/>
+            </function>
+            <function threadsafety="unspecified" name="setPolling" fullname="QUsbTransfer::setPolling" href="qusbtransfer.html#setPolling" status="active" access="public" location="qusbtransfer.h" filepath="/home/mobyfab/src/QtUsb/src/usb/qusbtransfer.h" lineno="98" virtual="non" meta="plain" const="false" static="false" overload="false" delete="false" default="false" final="false" override="false" associated-property="polling" type="void" brief="Enable or disable automating polling" signature="void setPolling(bool enable)">
+                <parameter left="bool" right="" name="enable" default=""/>
+            </function>
+            <function threadsafety="unspecified" name="~QUsbTransfer" fullname="QUsbTransfer::~QUsbTransfer" href="qusbtransfer.html#dtor.QUsbTransfer" status="active" access="public" location="qusbtransfer.h" filepath="/home/mobyfab/src/QtUsb/src/usb/qusbtransfer.h" lineno="74" virtual="non" meta="destructor" const="false" static="false" overload="false" delete="false" default="false" final="false" override="false" type="" brief="Will cancel all transfers on exit" signature="~QUsbTransfer()"/>
+            <function threadsafety="unspecified" name="endpointIn" fullname="QUsbTransfer::endpointIn" href="qusbtransfer.html#endpointIn" status="active" access="public" location="qusbtransfer.h" filepath="/home/mobyfab/src/QtUsb/src/usb/qusbtransfer.h" lineno="80" virtual="non" meta="plain" const="true" static="false" overload="false" delete="false" default="false" final="false" override="false" associated-property="endpointIn" type="QUsbDevice::Endpoint" brief="Returns the transfer IN endpoint" signature="QUsbDevice::Endpoint endpointIn() const"/>
+            <function threadsafety="unspecified" name="endpointOut" fullname="QUsbTransfer::endpointOut" href="qusbtransfer.html#endpointOut" status="active" access="public" location="qusbtransfer.h" filepath="/home/mobyfab/src/QtUsb/src/usb/qusbtransfer.h" lineno="81" virtual="non" meta="plain" const="true" static="false" overload="false" delete="false" default="false" final="false" override="false" associated-property="endpointOut" type="QUsbDevice::Endpoint" brief="Returns the transfer OUT endpoint" signature="QUsbDevice::Endpoint endpointOut() const"/>
+            <function threadsafety="unspecified" name="status" fullname="QUsbTransfer::status" href="qusbtransfer.html#status" status="active" access="public" location="qusbtransfer.h" filepath="/home/mobyfab/src/QtUsb/src/usb/qusbtransfer.h" lineno="84" virtual="non" meta="plain" const="true" static="false" overload="false" delete="false" default="false" final="false" override="false" type="Status" brief="Get the transfer status" signature="Status status() const"/>
+            <function threadsafety="unspecified" name="type" fullname="QUsbTransfer::type" href="qusbtransfer.html#type" status="active" access="public" location="qusbtransfer.h" filepath="/home/mobyfab/src/QtUsb/src/usb/qusbtransfer.h" lineno="78" virtual="non" meta="plain" const="true" static="false" overload="false" delete="false" default="false" final="false" override="false" associated-property="type" type="Type" brief="Returns the transfer type" signature="Type type() const"/>
+            <function threadsafety="unspecified" name="isSequential" fullname="QUsbTransfer::isSequential" href="qusbtransfer.html#isSequential" status="active" access="public" location="qusbtransfer.h" filepath="/home/mobyfab/src/QtUsb/src/usb/qusbtransfer.h" lineno="83" virtual="non" meta="plain" const="true" static="false" overload="false" delete="false" default="false" final="false" override="false" type="bool" brief="Always returns true" signature="bool isSequential() const"/>
+            <function threadsafety="unspecified" name="bytesAvailable" fullname="QUsbTransfer::bytesAvailable" href="qusbtransfer.html#bytesAvailable" status="active" access="public" location="qusbtransfer.h" filepath="/home/mobyfab/src/QtUsb/src/usb/qusbtransfer.h" lineno="86" virtual="non" meta="plain" const="true" static="false" overload="false" delete="false" default="false" final="false" override="false" type="qint64" brief="Bytes available to read" signature="qint64 bytesAvailable() const"/>
+            <function threadsafety="unspecified" name="bytesToWrite" fullname="QUsbTransfer::bytesToWrite" href="qusbtransfer.html#bytesToWrite" status="active" access="public" location="qusbtransfer.h" filepath="/home/mobyfab/src/QtUsb/src/usb/qusbtransfer.h" lineno="87" virtual="non" meta="plain" const="true" static="false" overload="false" delete="false" default="false" final="false" override="false" type="qint64" brief="Bytes left to write" signature="qint64 bytesToWrite() const"/>
+            <function threadsafety="unspecified" name="makeControlPacket" fullname="QUsbTransfer::makeControlPacket" href="qusbtransfer.html#makeControlPacket" status="active" access="public" location="qusbtransfer.h" filepath="/home/mobyfab/src/QtUsb/src/usb/qusbtransfer.h" lineno="91" virtual="non" meta="plain" const="true" static="false" overload="false" delete="false" default="false" final="false" override="false" type="void" brief="Create a control packet using buffer, bmRequestType, bRequest, wValue, bRequest, wIndex, wLength" signature="void makeControlPacket(char *buffer, QUsbTransfer::bmRequestType bmRequestType, QUsbTransfer::bRequest bRequest, quint16 wValue, quint16 wIndex, quint16 wLength) const">
+                <parameter left="char *" right="" name="buffer" default=""/>
+                <parameter left="QUsbTransfer::bmRequestType" right="" name="bmRequestType" default=""/>
+                <parameter left="QUsbTransfer::bRequest" right="" name="bRequest" default=""/>
+                <parameter left="quint16" right="" name="wValue" default=""/>
+                <parameter left="quint16" right="" name="wIndex" default=""/>
+                <parameter left="quint16" right="" name="wLength" default=""/>
+            </function>
+            <property threadsafety="unspecified" name="endpointIn" fullname="QUsbTransfer::endpointIn" href="qusbtransfer.html#endpointIn-prop" status="active" access="public" location="qusbtransfer.h" filepath="/home/mobyfab/src/QtUsb/src/usb/qusbtransfer.h" lineno="66" type="QUsbDevice::Endpoint" brief="IN endpoint">
+                <getter name="endpointIn"/>
+            </property>
+            <property threadsafety="unspecified" name="endpointOut" fullname="QUsbTransfer::endpointOut" href="qusbtransfer.html#endpointOut-prop" status="active" access="public" location="qusbtransfer.h" filepath="/home/mobyfab/src/QtUsb/src/usb/qusbtransfer.h" lineno="67" type="QUsbDevice::Endpoint" brief="OUT endpoint">
+                <getter name="endpointOut"/>
+            </property>
+            <property threadsafety="unspecified" name="polling" fullname="QUsbTransfer::polling" href="qusbtransfer.html#polling-prop" status="active" access="public" location="qusbtransfer.h" filepath="/home/mobyfab/src/QtUsb/src/usb/qusbtransfer.h" lineno="68" type="bool" brief="Status">
+                <getter name="polling"/>
+                <setter name="setPolling"/>
+            </property>
+            <property threadsafety="unspecified" name="type" fullname="QUsbTransfer::type" href="qusbtransfer.html#type-prop" status="active" access="public" location="qusbtransfer.h" filepath="/home/mobyfab/src/QtUsb/src/usb/qusbtransfer.h" lineno="65" type="Type" brief="Transfer type">
+                <getter name="type"/>
+            </property>
+        </class>
+        <class threadsafety="unspecified" name="QUsbTransferPrivate" href="qusbtransferprivate.html" status="internal" access="private" location="qusbtransfer_p.h" filepath="/home/mobyfab/src/QtUsb/src/usb/qusbtransfer_p.h" lineno="16">
+            <function threadsafety="unspecified" name="logLevel" fullname="QUsbTransferPrivate::logLevel" href="qusbtransferprivate.html#logLevel" status="active" access="public" location="qusbtransfer_p.h" filepath="/home/mobyfab/src/QtUsb/src/usb/qusbtransfer_p.h" lineno="38" virtual="non" meta="plain" const="false" static="false" overload="false" delete="false" default="false" final="false" override="false" type="QUsbDevice::LogLevel" signature="QUsbDevice::LogLevel logLevel()"/>
+            <function threadsafety="unspecified" name="QUsbTransferPrivate" fullname="QUsbTransferPrivate::QUsbTransferPrivate" href="qusbtransferprivate.html#QUsbTransferPrivate" status="active" access="public" location="qusbtransfer_p.h" filepath="/home/mobyfab/src/QtUsb/src/usb/qusbtransfer_p.h" lineno="21" virtual="non" meta="constructor" const="false" static="false" overload="false" delete="false" default="false" final="false" override="false" type="" signature="QUsbTransferPrivate()"/>
+            <function threadsafety="unspecified" name="isValid" fullname="QUsbTransferPrivate::isValid" href="qusbtransferprivate.html#isValid" status="active" access="public" location="qusbtransfer_p.h" filepath="/home/mobyfab/src/QtUsb/src/usb/qusbtransfer_p.h" lineno="27" virtual="non" meta="plain" const="false" static="false" overload="false" delete="false" default="false" final="false" override="false" type="bool" signature="bool isValid()"/>
+            <function threadsafety="unspecified" name="polling" fullname="QUsbTransferPrivate::polling" href="qusbtransferprivate.html#polling" status="active" access="public" location="qusbtransfer_p.h" filepath="/home/mobyfab/src/QtUsb/src/usb/qusbtransfer_p.h" lineno="36" virtual="non" meta="plain" const="false" static="false" overload="false" delete="false" default="false" final="false" override="false" type="bool" signature="bool polling()"/>
+            <function threadsafety="unspecified" name="prepareTransfer" fullname="QUsbTransferPrivate::prepareTransfer" href="qusbtransferprivate.html#prepareTransfer" status="active" access="public" location="qusbtransfer_p.h" filepath="/home/mobyfab/src/QtUsb/src/usb/qusbtransfer_p.h" lineno="29" virtual="non" meta="plain" const="false" static="false" overload="false" delete="false" default="false" final="false" override="false" type="bool" signature="bool prepareTransfer(libusb_transfer **tr, libusb_transfer_cb_fn cb, char *data, qint64 size, QUsbDevice::Endpoint ep)">
+                <parameter left="libusb_transfer **" right="" name="tr" default=""/>
+                <parameter left="libusb_transfer_cb_fn" right="" name="cb" default=""/>
+                <parameter left="char *" right="" name="data" default=""/>
+                <parameter left="qint64" right="" name="size" default=""/>
+                <parameter left="QUsbDevice::Endpoint" right="" name="ep" default=""/>
+            </function>
+            <function threadsafety="unspecified" name="readUsb" fullname="QUsbTransferPrivate::readUsb" href="qusbtransferprivate.html#readUsb" status="active" access="public" location="qusbtransfer_p.h" filepath="/home/mobyfab/src/QtUsb/src/usb/qusbtransfer_p.h" lineno="32" virtual="non" meta="plain" const="false" static="false" overload="false" delete="false" default="false" final="false" override="false" type="int" signature="int readUsb(qint64 maxSize)">
+                <parameter left="qint64" right="" name="maxSize" default=""/>
+            </function>
+            <function threadsafety="unspecified" name="writeUsb" fullname="QUsbTransferPrivate::writeUsb" href="qusbtransferprivate.html#writeUsb" status="active" access="public" location="qusbtransfer_p.h" filepath="/home/mobyfab/src/QtUsb/src/usb/qusbtransfer_p.h" lineno="33" virtual="non" meta="plain" const="false" static="false" overload="false" delete="false" default="false" final="false" override="false" type="int" signature="int writeUsb(const char *data, qint64 maxSize)">
+                <parameter left="const char *" right="" name="data" default=""/>
+                <parameter left="qint64" right="" name="maxSize" default=""/>
+            </function>
+            <function threadsafety="unspecified" name="bytesWritten" fullname="QUsbTransferPrivate::bytesWritten" href="qusbtransferprivate.html#bytesWritten" status="active" access="public" location="qusbtransfer_p.h" filepath="/home/mobyfab/src/QtUsb/src/usb/qusbtransfer_p.h" lineno="24" virtual="non" meta="plain" const="false" static="false" overload="false" delete="false" default="false" final="false" override="false" type="void" signature="void bytesWritten(qint64 bytes)">
+                <parameter left="qint64" right="" name="bytes" default=""/>
+            </function>
+            <function threadsafety="unspecified" name="error" fullname="QUsbTransferPrivate::error" href="qusbtransferprivate.html#error" status="active" access="public" location="qusbtransfer_p.h" filepath="/home/mobyfab/src/QtUsb/src/usb/qusbtransfer_p.h" lineno="25" virtual="non" meta="plain" const="false" static="false" overload="false" delete="false" default="false" final="false" override="false" type="void" signature="void error(QUsbTransfer::Status error)">
+                <parameter left="QUsbTransfer::Status" right="" name="error" default=""/>
+            </function>
+            <function threadsafety="unspecified" name="readyRead" fullname="QUsbTransferPrivate::readyRead" href="qusbtransferprivate.html#readyRead" status="active" access="public" location="qusbtransfer_p.h" filepath="/home/mobyfab/src/QtUsb/src/usb/qusbtransfer_p.h" lineno="23" virtual="non" meta="plain" const="false" static="false" overload="false" delete="false" default="false" final="false" override="false" type="void" signature="void readyRead()"/>
+            <function threadsafety="unspecified" name="setPolling" fullname="QUsbTransferPrivate::setPolling" href="qusbtransferprivate.html#setPolling" status="active" access="public" location="qusbtransfer_p.h" filepath="/home/mobyfab/src/QtUsb/src/usb/qusbtransfer_p.h" lineno="35" virtual="non" meta="plain" const="false" static="false" overload="false" delete="false" default="false" final="false" override="false" type="void" signature="void setPolling(bool enable)">
+                <parameter left="bool" right="" name="enable" default=""/>
+            </function>
+            <function threadsafety="unspecified" name="setStatus" fullname="QUsbTransferPrivate::setStatus" href="qusbtransferprivate.html#setStatus" status="active" access="public" location="qusbtransfer_p.h" filepath="/home/mobyfab/src/QtUsb/src/usb/qusbtransfer_p.h" lineno="26" virtual="non" meta="plain" const="false" static="false" overload="false" delete="false" default="false" final="false" override="false" type="void" signature="void setStatus(QUsbTransfer::Status status)">
+                <parameter left="QUsbTransfer::Status" right="" name="status" default=""/>
+            </function>
+            <function threadsafety="unspecified" name="stopTransfer" fullname="QUsbTransferPrivate::stopTransfer" href="qusbtransferprivate.html#stopTransfer" status="active" access="public" location="qusbtransfer_p.h" filepath="/home/mobyfab/src/QtUsb/src/usb/qusbtransfer_p.h" lineno="30" virtual="non" meta="plain" const="false" static="false" overload="false" delete="false" default="false" final="false" override="false" type="void" signature="void stopTransfer()"/>
+            <variable threadsafety="unspecified" name="m_poll" fullname="QUsbTransferPrivate::m_poll" href="qusbtransferprivate.html#m_poll-var" status="active" access="public" location="qusbtransfer_p.h" filepath="/home/mobyfab/src/QtUsb/src/usb/qusbtransfer_p.h" lineno="40" type="bool" static="false"/>
+            <variable threadsafety="unspecified" name="m_poll_size" fullname="QUsbTransferPrivate::m_poll_size" href="qusbtransferprivate.html#m_poll_size-var" status="active" access="public" location="qusbtransfer_p.h" filepath="/home/mobyfab/src/QtUsb/src/usb/qusbtransfer_p.h" lineno="41" type="int" static="false"/>
+        </class>
+        <group name="modules" href="modules.html" status="internal" seen="false" title="" members="QtUsb"/>
+        <group name="qtusb-examples" href="qtusb-examples.html" status="active" location="qtusb-examples.qdoc" filepath="/home/mobyfab/src/QtUsb/src/usb/doc/src/qtusb-examples.qdoc" lineno="28" seen="true" title="Qt Usb Examples" module="QtUsb" brief="List of usb examples">
+            <contents name="running-the-examples" title="Running the Examples" level="1"/>
+        </group>
+        <group name="usb-main" href="usb-main.html" status="internal" seen="false" title="" members="QUsbDevice,Config,Id,QUsbInfo,QUsbTransfer"/>
+        <module name="QtUsb" href="qtusb-module.html" status="active" location="qtusb-module.qdoc" filepath="/home/mobyfab/src/QtUsb/src/usb/doc/src/qtusb-module.qdoc" lineno="28" seen="true" title="Qt Usb C++ Classes" module="QtUsb" groups="modules" members="QUsbDevice,Config,Id,QUsbInfo,QUsbTransfer" brief="List of C++ classes that enable access to usb devices"/>
+    </namespace>
+</INDEX>

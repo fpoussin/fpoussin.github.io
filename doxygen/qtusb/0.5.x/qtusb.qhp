@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QtHelpProject version="1.0">
+    <namespace>org.qt-project.qtusb.050</namespace>
+    <virtualFolder>qtusb</virtualFolder>
+    <customFilter name="QtUsb 0.5.0">
+        <filterAttribute>0.5.0</filterAttribute>
+        <filterAttribute>qtusb</filterAttribute>
+    </customFilter>
+    <filterSection>
+        <filterAttribute>0.5.0</filterAttribute>
+        <filterAttribute>qtrefdoc</filterAttribute>
+        <filterAttribute>qtusb</filterAttribute>
+        <toc>
+            <section ref="qtusb-index.html" title="Qt Usb">
+                <section ref="qtusb-module.html" title="C++ Classes">
+                    <section ref="qusbdevice.html" title="QUsbDevice Class Reference">
+                        <section ref="qusbdevice-members.html" title="List of all members"/>
+                    </section>
+                    <section ref="qusbdevice-config.html" title="QUsbDevice::Config Class Reference">
+                        <section ref="qusbdevice-config-members.html" title="List of all members"/>
+                    </section>
+                    <section ref="qusbdevice-id.html" title="QUsbDevice::Id Class Reference">
+                        <section ref="qusbdevice-id-members.html" title="List of all members"/>
+                    </section>
+                    <section ref="qusbinfo.html" title="QUsbInfo Class Reference">
+                        <section ref="qusbinfo-members.html" title="List of all members"/>
+                    </section>
+                    <section ref="qusbtransfer.html" title="QUsbTransfer Class Reference">
+                        <section ref="qusbtransfer-members.html" title="List of all members"/>
+                    </section>
+                </section>
+                <section ref="qtusb-examples.html" title="Examples"/>
+            </section>
+        </toc>
+        <keywords>
+            <keyword name="Config" id="QUsbDevice::Config" ref="qusbdevice-config.html"/>
+            <keyword name="DefaultTimeout" id="QUsbDevice::DefaultTimeout" ref="qusbdevice.html#DefaultTimeout-var"/>
+            <keyword name="Id" id="QUsbDevice::Id" ref="qusbdevice-id.html"/>
+            <keyword name="QUsbDevice" id="QUsbDevice" ref="qusbdevice.html"/>
+            <keyword name="QUsbDevice::ConfigList" id="QUsbDevice::ConfigList" ref="qusbdevice.html#ConfigList-typedef"/>
+            <keyword name="QUsbDevice::DeviceSpeed" id="QUsbDevice::DeviceSpeed" ref="qusbdevice.html#DeviceSpeed-enum"/>
+            <keyword name="QUsbDevice::DeviceStatus" id="QUsbDevice::DeviceStatus" ref="qusbdevice.html#DeviceStatus-enum"/>
+            <keyword name="QUsbDevice::Endpoint" id="QUsbDevice::Endpoint" ref="qusbdevice.html#Endpoint-typedef"/>
+            <keyword name="QUsbDevice::IdList" id="QUsbDevice::IdList" ref="qusbdevice.html#IdList-typedef"/>
+            <keyword name="QUsbDevice::LogLevel" id="QUsbDevice::LogLevel" ref="qusbdevice.html#LogLevel-enum"/>
+            <keyword name="QUsbDevice::StatusUnknownError" id="QUsbDevice::StatusUnknownError" ref="qusbdevice.html#DeviceStatus-enum"/>
+            <keyword name="QUsbDevice::fullSpeed" id="QUsbDevice::fullSpeed" ref="qusbdevice.html#DeviceSpeed-enum"/>
+            <keyword name="QUsbDevice::highSpeed" id="QUsbDevice::highSpeed" ref="qusbdevice.html#DeviceSpeed-enum"/>
+            <keyword name="QUsbDevice::logDebug" id="QUsbDevice::logDebug" ref="qusbdevice.html#LogLevel-enum"/>
+            <keyword name="QUsbDevice::logDebugAll" id="QUsbDevice::logDebugAll" ref="qusbdevice.html#LogLevel-enum"/>
+            <keyword name="QUsbDevice::logError" id="QUsbDevice::logError" ref="qusbdevice.html#LogLevel-enum"/>
+            <keyword name="QUsbDevice::logInfo" id="QUsbDevice::logInfo" ref="qusbdevice.html#LogLevel-enum"/>
+            <keyword name="QUsbDevice::logNone" id="QUsbDevice::logNone" ref="qusbdevice.html#LogLevel-enum"/>
+            <keyword name="QUsbDevice::logWarning" id="QUsbDevice::logWarning" ref="qusbdevice.html#LogLevel-enum"/>
+            <keyword name="QUsbDevice::lowSpeed" id="QUsbDevice::lowSpeed" ref="qusbdevice.html#DeviceSpeed-enum"/>
+            <keyword name="QUsbDevice::statusAccessDenied" id="QUsbDevice::statusAccessDenied" ref="qusbdevice.html#DeviceStatus-enum"/>
+            <keyword name="QUsbDevice::statusBusy" id="QUsbDevice::statusBusy" ref="qusbdevice.html#DeviceStatus-enum"/>
+            <keyword name="QUsbDevice::statusInterrupted" id="QUsbDevice::statusInterrupted" ref="qusbdevice.html#DeviceStatus-enum"/>
+            <keyword name="QUsbDevice::statusInvalidParam" id="QUsbDevice::statusInvalidParam" ref="qusbdevice.html#DeviceStatus-enum"/>
+            <keyword name="QUsbDevice::statusIoError" id="QUsbDevice::statusIoError" ref="qusbdevice.html#DeviceStatus-enum"/>
+            <keyword name="QUsbDevice::statusNoMemory" id="QUsbDevice::statusNoMemory" ref="qusbdevice.html#DeviceStatus-enum"/>
+            <keyword name="QUsbDevice::statusNoSuchDevice" id="QUsbDevice::statusNoSuchDevice" ref="qusbdevice.html#DeviceStatus-enum"/>
+            <keyword name="QUsbDevice::statusNotFound" id="QUsbDevice::statusNotFound" ref="qusbdevice.html#DeviceStatus-enum"/>
+            <keyword name="QUsbDevice::statusNotSupported" id="QUsbDevice::statusNotSupported" ref="qusbdevice.html#DeviceStatus-enum"/>
+            <keyword name="QUsbDevice::statusOK" id="QUsbDevice::statusOK" ref="qusbdevice.html#DeviceStatus-enum"/>
+            <keyword name="QUsbDevice::statusOverflow" id="QUsbDevice::statusOverflow" ref="qusbdevice.html#DeviceStatus-enum"/>
+            <keyword name="QUsbDevice::statusPipeError" id="QUsbDevice::statusPipeError" ref="qusbdevice.html#DeviceStatus-enum"/>
+            <keyword name="QUsbDevice::statusTimeout" id="QUsbDevice::statusTimeout" ref="qusbdevice.html#DeviceStatus-enum"/>
+            <keyword name="QUsbDevice::superSpeed" id="QUsbDevice::superSpeed" ref="qusbdevice.html#DeviceSpeed-enum"/>
+            <keyword name="QUsbDevice::superSpeedPlus" id="QUsbDevice::superSpeedPlus" ref="qusbdevice.html#DeviceSpeed-enum"/>
+            <keyword name="QUsbDevice::unknownSpeed" id="QUsbDevice::unknownSpeed" ref="qusbdevice.html#DeviceSpeed-enum"/>
+            <keyword name="QUsbInfo" id="QUsbInfo" ref="qusbinfo.html"/>
+            <keyword name="QUsbTransfer" id="QUsbTransfer" ref="qusbtransfer.html"/>
+            <keyword name="QUsbTransfer::Status" id="QUsbTransfer::Status" ref="qusbtransfer.html#Status-enum"/>
+            <keyword name="QUsbTransfer::Type" id="QUsbTransfer::Type" ref="qusbtransfer.html#Type-enum"/>
+            <keyword name="QUsbTransfer::bRequest" id="QUsbTransfer::bRequest" ref="qusbtransfer.html#bRequest-enum"/>
+            <keyword name="QUsbTransfer::bmRequestType" id="QUsbTransfer::bmRequestType" ref="qusbtransfer.html#bmRequestType-enum"/>
+            <keyword name="QUsbTransfer::bulkTransfer" id="QUsbTransfer::bulkTransfer" ref="qusbtransfer.html#Type-enum"/>
+            <keyword name="QUsbTransfer::controlTransfer" id="QUsbTransfer::controlTransfer" ref="qusbtransfer.html#Type-enum"/>
+            <keyword name="QUsbTransfer::interruptTransfer" id="QUsbTransfer::interruptTransfer" ref="qusbtransfer.html#Type-enum"/>
+            <keyword name="QUsbTransfer::isochronousTransfer" id="QUsbTransfer::isochronousTransfer" ref="qusbtransfer.html#Type-enum"/>
+            <keyword name="QUsbTransfer::recipientDevice" id="QUsbTransfer::recipientDevice" ref="qusbtransfer.html#bmRequestType-enum"/>
+            <keyword name="QUsbTransfer::recipientEndpoint" id="QUsbTransfer::recipientEndpoint" ref="qusbtransfer.html#bmRequestType-enum"/>
+            <keyword name="QUsbTransfer::recipientInterface" id="QUsbTransfer::recipientInterface" ref="qusbtransfer.html#bmRequestType-enum"/>
+            <keyword name="QUsbTransfer::recipientOther" id="QUsbTransfer::recipientOther" ref="qusbtransfer.html#bmRequestType-enum"/>
+            <keyword name="QUsbTransfer::requestClass" id="QUsbTransfer::requestClass" ref="qusbtransfer.html#bmRequestType-enum"/>
+            <keyword name="QUsbTransfer::requestClearFeature" id="QUsbTransfer::requestClearFeature" ref="qusbtransfer.html#bRequest-enum"/>
+            <keyword name="QUsbTransfer::requestGetConfiguration" id="QUsbTransfer::requestGetConfiguration" ref="qusbtransfer.html#bRequest-enum"/>
+            <keyword name="QUsbTransfer::requestGetDescriptor" id="QUsbTransfer::requestGetDescriptor" ref="qusbtransfer.html#bRequest-enum"/>
+            <keyword name="QUsbTransfer::requestGetInterface" id="QUsbTransfer::requestGetInterface" ref="qusbtransfer.html#bRequest-enum"/>
+            <keyword name="QUsbTransfer::requestGetStatus" id="QUsbTransfer::requestGetStatus" ref="qusbtransfer.html#bRequest-enum"/>
+            <keyword name="QUsbTransfer::requestIsochDelay" id="QUsbTransfer::requestIsochDelay" ref="qusbtransfer.html#bRequest-enum"/>
+            <keyword name="QUsbTransfer::requestReserved" id="QUsbTransfer::requestReserved" ref="qusbtransfer.html#bmRequestType-enum"/>
+            <keyword name="QUsbTransfer::requestSetAddress" id="QUsbTransfer::requestSetAddress" ref="qusbtransfer.html#bRequest-enum"/>
+            <keyword name="QUsbTransfer::requestSetConfiguration" id="QUsbTransfer::requestSetConfiguration" ref="qusbtransfer.html#bRequest-enum"/>
+            <keyword name="QUsbTransfer::requestSetDescriptor" id="QUsbTransfer::requestSetDescriptor" ref="qusbtransfer.html#bRequest-enum"/>
+            <keyword name="QUsbTransfer::requestSetFeature" id="QUsbTransfer::requestSetFeature" ref="qusbtransfer.html#bRequest-enum"/>
+            <keyword name="QUsbTransfer::requestSetInterface" id="QUsbTransfer::requestSetInterface" ref="qusbtransfer.html#bRequest-enum"/>
+            <keyword name="QUsbTransfer::requestSetSel" id="QUsbTransfer::requestSetSel" ref="qusbtransfer.html#bRequest-enum"/>
+            <keyword name="QUsbTransfer::requestStandard" id="QUsbTransfer::requestStandard" ref="qusbtransfer.html#bmRequestType-enum"/>
+            <keyword name="QUsbTransfer::requestSynchFrame" id="QUsbTransfer::requestSynchFrame" ref="qusbtransfer.html#bRequest-enum"/>
+            <keyword name="QUsbTransfer::requestVendor" id="QUsbTransfer::requestVendor" ref="qusbtransfer.html#bmRequestType-enum"/>
+            <keyword name="QUsbTransfer::streamTransfer" id="QUsbTransfer::streamTransfer" ref="qusbtransfer.html#Type-enum"/>
+            <keyword name="QUsbTransfer::transferCanceled" id="QUsbTransfer::transferCanceled" ref="qusbtransfer.html#Status-enum"/>
+            <keyword name="QUsbTransfer::transferCompleted" id="QUsbTransfer::transferCompleted" ref="qusbtransfer.html#Status-enum"/>
+            <keyword name="QUsbTransfer::transferError" id="QUsbTransfer::transferError" ref="qusbtransfer.html#Status-enum"/>
+            <keyword name="QUsbTransfer::transferNoDevice" id="QUsbTransfer::transferNoDevice" ref="qusbtransfer.html#Status-enum"/>
+            <keyword name="QUsbTransfer::transferOverflow" id="QUsbTransfer::transferOverflow" ref="qusbtransfer.html#Status-enum"/>
+            <keyword name="QUsbTransfer::transferStall" id="QUsbTransfer::transferStall" ref="qusbtransfer.html#Status-enum"/>
+            <keyword name="QUsbTransfer::transferTimeout" id="QUsbTransfer::transferTimeout" ref="qusbtransfer.html#Status-enum"/>
+            <keyword name="Qt Usb" id="Qt Usb" ref="qtusb-index.html"/>
+            <keyword name="QtUsb" id="QtUsb" ref="qtusb-module.html"/>
+            <keyword name="addDevice" id="QUsbInfo::addDevice" ref="qusbinfo.html#addDevice"/>
+            <keyword name="alternate" id="Config::alternate" ref="qusbdevice-config.html#alternate-var"/>
+            <keyword name="bytesAvailable" id="QUsbTransfer::bytesAvailable" ref="qusbtransfer.html#bytesAvailable"/>
+            <keyword name="bytesToWrite" id="QUsbTransfer::bytesToWrite" ref="qusbtransfer.html#bytesToWrite"/>
+            <keyword name="cancelTransfer" id="QUsbTransfer::cancelTransfer" ref="qusbtransfer.html#cancelTransfer"/>
+            <keyword name="checkDevices" id="QUsbInfo::checkDevices" ref="qusbinfo.html#checkDevices"/>
+            <keyword name="close" id="QUsbDevice::close" ref="qusbdevice.html#close"/>
+            <keyword name="close" id="QUsbTransfer::close" ref="qusbtransfer.html#close"/>
+            <keyword name="config" id="Config::config" ref="qusbdevice-config.html#config-var"/>
+            <keyword name="config" id="QUsbDevice::config" ref="qusbdevice.html#config"/>
+            <keyword name="config" id="QUsbDevice::config" ref="qusbdevice.html#config-prop"/>
+            <keyword name="deviceInserted" id="QUsbInfo::deviceInserted" ref="qusbinfo.html#deviceInserted"/>
+            <keyword name="deviceRemoved" id="QUsbInfo::deviceRemoved" ref="qusbinfo.html#deviceRemoved"/>
+            <keyword name="devices" id="QUsbDevice::devices" ref="qusbdevice.html#devices"/>
+            <keyword name="endpointIn" id="QUsbTransfer::endpointIn" ref="qusbtransfer.html#endpointIn"/>
+            <keyword name="endpointIn" id="QUsbTransfer::endpointIn" ref="qusbtransfer.html#endpointIn-prop"/>
+            <keyword name="endpointOut" id="QUsbTransfer::endpointOut" ref="qusbtransfer.html#endpointOut"/>
+            <keyword name="endpointOut" id="QUsbTransfer::endpointOut" ref="qusbtransfer.html#endpointOut-prop"/>
+            <keyword name="error" id="QUsbTransfer::error" ref="qusbtransfer.html#error"/>
+            <keyword name="findDevice" id="QUsbInfo::findDevice" ref="qusbinfo.html#findDevice"/>
+            <keyword name="getPresentDevices" id="QUsbInfo::getPresentDevices" ref="qusbinfo.html#getPresentDevices"/>
+            <keyword name="id" id="QUsbDevice::id" ref="qusbdevice.html#id"/>
+            <keyword name="id" id="QUsbDevice::id" ref="qusbdevice.html#id-prop"/>
+            <keyword name="interface" id="Config::interface" ref="qusbdevice-config.html#interface-var"/>
+            <keyword name="isConnected" id="QUsbDevice::isConnected" ref="qusbdevice.html#isConnected"/>
+            <keyword name="isPresent" id="QUsbInfo::isPresent" ref="qusbinfo.html#isPresent"/>
+            <keyword name="isSequential" id="QUsbTransfer::isSequential" ref="qusbtransfer.html#isSequential"/>
+            <keyword name="logLevel" id="QUsbDevice::logLevel" ref="qusbdevice.html#logLevel"/>
+            <keyword name="logLevel" id="QUsbDevice::logLevel" ref="qusbdevice.html#logLevel-prop"/>
+            <keyword name="logLevel" id="QUsbInfo::logLevel" ref="qusbinfo.html#logLevel"/>
+            <keyword name="logLevel" id="QUsbInfo::logLevel" ref="qusbinfo.html#logLevel-prop"/>
+            <keyword name="m_log_level" id="QUsbInfo::m_log_level" ref="qusbinfo.html#m_log_level-var"/>
+            <keyword name="makeControlPacket" id="QUsbTransfer::makeControlPacket" ref="qusbtransfer.html#makeControlPacket"/>
+            <keyword name="monitorDevices" id="QUsbInfo::monitorDevices" ref="qusbinfo.html#monitorDevices"/>
+            <keyword name="open" id="QUsbDevice::open" ref="qusbdevice.html#open"/>
+            <keyword name="open" id="QUsbTransfer::open" ref="qusbtransfer.html#open"/>
+            <keyword name="operator=" id="Config::operator=" ref="qusbdevice-config.html#operator-eq"/>
+            <keyword name="operator=" id="Id::operator=" ref="qusbdevice-id.html#operator-eq"/>
+            <keyword name="operator==" id="Config::operator==" ref="qusbdevice-config.html#operator-eq-eq"/>
+            <keyword name="operator==" id="Id::operator==" ref="qusbdevice-id.html#operator-eq-eq"/>
+            <keyword name="pid" id="Id::pid" ref="qusbdevice-id.html#pid-var"/>
+            <keyword name="pid" id="QUsbDevice::pid" ref="qusbdevice.html#pid"/>
+            <keyword name="pid" id="QUsbDevice::pid" ref="qusbdevice.html#pid-prop"/>
+            <keyword name="poll" id="QUsbTransfer::poll" ref="qusbtransfer.html#poll"/>
+            <keyword name="polling" id="QUsbTransfer::polling" ref="qusbtransfer.html#polling"/>
+            <keyword name="polling" id="QUsbTransfer::polling" ref="qusbtransfer.html#polling-prop"/>
+            <keyword name="qtusb-examples" id="qtusb-examples" ref="qtusb-examples.html"/>
+            <keyword name="readData" id="QUsbTransfer::readData" ref="qusbtransfer.html#readData"/>
+            <keyword name="removeDevice" id="QUsbInfo::removeDevice" ref="qusbinfo.html#removeDevice"/>
+            <keyword name="setConfig" id="QUsbDevice::setConfig" ref="qusbdevice.html#config-prop"/>
+            <keyword name="setId" id="QUsbDevice::setId" ref="qusbdevice.html#id-prop"/>
+            <keyword name="setLogLevel" id="QUsbDevice::setLogLevel" ref="qusbdevice.html#setLogLevel"/>
+            <keyword name="setLogLevel" id="QUsbInfo::setLogLevel" ref="qusbinfo.html#setLogLevel"/>
+            <keyword name="setPolling" id="QUsbTransfer::setPolling" ref="qusbtransfer.html#setPolling"/>
+            <keyword name="setTimeout" id="QUsbDevice::setTimeout" ref="qusbdevice.html#setTimeout"/>
+            <keyword name="speed" id="QUsbDevice::speed" ref="qusbdevice.html#speed"/>
+            <keyword name="speed" id="QUsbDevice::speed" ref="qusbdevice.html#speed-prop"/>
+            <keyword name="speedString" id="QUsbDevice::speedString" ref="qusbdevice.html#speedString"/>
+            <keyword name="status" id="QUsbTransfer::status" ref="qusbtransfer.html#status"/>
+            <keyword name="timeout" id="QUsbDevice::timeout" ref="qusbdevice.html#timeout"/>
+            <keyword name="timeout" id="QUsbDevice::timeout" ref="qusbdevice.html#timeout-prop"/>
+            <keyword name="type" id="QUsbTransfer::type" ref="qusbtransfer.html#type"/>
+            <keyword name="type" id="QUsbTransfer::type" ref="qusbtransfer.html#type-prop"/>
+            <keyword name="vid" id="Id::vid" ref="qusbdevice-id.html#vid-var"/>
+            <keyword name="vid" id="QUsbDevice::vid" ref="qusbdevice.html#vid"/>
+            <keyword name="vid" id="QUsbDevice::vid" ref="qusbdevice.html#vid-prop"/>
+            <keyword name="waitForBytesWritten" id="QUsbTransfer::waitForBytesWritten" ref="qusbtransfer.html#waitForBytesWritten"/>
+            <keyword name="waitForReadyRead" id="QUsbTransfer::waitForReadyRead" ref="qusbtransfer.html#waitForReadyRead"/>
+            <keyword name="writeData" id="QUsbTransfer::writeData" ref="qusbtransfer.html#writeData"/>
+            <keyword name="~QUsbDevice" id="QUsbDevice::~QUsbDevice" ref="qusbdevice.html#dtor.QUsbDevice"/>
+            <keyword name="~QUsbInfo" id="QUsbInfo::~QUsbInfo" ref="qusbinfo.html#dtor.QUsbInfo"/>
+            <keyword name="~QUsbTransfer" id="QUsbTransfer::~QUsbTransfer" ref="qusbtransfer.html#dtor.QUsbTransfer"/>
+        </keywords>
+        <files>
+            <file>images/arrow_bc.png</file>
+            <file>images/bgrContent.png</file>
+            <file>images/btn_next.png</file>
+            <file>images/btn_prev.png</file>
+            <file>images/bullet_dn.png</file>
+            <file>images/bullet_sq.png</file>
+            <file>images/home.png</file>
+            <file>images/ico_note.png</file>
+            <file>images/ico_note_attention.png</file>
+            <file>images/ico_out.png</file>
+            <file>images/logo.png</file>
+            <file>qtusb-examples.html</file>
+            <file>qtusb-index.html</file>
+            <file>qtusb-module.html</file>
+            <file>qusbdevice-config-members.html</file>
+            <file>qusbdevice-config.html</file>
+            <file>qusbdevice-id-members.html</file>
+            <file>qusbdevice-id.html</file>
+            <file>qusbdevice-members.html</file>
+            <file>qusbdevice.html</file>
+            <file>qusbinfo-members.html</file>
+            <file>qusbinfo.html</file>
+            <file>qusbtransfer-members.html</file>
+            <file>qusbtransfer.html</file>
+            <file>style/offline-simple.css</file>
+            <file>style/offline.css</file>
+        </files>
+    </filterSection>
+</QtHelpProject>
