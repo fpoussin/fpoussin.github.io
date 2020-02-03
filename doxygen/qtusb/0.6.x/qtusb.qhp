@@ -14,6 +14,9 @@
         <toc>
             <section ref="index.html" title="Qt Usb">
                 <section ref="qtusb-module.html" title="C++ Classes">
+                    <section ref="qhiddevice.html" title="QHidDevice Class Reference">
+                        <section ref="qhiddevice-members.html" title="List of all members"/>
+                    </section>
                     <section ref="qusbdevice.html" title="QUsbDevice Class Reference">
                         <section ref="qusbdevice-members.html" title="List of all members"/>
                     </section>
@@ -36,6 +39,7 @@
         <keywords>
             <keyword name="Config" id="QUsbDevice::Config" ref="qusbdevice-config.html"/>
             <keyword name="Id" id="QUsbDevice::Id" ref="qusbdevice-id.html"/>
+            <keyword name="QHidDevice" id="QHidDevice" ref="qhiddevice.html"/>
             <keyword name="QUsbDevice" id="QUsbDevice" ref="qusbdevice.html"/>
             <keyword name="QUsbDevice::ConfigList" id="QUsbDevice::ConfigList" ref="qusbdevice.html#ConfigList-typedef"/>
             <keyword name="QUsbDevice::DeviceSpeed" id="QUsbDevice::DeviceSpeed" ref="qusbdevice.html#DeviceSpeed-enum"/>
@@ -116,6 +120,7 @@
             <keyword name="bytesToWrite" id="QUsbEndpoint::bytesToWrite" ref="qusbendpoint.html#bytesToWrite"/>
             <keyword name="cancelTransfer" id="QUsbEndpoint::cancelTransfer" ref="qusbendpoint.html#cancelTransfer"/>
             <keyword name="checkDevices" id="QUsbInfo::checkDevices" ref="qusbinfo.html#checkDevices"/>
+            <keyword name="close" id="QHidDevice::close" ref="qhiddevice.html#close"/>
             <keyword name="close" id="QUsbDevice::close" ref="qusbdevice.html#close"/>
             <keyword name="close" id="QUsbEndpoint::close" ref="qusbendpoint.html#close"/>
             <keyword name="config" id="Config::config" ref="qusbdevice-config.html#config-var"/>
@@ -133,6 +138,7 @@
             <keyword name="id" id="QUsbDevice::id" ref="qusbdevice.html#id-prop"/>
             <keyword name="interface" id="Config::interface" ref="qusbdevice-config.html#interface-var"/>
             <keyword name="isConnected" id="QUsbDevice::isConnected" ref="qusbdevice.html#isConnected"/>
+            <keyword name="isOpen" id="QHidDevice::isOpen" ref="qhiddevice.html#isOpen"/>
             <keyword name="isPresent" id="QUsbInfo::isPresent" ref="qusbinfo.html#isPresent"/>
             <keyword name="isSequential" id="QUsbEndpoint::isSequential" ref="qusbendpoint.html#isSequential"/>
             <keyword name="logLevel" id="QUsbDevice::logLevel" ref="qusbdevice.html#logLevel"/>
@@ -140,7 +146,9 @@
             <keyword name="logLevel" id="QUsbInfo::logLevel" ref="qusbinfo.html#logLevel"/>
             <keyword name="logLevel" id="QUsbInfo::logLevel" ref="qusbinfo.html#logLevel-prop"/>
             <keyword name="makeControlPacket" id="QUsbEndpoint::makeControlPacket" ref="qusbendpoint.html#makeControlPacket"/>
+            <keyword name="manufacturer" id="QHidDevice::manufacturer" ref="qhiddevice.html#manufacturer"/>
             <keyword name="monitorDevices" id="QUsbInfo::monitorDevices" ref="qusbinfo.html#monitorDevices"/>
+            <keyword name="open" id="QHidDevice::open" ref="qhiddevice.html#open"/>
             <keyword name="open" id="QUsbDevice::open" ref="qusbdevice.html#open"/>
             <keyword name="open" id="QUsbEndpoint::open" ref="qusbendpoint.html#open"/>
             <keyword name="operator=" id="Id::operator=" ref="qusbdevice-id.html#operator-eq"/>
@@ -153,8 +161,11 @@
             <keyword name="polling" id="QUsbEndpoint::polling" ref="qusbendpoint.html#polling"/>
             <keyword name="polling" id="QUsbEndpoint::polling" ref="qusbendpoint.html#polling-prop"/>
             <keyword name="port" id="Id::port" ref="qusbdevice-id.html#port-var"/>
+            <keyword name="product" id="QHidDevice::product" ref="qhiddevice.html#product"/>
+            <keyword name="read" id="QHidDevice::read" ref="qhiddevice.html#read"/>
             <keyword name="readData" id="QUsbEndpoint::readData" ref="qusbendpoint.html#readData"/>
             <keyword name="removeDevice" id="QUsbInfo::removeDevice" ref="qusbinfo.html#removeDevice"/>
+            <keyword name="serialNumber" id="QHidDevice::serialNumber" ref="qhiddevice.html#serialNumber"/>
             <keyword name="setConfig" id="QUsbDevice::setConfig" ref="qusbdevice.html#setConfig"/>
             <keyword name="setId" id="QUsbDevice::setId" ref="qusbdevice.html#setId"/>
             <keyword name="setLogLevel" id="QUsbDevice::setLogLevel" ref="qusbdevice.html#setLogLevel"/>
@@ -176,6 +187,7 @@
             <keyword name="vid" id="QUsbDevice::vid" ref="qusbdevice.html#vid-prop"/>
             <keyword name="waitForBytesWritten" id="QUsbEndpoint::waitForBytesWritten" ref="qusbendpoint.html#waitForBytesWritten"/>
             <keyword name="waitForReadyRead" id="QUsbEndpoint::waitForReadyRead" ref="qusbendpoint.html#waitForReadyRead"/>
+            <keyword name="write" id="QHidDevice::write" ref="qhiddevice.html#write"/>
             <keyword name="writeData" id="QUsbEndpoint::writeData" ref="qusbendpoint.html#writeData"/>
             <keyword name="~QUsbDevice" id="QUsbDevice::~QUsbDevice" ref="qusbdevice.html#dtor.QUsbDevice"/>
             <keyword name="~QUsbEndpoint" id="QUsbEndpoint::~QUsbEndpoint" ref="qusbendpoint.html#dtor.QUsbEndpoint"/>
@@ -193,6 +205,8 @@
             <file>images/ico_note_attention.png</file>
             <file>images/ico_out.png</file>
             <file>images/logo.png</file>
+            <file>qhiddevice-members.html</file>
+            <file>qhiddevice.html</file>
             <file>qtusb-examples.html</file>
             <file>qtusb-module.html</file>
             <file>qusbdevice-config-members.html</file>
