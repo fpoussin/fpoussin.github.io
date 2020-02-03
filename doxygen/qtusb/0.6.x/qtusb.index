@@ -38,57 +38,6 @@
         <function name="qt_getEnumName" status="internal" access="private" location="usb\qusbendpoint.h" filepath="C:/projects/qtusb/src/usb\qusbendpoint.h" lineno="62" meta="plain" virtual="non" const="false" static="false" final="false" override="false" overload="true" overload-number="5" type="const char *" signature="const char * qt_getEnumName(QUsbEndpoint::bRequest )">
             <parameter type="QUsbEndpoint::bRequest" name="" default=""/>
         </function>
-        <class threadsafety="reentrant" name="QHidDevice" href="qhiddevice.html" status="active" access="public" location="usb\qhiddevice.h" filepath="C:/projects/qtusb/src/usb\qhiddevice.h" lineno="11" documented="true" bases="QObject" module="QtUsb" groups="usb-main" brief="This class handles all HID operations">
-            <function name="QHidDevice" fullname="QHidDevice::QHidDevice" href="qhiddevice.html#QHidDevice" status="internal" access="private" location="usb\qhiddevice.h" filepath="C:/projects/qtusb/src/usb\qhiddevice.h" lineno="17" meta="constructor" virtual="non" const="false" static="false" final="false" override="false" type="" signature="QHidDevice(QObject *parent)">
-                <parameter type="QObject *" name="parent" default="Q_NULLPTR"/>
-            </function>
-            <function name="QHidDevice" fullname="QHidDevice::QHidDevice" href="qhiddevice.html#QHidDevice-1" status="internal" access="private" location="usb\qhiddevice.h" filepath="C:/projects/qtusb/src/usb\qhiddevice.h" lineno="33" meta="constructor" virtual="non" const="false" static="false" final="false" override="false" overload="true" overload-number="1" type="" signature="QHidDevice(const QHidDevice &amp;)">
-                <parameter type="const QHidDevice &amp;" name="" default=""/>
-            </function>
-            <function name="close" fullname="QHidDevice::close" href="qhiddevice.html#close" status="active" access="public" location="usb\qhiddevice.h" filepath="C:/projects/qtusb/src/usb\qhiddevice.h" lineno="20" documented="true" meta="plain" virtual="non" const="false" static="false" final="false" override="false" type="void" brief="Close the device" signature="void close()"/>
-            <function name="d_func" fullname="QHidDevice::d_func" href="qhiddevice.html#d_func" status="internal" access="private" location="usb\qhiddevice.h" filepath="C:/projects/qtusb/src/usb\qhiddevice.h" lineno="14" meta="plain" virtual="non" const="false" static="false" final="false" override="false" type="QHidDevicePrivate *" signature="QHidDevicePrivate * d_func()"/>
-            <function name="d_func" fullname="QHidDevice::d_func" href="qhiddevice.html#d_func-1" status="internal" access="private" location="usb\qhiddevice.h" filepath="C:/projects/qtusb/src/usb\qhiddevice.h" lineno="14" meta="plain" virtual="non" const="true" static="false" final="false" override="false" overload="true" overload-number="1" type="const QHidDevicePrivate *" signature="const QHidDevicePrivate * d_func() const"/>
-            <function name="isOpen" fullname="QHidDevice::isOpen" href="qhiddevice.html#isOpen" status="active" access="public" location="usb\qhiddevice.h" filepath="C:/projects/qtusb/src/usb\qhiddevice.h" lineno="22" documented="true" meta="plain" virtual="non" const="true" static="false" final="false" override="false" type="bool" brief="Returns true if device is open" signature="bool isOpen() const"/>
-            <function name="manufacturer" fullname="QHidDevice::manufacturer" href="qhiddevice.html#manufacturer" status="active" access="public" location="usb\qhiddevice.h" filepath="C:/projects/qtusb/src/usb\qhiddevice.h" lineno="28" documented="true" meta="plain" virtual="non" const="false" static="false" final="false" override="false" type="QString" brief="Returns the manufacturer string" signature="QString manufacturer()"/>
-            <function name="metaObject" fullname="QHidDevice::metaObject" href="qhiddevice.html#metaObject" status="internal" access="private" location="usb\qhiddevice.h" filepath="C:/projects/qtusb/src/usb\qhiddevice.h" lineno="13" meta="plain" virtual="virtual" const="true" static="false" final="false" override="true" type="const QMetaObject *" signature="const QMetaObject * metaObject() const override"/>
-            <function name="open" fullname="QHidDevice::open" href="qhiddevice.html#open" status="active" access="public" location="usb\qhiddevice.h" filepath="C:/projects/qtusb/src/usb\qhiddevice.h" lineno="19" documented="true" meta="plain" virtual="non" const="false" static="false" final="false" override="false" type="bool" brief="Opens the HID device, using vid Vendor ID, pid Product ID, and an optional serial number. Returns true on sucess" signature="bool open(quint16 vid, quint16 pid, const QString *serial)">
-                <parameter type="quint16" name="vid" default=""/>
-                <parameter type="quint16" name="pid" default=""/>
-                <parameter type="const QString *" name="serial" default="Q_NULLPTR"/>
-            </function>
-            <function name="operator=" fullname="QHidDevice::operator=" href="qhiddevice.html#operator-eq" status="internal" access="private" location="usb\qhiddevice.h" filepath="C:/projects/qtusb/src/usb\qhiddevice.h" lineno="33" meta="copy-assign" virtual="non" const="false" static="false" final="false" override="false" type="QHidDevice &amp;" signature="QHidDevice &amp; operator=(const QHidDevice &amp;)">
-                <parameter type="const QHidDevice &amp;" name="" default=""/>
-            </function>
-            <function name="product" fullname="QHidDevice::product" href="qhiddevice.html#product" status="active" access="public" location="usb\qhiddevice.h" filepath="C:/projects/qtusb/src/usb\qhiddevice.h" lineno="29" documented="true" meta="plain" virtual="non" const="false" static="false" final="false" override="false" type="QString" brief="Returns the product string" signature="QString product()"/>
-            <function name="qt_metacall" fullname="QHidDevice::qt_metacall" href="qhiddevice.html#qt_metacall" status="internal" access="private" location="usb\qhiddevice.h" filepath="C:/projects/qtusb/src/usb\qhiddevice.h" lineno="13" meta="plain" virtual="virtual" const="false" static="false" final="false" override="true" type="int" signature="int qt_metacall(QMetaObject::Call , int , void **) override">
-                <parameter type="QMetaObject::Call" name="" default=""/>
-                <parameter type="int" name="" default=""/>
-                <parameter type="void **" name="" default=""/>
-            </function>
-            <function name="qt_metacast" fullname="QHidDevice::qt_metacast" href="qhiddevice.html#qt_metacast" status="internal" access="private" location="usb\qhiddevice.h" filepath="C:/projects/qtusb/src/usb\qhiddevice.h" lineno="13" meta="plain" virtual="virtual" const="false" static="false" final="false" override="true" type="void *" signature="void * qt_metacast(const char *) override">
-                <parameter type="const char *" name="" default=""/>
-            </function>
-            <function name="qt_static_metacall" fullname="QHidDevice::qt_static_metacall" href="qhiddevice.html#qt_static_metacall" status="internal" access="private" location="usb\qhiddevice.h" filepath="C:/projects/qtusb/src/usb\qhiddevice.h" lineno="13" meta="plain" virtual="non" const="false" static="true" final="false" override="false" type="void" signature="void qt_static_metacall(QObject *, QMetaObject::Call , int , void **)">
-                <parameter type="QObject *" name="" default=""/>
-                <parameter type="QMetaObject::Call" name="" default=""/>
-                <parameter type="int" name="" default=""/>
-                <parameter type="void **" name="" default=""/>
-            </function>
-            <function name="read" fullname="QHidDevice::read" href="qhiddevice.html#read" status="active" access="public" location="usb\qhiddevice.h" filepath="C:/projects/qtusb/src/usb\qhiddevice.h" lineno="25" documented="true" meta="plain" virtual="non" const="false" static="false" final="false" override="false" type="qint32" brief="Read from device to data" signature="qint32 read(QByteArray *data, int len, int timeout)">
-                <parameter type="QByteArray *" name="data" default=""/>
-                <parameter type="int" name="len" default="-1"/>
-                <parameter type="int" name="timeout" default="-1"/>
-            </function>
-            <function name="serialNumber" fullname="QHidDevice::serialNumber" href="qhiddevice.html#serialNumber" status="active" access="public" location="usb\qhiddevice.h" filepath="C:/projects/qtusb/src/usb\qhiddevice.h" lineno="27" documented="true" meta="plain" virtual="non" const="false" static="false" final="false" override="false" type="QString" brief="Returns the serial number string" signature="QString serialNumber()"/>
-            <function name="write" fullname="QHidDevice::write" href="qhiddevice.html#write" status="active" access="public" location="usb\qhiddevice.h" filepath="C:/projects/qtusb/src/usb\qhiddevice.h" lineno="24" documented="true" meta="plain" virtual="non" const="false" static="false" final="false" override="false" type="qint32" brief="Write data to device" signature="qint32 write(const QByteArray *data, int len)">
-                <parameter type="const QByteArray *" name="data" default=""/>
-                <parameter type="int" name="len" default="-1"/>
-            </function>
-            <function name="~QHidDevice" fullname="QHidDevice::~QHidDevice" href="qhiddevice.html#dtor.QHidDevice" status="internal" access="private" location="usb\qhiddevice.h" filepath="C:/projects/qtusb/src/usb\qhiddevice.h" lineno="18" meta="destructor" virtual="virtual" const="false" static="false" final="false" override="false" type="" signature="~QHidDevice()"/>
-            <struct name="QPrivateSignal" fullname="QHidDevice::QPrivateSignal" href="qhiddevice-qprivatesignal.html" status="internal" access="private" location="usb\qhiddevice.h" filepath="C:/projects/qtusb/src/usb\qhiddevice.h" lineno="13"/>
-            <variable name="staticMetaObject" fullname="QHidDevice::staticMetaObject" href="qhiddevice.html#staticMetaObject-var" status="internal" access="private" location="usb\qhiddevice.h" filepath="C:/projects/qtusb/src/usb\qhiddevice.h" lineno="13" type="const QMetaObject" static="true"/>
-            <variable name="d_dummy" fullname="QHidDevice::d_dummy" href="qhiddevice.html#d_dummy-var" status="internal" access="private" location="usb\qhiddevice.h" filepath="C:/projects/qtusb/src/usb\qhiddevice.h" lineno="32" type="QHidDevicePrivate *const" static="false"/>
-        </class>
         <class threadsafety="reentrant" name="QUsbDevice" href="qusbdevice.html" status="active" access="public" location="usb\qusbdevice.h" filepath="C:/projects/qtusb/src/usb\qusbdevice.h" lineno="15" documented="true" bases="QObject" module="QtUsb" groups="usb-main" brief="This class handles opening and configuring the device">
             <function name="QUsbDevice" fullname="QUsbDevice::QUsbDevice" href="qusbdevice.html#QUsbDevice" status="internal" access="private" location="usb\qusbdevice.h" filepath="C:/projects/qtusb/src/usb\qusbdevice.h" lineno="106" meta="constructor" virtual="non" const="false" static="false" final="false" override="false" type="" signature="QUsbDevice(QObject *parent)">
                 <parameter type="QObject *" name="parent" default="Q_NULLPTR"/>
@@ -152,24 +101,15 @@
             <function name="timeout" fullname="QUsbDevice::timeout" href="qusbdevice.html#timeout" status="active" access="public" location="usb\qusbdevice.h" filepath="C:/projects/qtusb/src/usb\qusbdevice.h" lineno="118" documented="true" meta="plain" virtual="non" const="true" static="false" final="false" override="false" associated-property="timeout" type="quint16" brief="Return the timeout" signature="quint16 timeout() const"/>
             <function name="vid" fullname="QUsbDevice::vid" href="qusbdevice.html#vid" status="active" access="public" location="usb\qusbdevice.h" filepath="C:/projects/qtusb/src/usb\qusbdevice.h" lineno="117" documented="true" meta="plain" virtual="non" const="true" static="false" final="false" override="false" associated-property="vid" type="quint16" brief="Return the device vid. (Vendor id)" signature="quint16 vid() const"/>
             <function name="~QUsbDevice" fullname="QUsbDevice::~QUsbDevice" href="qusbdevice.html#dtor.QUsbDevice" status="active" access="public" location="usb\qusbdevice.h" filepath="C:/projects/qtusb/src/usb\qusbdevice.h" lineno="107" documented="true" meta="destructor" virtual="virtual" const="false" static="false" final="false" override="false" type="" brief="Destructor" signature="~QUsbDevice()"/>
-            <property name="id" fullname="QUsbDevice::id" href="qusbdevice.html#id-prop" status="active" access="public" location="usb\qusbdevice.h" filepath="C:/projects/qtusb/src/usb\qusbdevice.h" lineno="97" type="Id">
-                <getter name="id"/>
-                <setter name="setId"/>
-            </property>
             <property name="logLevel" fullname="QUsbDevice::logLevel" href="qusbdevice.html#logLevel-prop" status="active" access="public" location="usb\qusbdevice.h" filepath="C:/projects/qtusb/src/usb\qusbdevice.h" lineno="96" type="LogLevel">
                 <getter name="logLevel"/>
                 <setter name="setLogLevel"/>
             </property>
+            <property name="id" fullname="QUsbDevice::id" href="qusbdevice.html#id-prop" status="active" access="public" location="usb\qusbdevice.h" filepath="C:/projects/qtusb/src/usb\qusbdevice.h" lineno="97" type="Id">
+                <getter name="id"/>
+                <setter name="setId"/>
+            </property>
             <variable name="d_dummy" fullname="QUsbDevice::d_dummy" href="qusbdevice.html#d_dummy-var" status="internal" access="private" location="usb\qusbdevice.h" filepath="C:/projects/qtusb/src/usb\qusbdevice.h" lineno="138" type="QUsbDevicePrivate *const" static="false"/>
-            <enum name="LogLevel" fullname="QUsbDevice::LogLevel" href="qusbdevice.html#LogLevel-enum" status="active" access="public" location="usb\qusbdevice.h" filepath="C:/projects/qtusb/src/usb\qusbdevice.h" lineno="25" documented="true">
-                <value name="logNone" value="0"/>
-                <value name="logError" value="1"/>
-                <value name="logWarning" value="2"/>
-                <value name="logInfo" value="3"/>
-                <value name="logDebug" value="4"/>
-                <value name="logDebugAll" value="5"/>
-            </enum>
-            <variable name="DefaultTimeout" fullname="QUsbDevice::DefaultTimeout" href="qusbdevice.html#DefaultTimeout-var" status="internal" access="private" location="usb\qusbdevice.h" filepath="C:/projects/qtusb/src/usb\qusbdevice.h" lineno="23" type="const quint16" static="true"/>
             <enum name="Bus" fullname="QUsbDevice::Bus" href="qusbdevice.html#Bus-enum" status="internal" access="private" location="usb\qusbdevice.h" filepath="C:/projects/qtusb/src/usb\qusbdevice.h" lineno="34">
                 <value name="busAny" value="255"/>
             </enum>
@@ -201,6 +141,15 @@
                 <value name="statusUnknownError" value="-99"/>
             </enum>
             <variable name="staticMetaObject" fullname="QUsbDevice::staticMetaObject" href="qusbdevice.html#staticMetaObject-var" status="internal" access="private" location="usb\qusbdevice.h" filepath="C:/projects/qtusb/src/usb\qusbdevice.h" lineno="16" type="const QMetaObject" static="true"/>
+            <variable name="DefaultTimeout" fullname="QUsbDevice::DefaultTimeout" href="qusbdevice.html#DefaultTimeout-var" status="internal" access="private" location="usb\qusbdevice.h" filepath="C:/projects/qtusb/src/usb\qusbdevice.h" lineno="23" type="const quint16" static="true"/>
+            <enum name="LogLevel" fullname="QUsbDevice::LogLevel" href="qusbdevice.html#LogLevel-enum" status="active" access="public" location="usb\qusbdevice.h" filepath="C:/projects/qtusb/src/usb\qusbdevice.h" lineno="25" documented="true">
+                <value name="logNone" value="0"/>
+                <value name="logError" value="1"/>
+                <value name="logWarning" value="2"/>
+                <value name="logInfo" value="3"/>
+                <value name="logDebug" value="4"/>
+                <value name="logDebugAll" value="5"/>
+            </enum>
             <class name="Config" fullname="QUsbDevice::Config" href="qusbdevice-config.html" status="active" access="public" location="usb\qusbdevice.h" filepath="C:/projects/qtusb/src/usb\qusbdevice.h" lineno="42" documented="true" module="QtUsb" groups="usb-main" brief="Device configuration structure">
                 <function name="operator=" fullname="QUsbDevice::Config::operator=" href="qusbdevice-config.html#operator-eq" status="internal" access="private" location="usb\qusbdevice.h" filepath="C:/projects/qtusb/src/usb\qusbdevice.h" lineno="49" meta="copy-assign" virtual="non" const="false" static="false" final="false" override="false" type="Config &amp;" signature="Config &amp; operator=(const Config &amp;other)">
                     <parameter type="const Config &amp;" name="other" default=""/>
@@ -209,18 +158,9 @@
                     <parameter type="const Config &amp;" name="other" default=""/>
                 </function>
                 <variable name="config" fullname="QUsbDevice::Config::config" href="qusbdevice-config.html#config-var" status="active" access="public" location="usb\qusbdevice.h" filepath="C:/projects/qtusb/src/usb\qusbdevice.h" lineno="44" documented="true" type="quint8" static="false" brief="Configuration ID"/>
-                <variable name="alternate" fullname="QUsbDevice::Config::alternate" href="qusbdevice-config.html#alternate-var" status="active" access="public" location="usb\qusbdevice.h" filepath="C:/projects/qtusb/src/usb\qusbdevice.h" lineno="46" documented="true" type="quint8" static="false" brief="ID"/>
                 <variable name="interface" fullname="QUsbDevice::Config::interface" href="qusbdevice-config.html#interface-var" status="active" access="public" location="usb\qusbdevice.h" filepath="C:/projects/qtusb/src/usb\qusbdevice.h" lineno="45" documented="true" type="quint8" static="false" brief="ID"/>
+                <variable name="alternate" fullname="QUsbDevice::Config::alternate" href="qusbdevice-config.html#alternate-var" status="active" access="public" location="usb\qusbdevice.h" filepath="C:/projects/qtusb/src/usb\qusbdevice.h" lineno="46" documented="true" type="quint8" static="false" brief="ID"/>
             </class>
-            <typedef name="IdList" fullname="QUsbDevice::IdList" href="qusbdevice.html#IdList-typedef" status="active" access="public" location="usb\qusbdevice.h" filepath="C:/projects/qtusb/src/usb\qusbdevice.h" lineno="65" documented="true"/>
-            <typedef name="ConfigList" fullname="QUsbDevice::ConfigList" href="qusbdevice.html#ConfigList-typedef" status="active" access="public" location="usb\qusbdevice.h" filepath="C:/projects/qtusb/src/usb\qusbdevice.h" lineno="66" documented="true"/>
-            <variable name="m_spd" fullname="QUsbDevice::m_spd" href="qusbdevice.html#m_spd-var" status="internal" access="private" location="usb\qusbdevice.h" filepath="C:/projects/qtusb/src/usb\qusbdevice.h" lineno="146" type="QUsbDevice::DeviceSpeed" static="false"/>
-            <variable name="m_connected" fullname="QUsbDevice::m_connected" href="qusbdevice.html#m_connected-var" status="internal" access="private" location="usb\qusbdevice.h" filepath="C:/projects/qtusb/src/usb\qusbdevice.h" lineno="143" type="bool" static="false"/>
-            <variable name="m_log_level" fullname="QUsbDevice::m_log_level" href="qusbdevice.html#m_log_level-var" status="internal" access="private" location="usb\qusbdevice.h" filepath="C:/projects/qtusb/src/usb\qusbdevice.h" lineno="142" type="QUsbDevice::LogLevel" static="false"/>
-            <variable name="m_id" fullname="QUsbDevice::m_id" href="qusbdevice.html#m_id-var" status="internal" access="private" location="usb\qusbdevice.h" filepath="C:/projects/qtusb/src/usb\qusbdevice.h" lineno="144" type="QUsbDevice::Id" static="false"/>
-            <variable name="m_timeout" fullname="QUsbDevice::m_timeout" href="qusbdevice.html#m_timeout-var" status="internal" access="private" location="usb\qusbdevice.h" filepath="C:/projects/qtusb/src/usb\qusbdevice.h" lineno="141" type="quint16" static="false"/>
-            <variable name="m_config" fullname="QUsbDevice::m_config" href="qusbdevice.html#m_config-var" status="internal" access="private" location="usb\qusbdevice.h" filepath="C:/projects/qtusb/src/usb\qusbdevice.h" lineno="145" type="QUsbDevice::Config" static="false"/>
-            <variable name="m_status" fullname="QUsbDevice::m_status" href="qusbdevice.html#m_status-var" status="internal" access="private" location="usb\qusbdevice.h" filepath="C:/projects/qtusb/src/usb\qusbdevice.h" lineno="147" type="QUsbDevice::DeviceStatus" static="false"/>
             <class name="Id" fullname="QUsbDevice::Id" href="qusbdevice-id.html" status="active" access="public" location="usb\qusbdevice.h" filepath="C:/projects/qtusb/src/usb\qusbdevice.h" lineno="52" documented="true" module="QtUsb" groups="usb-main" brief="Device Ids structure">
                 <function name="operator=" fullname="QUsbDevice::Id::operator=" href="qusbdevice-id.html#operator-eq" status="active" access="public" location="usb\qusbdevice.h" filepath="C:/projects/qtusb/src/usb\qusbdevice.h" lineno="62" documented="true" meta="copy-assign" virtual="non" const="false" static="false" final="false" override="false" type="Id &amp;" brief="Copy operator" signature="Id &amp; operator=(const Id &amp;other)">
                     <parameter type="const Id &amp;" name="other" default=""/>
@@ -228,23 +168,29 @@
                 <function name="operator==" fullname="QUsbDevice::Id::operator==" href="qusbdevice-id.html#operator-eq-eq" status="active" access="public" location="usb\qusbdevice.h" filepath="C:/projects/qtusb/src/usb\qusbdevice.h" lineno="61" documented="true" meta="plain" virtual="non" const="true" static="false" final="false" override="false" type="bool" brief="Comparision operator" signature="bool operator==(const Id &amp;other) const">
                     <parameter type="const Id &amp;" name="other" default=""/>
                 </function>
-                <variable name="pid" fullname="QUsbDevice::Id::pid" href="qusbdevice-id.html#pid-var" status="active" access="public" location="usb\qusbdevice.h" filepath="C:/projects/qtusb/src/usb\qusbdevice.h" lineno="54" documented="true" type="quint16" static="false" brief="Product ID"/>
                 <variable name="vid" fullname="QUsbDevice::Id::vid" href="qusbdevice-id.html#vid-var" status="active" access="public" location="usb\qusbdevice.h" filepath="C:/projects/qtusb/src/usb\qusbdevice.h" lineno="55" documented="true" type="quint16" static="false" brief="Vendor ID"/>
-                <variable name="dClass" fullname="QUsbDevice::Id::dClass" href="qusbdevice-id.html#dClass-var" status="active" access="public" location="usb\qusbdevice.h" filepath="C:/projects/qtusb/src/usb\qusbdevice.h" lineno="58" documented="true" type="quint8" static="false" brief="USB class"/>
                 <variable name="bus" fullname="QUsbDevice::Id::bus" href="qusbdevice-id.html#bus-var" status="active" access="public" location="usb\qusbdevice.h" filepath="C:/projects/qtusb/src/usb\qusbdevice.h" lineno="56" documented="true" type="quint8" static="false" brief="USB bus number"/>
-                <variable name="dSubClass" fullname="QUsbDevice::Id::dSubClass" href="qusbdevice-id.html#dSubClass-var" status="active" access="public" location="usb\qusbdevice.h" filepath="C:/projects/qtusb/src/usb\qusbdevice.h" lineno="59" documented="true" type="quint8" static="false" brief="USB Sub-class"/>
+                <variable name="dClass" fullname="QUsbDevice::Id::dClass" href="qusbdevice-id.html#dClass-var" status="active" access="public" location="usb\qusbdevice.h" filepath="C:/projects/qtusb/src/usb\qusbdevice.h" lineno="58" documented="true" type="quint8" static="false" brief="USB class"/>
+                <variable name="pid" fullname="QUsbDevice::Id::pid" href="qusbdevice-id.html#pid-var" status="active" access="public" location="usb\qusbdevice.h" filepath="C:/projects/qtusb/src/usb\qusbdevice.h" lineno="54" documented="true" type="quint16" static="false" brief="Product ID"/>
                 <variable name="port" fullname="QUsbDevice::Id::port" href="qusbdevice-id.html#port-var" status="active" access="public" location="usb\qusbdevice.h" filepath="C:/projects/qtusb/src/usb\qusbdevice.h" lineno="57" documented="true" type="quint8" static="false" brief="USB port number"/>
+                <variable name="dSubClass" fullname="QUsbDevice::Id::dSubClass" href="qusbdevice-id.html#dSubClass-var" status="active" access="public" location="usb\qusbdevice.h" filepath="C:/projects/qtusb/src/usb\qusbdevice.h" lineno="59" documented="true" type="quint8" static="false" brief="USB Sub-class"/>
             </class>
             <struct name="QPrivateSignal" fullname="QUsbDevice::QPrivateSignal" href="qusbdevice-qprivatesignal.html" status="internal" access="private" location="usb\qusbdevice.h" filepath="C:/projects/qtusb/src/usb\qusbdevice.h" lineno="16"/>
+            <typedef name="IdList" fullname="QUsbDevice::IdList" href="qusbdevice.html#IdList-typedef" status="active" access="public" location="usb\qusbdevice.h" filepath="C:/projects/qtusb/src/usb\qusbdevice.h" lineno="65" documented="true"/>
+            <typedef name="ConfigList" fullname="QUsbDevice::ConfigList" href="qusbdevice.html#ConfigList-typedef" status="active" access="public" location="usb\qusbdevice.h" filepath="C:/projects/qtusb/src/usb\qusbdevice.h" lineno="66" documented="true"/>
+            <variable name="m_status" fullname="QUsbDevice::m_status" href="qusbdevice.html#m_status-var" status="internal" access="private" location="usb\qusbdevice.h" filepath="C:/projects/qtusb/src/usb\qusbdevice.h" lineno="147" type="QUsbDevice::DeviceStatus" static="false"/>
+            <variable name="m_connected" fullname="QUsbDevice::m_connected" href="qusbdevice.html#m_connected-var" status="internal" access="private" location="usb\qusbdevice.h" filepath="C:/projects/qtusb/src/usb\qusbdevice.h" lineno="143" type="bool" static="false"/>
+            <variable name="m_id" fullname="QUsbDevice::m_id" href="qusbdevice.html#m_id-var" status="internal" access="private" location="usb\qusbdevice.h" filepath="C:/projects/qtusb/src/usb\qusbdevice.h" lineno="144" type="QUsbDevice::Id" static="false"/>
+            <variable name="m_log_level" fullname="QUsbDevice::m_log_level" href="qusbdevice.html#m_log_level-var" status="internal" access="private" location="usb\qusbdevice.h" filepath="C:/projects/qtusb/src/usb\qusbdevice.h" lineno="142" type="QUsbDevice::LogLevel" static="false"/>
+            <variable name="m_timeout" fullname="QUsbDevice::m_timeout" href="qusbdevice.html#m_timeout-var" status="internal" access="private" location="usb\qusbdevice.h" filepath="C:/projects/qtusb/src/usb\qusbdevice.h" lineno="141" type="quint16" static="false"/>
+            <variable name="m_spd" fullname="QUsbDevice::m_spd" href="qusbdevice.html#m_spd-var" status="internal" access="private" location="usb\qusbdevice.h" filepath="C:/projects/qtusb/src/usb\qusbdevice.h" lineno="146" type="QUsbDevice::DeviceSpeed" static="false"/>
+            <variable name="m_config" fullname="QUsbDevice::m_config" href="qusbdevice.html#m_config-var" status="internal" access="private" location="usb\qusbdevice.h" filepath="C:/projects/qtusb/src/usb\qusbdevice.h" lineno="145" type="QUsbDevice::Config" static="false"/>
             <property name="vid" fullname="QUsbDevice::vid" href="qusbdevice.html#vid-prop" status="active" access="public" location="usb\qusbdevice.h" filepath="C:/projects/qtusb/src/usb\qusbdevice.h" lineno="100" type="quint16">
                 <getter name="vid"/>
             </property>
-            <property name="speed" fullname="QUsbDevice::speed" href="qusbdevice.html#speed-prop" status="active" access="public" location="usb\qusbdevice.h" filepath="C:/projects/qtusb/src/usb\qusbdevice.h" lineno="102" type="DeviceSpeed">
-                <getter name="speed"/>
-            </property>
-            <property name="timeout" fullname="QUsbDevice::timeout" href="qusbdevice.html#timeout-prop" status="active" access="public" location="usb\qusbdevice.h" filepath="C:/projects/qtusb/src/usb\qusbdevice.h" lineno="101" type="quint16">
-                <getter name="timeout"/>
-                <setter name="setTimeout"/>
+            <property name="status" fullname="QUsbDevice::status" href="qusbdevice.html#status-prop" status="internal" access="private" location="usb\qusbdevice.h" filepath="C:/projects/qtusb/src/usb\qusbdevice.h" lineno="103" type="DeviceStatus">
+                <getter name="status"/>
+                <notifier name="statusChanged"/>
             </property>
             <property name="config" fullname="QUsbDevice::config" href="qusbdevice.html#config-prop" status="active" access="public" location="usb\qusbdevice.h" filepath="C:/projects/qtusb/src/usb\qusbdevice.h" lineno="98" type="Config">
                 <getter name="config"/>
@@ -257,9 +203,12 @@
                 <getter name="isConnected"/>
                 <notifier name="connectionChanged"/>
             </property>
-            <property name="status" fullname="QUsbDevice::status" href="qusbdevice.html#status-prop" status="internal" access="private" location="usb\qusbdevice.h" filepath="C:/projects/qtusb/src/usb\qusbdevice.h" lineno="103" type="DeviceStatus">
-                <getter name="status"/>
-                <notifier name="statusChanged"/>
+            <property name="timeout" fullname="QUsbDevice::timeout" href="qusbdevice.html#timeout-prop" status="active" access="public" location="usb\qusbdevice.h" filepath="C:/projects/qtusb/src/usb\qusbdevice.h" lineno="101" type="quint16">
+                <getter name="timeout"/>
+                <setter name="setTimeout"/>
+            </property>
+            <property name="speed" fullname="QUsbDevice::speed" href="qusbdevice.html#speed-prop" status="active" access="public" location="usb\qusbdevice.h" filepath="C:/projects/qtusb/src/usb\qusbdevice.h" lineno="102" type="DeviceSpeed">
+                <getter name="speed"/>
             </property>
         </class>
         <struct name="QMetaTypeId" href="qmetatypeid.html" status="internal" access="private" location="usb\qusbdevice.h" filepath="C:/projects/qtusb/src/usb\qusbdevice.h" lineno="150">
@@ -268,72 +217,56 @@
                 <value name="Defined" value="Q_DECLARE_METATYPE(QUsbDevice::Config)"/>
             </enum>
         </struct>
-        <class threadsafety="reentrant" name="QUsbInfo" href="qusbinfo.html" status="active" access="public" location="usb\qusbinfo.h" filepath="C:/projects/qtusb/src/usb\qusbinfo.h" lineno="11" documented="true" bases="QObject" module="QtUsb" groups="usb-main" brief="This class handles hotplug and device detection">
-            <function name="QUsbInfo" fullname="QUsbInfo::QUsbInfo" href="qusbinfo.html#QUsbInfo" status="internal" access="private" location="usb\qusbinfo.h" filepath="C:/projects/qtusb/src/usb\qusbinfo.h" lineno="19" meta="constructor" virtual="non" const="false" static="false" final="false" override="false" type="" signature="QUsbInfo(QObject *parent)">
+        <class threadsafety="reentrant" name="QHidDevice" href="qhiddevice.html" status="active" access="public" location="usb\qhiddevice.h" filepath="C:/projects/qtusb/src/usb\qhiddevice.h" lineno="11" documented="true" bases="QObject" module="QtUsb" groups="usb-main" brief="This class handles all HID operations">
+            <function name="QHidDevice" fullname="QHidDevice::QHidDevice" href="qhiddevice.html#QHidDevice" status="internal" access="private" location="usb\qhiddevice.h" filepath="C:/projects/qtusb/src/usb\qhiddevice.h" lineno="17" meta="constructor" virtual="non" const="false" static="false" final="false" override="false" type="" signature="QHidDevice(QObject *parent)">
                 <parameter type="QObject *" name="parent" default="Q_NULLPTR"/>
             </function>
-            <function name="QUsbInfo" fullname="QUsbInfo::QUsbInfo" href="qusbinfo.html#QUsbInfo-1" status="internal" access="private" location="usb\qusbinfo.h" filepath="C:/projects/qtusb/src/usb\qusbinfo.h" lineno="48" meta="constructor" virtual="non" const="false" static="false" final="false" override="false" overload="true" overload-number="1" type="" signature="QUsbInfo(const QUsbInfo &amp;)">
-                <parameter type="const QUsbInfo &amp;" name="" default=""/>
+            <function name="QHidDevice" fullname="QHidDevice::QHidDevice" href="qhiddevice.html#QHidDevice-1" status="internal" access="private" location="usb\qhiddevice.h" filepath="C:/projects/qtusb/src/usb\qhiddevice.h" lineno="33" meta="constructor" virtual="non" const="false" static="false" final="false" override="false" overload="true" overload-number="1" type="" signature="QHidDevice(const QHidDevice &amp;)">
+                <parameter type="const QHidDevice &amp;" name="" default=""/>
             </function>
-            <function name="addDevice" fullname="QUsbInfo::addDevice" href="qusbinfo.html#addDevice" status="active" access="public" location="usb\qusbinfo.h" filepath="C:/projects/qtusb/src/usb\qusbinfo.h" lineno="34" documented="true" meta="slot" virtual="non" const="false" static="false" final="false" override="false" type="bool" signature="bool addDevice(const QUsbDevice::Id &amp;id)">
-                <parameter type="const QUsbDevice::Id &amp;" name="id" default=""/>
+            <function name="close" fullname="QHidDevice::close" href="qhiddevice.html#close" status="active" access="public" location="usb\qhiddevice.h" filepath="C:/projects/qtusb/src/usb\qhiddevice.h" lineno="20" documented="true" meta="plain" virtual="non" const="false" static="false" final="false" override="false" type="void" brief="Close the device" signature="void close()"/>
+            <function name="d_func" fullname="QHidDevice::d_func" href="qhiddevice.html#d_func" status="internal" access="private" location="usb\qhiddevice.h" filepath="C:/projects/qtusb/src/usb\qhiddevice.h" lineno="14" meta="plain" virtual="non" const="false" static="false" final="false" override="false" type="QHidDevicePrivate *" signature="QHidDevicePrivate * d_func()"/>
+            <function name="d_func" fullname="QHidDevice::d_func" href="qhiddevice.html#d_func-1" status="internal" access="private" location="usb\qhiddevice.h" filepath="C:/projects/qtusb/src/usb\qhiddevice.h" lineno="14" meta="plain" virtual="non" const="true" static="false" final="false" override="false" overload="true" overload-number="1" type="const QHidDevicePrivate *" signature="const QHidDevicePrivate * d_func() const"/>
+            <function name="isOpen" fullname="QHidDevice::isOpen" href="qhiddevice.html#isOpen" status="active" access="public" location="usb\qhiddevice.h" filepath="C:/projects/qtusb/src/usb\qhiddevice.h" lineno="22" documented="true" meta="plain" virtual="non" const="true" static="false" final="false" override="false" type="bool" brief="Returns true if device is open" signature="bool isOpen() const"/>
+            <function name="manufacturer" fullname="QHidDevice::manufacturer" href="qhiddevice.html#manufacturer" status="active" access="public" location="usb\qhiddevice.h" filepath="C:/projects/qtusb/src/usb\qhiddevice.h" lineno="28" documented="true" meta="plain" virtual="non" const="false" static="false" final="false" override="false" type="QString" brief="Returns the manufacturer string" signature="QString manufacturer()"/>
+            <function name="metaObject" fullname="QHidDevice::metaObject" href="qhiddevice.html#metaObject" status="internal" access="private" location="usb\qhiddevice.h" filepath="C:/projects/qtusb/src/usb\qhiddevice.h" lineno="13" meta="plain" virtual="virtual" const="true" static="false" final="false" override="true" type="const QMetaObject *" signature="const QMetaObject * metaObject() const override"/>
+            <function name="open" fullname="QHidDevice::open" href="qhiddevice.html#open" status="active" access="public" location="usb\qhiddevice.h" filepath="C:/projects/qtusb/src/usb\qhiddevice.h" lineno="19" documented="true" meta="plain" virtual="non" const="false" static="false" final="false" override="false" type="bool" brief="Opens the HID device, using vid Vendor ID, pid Product ID, and an optional serial number. Returns true on sucess" signature="bool open(quint16 vid, quint16 pid, const QString *serial)">
+                <parameter type="quint16" name="vid" default=""/>
+                <parameter type="quint16" name="pid" default=""/>
+                <parameter type="const QString *" name="serial" default="Q_NULLPTR"/>
             </function>
-            <function name="checkDevices" fullname="QUsbInfo::checkDevices" href="qusbinfo.html#checkDevices" status="active" access="protected" location="usb\qusbinfo.h" filepath="C:/projects/qtusb/src/usb\qusbinfo.h" lineno="39" documented="true" meta="slot" virtual="non" const="false" static="false" final="false" override="false" type="void" signature="void checkDevices()"/>
-            <function name="d_func" fullname="QUsbInfo::d_func" href="qusbinfo.html#d_func" status="internal" access="private" location="usb\qusbinfo.h" filepath="C:/projects/qtusb/src/usb\qusbinfo.h" lineno="14" meta="plain" virtual="non" const="false" static="false" final="false" override="false" type="QUsbInfoPrivate *" signature="QUsbInfoPrivate * d_func()"/>
-            <function name="d_func" fullname="QUsbInfo::d_func" href="qusbinfo.html#d_func-1" status="internal" access="private" location="usb\qusbinfo.h" filepath="C:/projects/qtusb/src/usb\qusbinfo.h" lineno="14" meta="plain" virtual="non" const="true" static="false" final="false" override="false" overload="true" overload-number="1" type="const QUsbInfoPrivate *" signature="const QUsbInfoPrivate * d_func() const"/>
-            <function name="deviceInserted" fullname="QUsbInfo::deviceInserted" href="qusbinfo.html#deviceInserted" status="internal" access="private" location="usb\qusbinfo.h" filepath="C:/projects/qtusb/src/usb\qusbinfo.h" lineno="30" meta="signal" virtual="non" const="false" static="false" final="false" override="false" type="void" signature="void deviceInserted(QUsbDevice::Id id)">
-                <parameter type="QUsbDevice::Id" name="id" default=""/>
+            <function name="operator=" fullname="QHidDevice::operator=" href="qhiddevice.html#operator-eq" status="internal" access="private" location="usb\qhiddevice.h" filepath="C:/projects/qtusb/src/usb\qhiddevice.h" lineno="33" meta="copy-assign" virtual="non" const="false" static="false" final="false" override="false" type="QHidDevice &amp;" signature="QHidDevice &amp; operator=(const QHidDevice &amp;)">
+                <parameter type="const QHidDevice &amp;" name="" default=""/>
             </function>
-            <function name="deviceRemoved" fullname="QUsbInfo::deviceRemoved" href="qusbinfo.html#deviceRemoved" status="internal" access="private" location="usb\qusbinfo.h" filepath="C:/projects/qtusb/src/usb\qusbinfo.h" lineno="31" meta="signal" virtual="non" const="false" static="false" final="false" override="false" type="void" signature="void deviceRemoved(QUsbDevice::Id id)">
-                <parameter type="QUsbDevice::Id" name="id" default=""/>
-            </function>
-            <function name="findDevice" fullname="QUsbInfo::findDevice" href="qusbinfo.html#findDevice" status="active" access="public" location="usb\qusbinfo.h" filepath="C:/projects/qtusb/src/usb\qusbinfo.h" lineno="24" documented="true" meta="plain" virtual="non" const="true" static="false" final="false" override="false" type="int" signature="int findDevice(const QUsbDevice::Id &amp;id, const QUsbDevice::IdList &amp;list) const">
-                <parameter type="const QUsbDevice::Id &amp;" name="id" default=""/>
-                <parameter type="const QUsbDevice::IdList &amp;" name="list" default=""/>
-            </function>
-            <function name="getPresentDevices" fullname="QUsbInfo::getPresentDevices" href="qusbinfo.html#getPresentDevices" status="active" access="public" location="usb\qusbinfo.h" filepath="C:/projects/qtusb/src/usb\qusbinfo.h" lineno="22" documented="true" meta="plain" virtual="non" const="true" static="false" final="false" override="false" type="QUsbDevice::IdList" signature="QUsbDevice::IdList getPresentDevices() const"/>
-            <function name="isPresent" fullname="QUsbInfo::isPresent" href="qusbinfo.html#isPresent" status="active" access="public" location="usb\qusbinfo.h" filepath="C:/projects/qtusb/src/usb\qusbinfo.h" lineno="23" documented="true" meta="plain" virtual="non" const="true" static="false" final="false" override="false" type="bool" signature="bool isPresent(const QUsbDevice::Id &amp;id) const">
-                <parameter type="const QUsbDevice::Id &amp;" name="id" default=""/>
-            </function>
-            <function name="logLevel" fullname="QUsbInfo::logLevel" href="qusbinfo.html#logLevel" status="active" access="public" location="usb\qusbinfo.h" filepath="C:/projects/qtusb/src/usb\qusbinfo.h" lineno="27" documented="true" meta="plain" virtual="non" const="true" static="false" final="false" override="false" associated-property="logLevel" type="QUsbDevice::LogLevel" signature="QUsbDevice::LogLevel logLevel() const"/>
-            <function name="metaObject" fullname="QUsbInfo::metaObject" href="qusbinfo.html#metaObject" status="internal" access="private" location="usb\qusbinfo.h" filepath="C:/projects/qtusb/src/usb\qusbinfo.h" lineno="13" meta="plain" virtual="virtual" const="true" static="false" final="false" override="true" type="const QMetaObject *" signature="const QMetaObject * metaObject() const override"/>
-            <function name="monitorDevices" fullname="QUsbInfo::monitorDevices" href="qusbinfo.html#monitorDevices" status="active" access="protected" location="usb\qusbinfo.h" filepath="C:/projects/qtusb/src/usb\qusbinfo.h" lineno="38" documented="true" meta="slot" virtual="non" const="false" static="false" final="false" override="false" type="void" signature="void monitorDevices(const QUsbDevice::IdList &amp;list)">
-                <parameter type="const QUsbDevice::IdList &amp;" name="list" default=""/>
-            </function>
-            <function name="operator=" fullname="QUsbInfo::operator=" href="qusbinfo.html#operator-eq" status="internal" access="private" location="usb\qusbinfo.h" filepath="C:/projects/qtusb/src/usb\qusbinfo.h" lineno="48" meta="copy-assign" virtual="non" const="false" static="false" final="false" override="false" type="QUsbInfo &amp;" signature="QUsbInfo &amp; operator=(const QUsbInfo &amp;)">
-                <parameter type="const QUsbInfo &amp;" name="" default=""/>
-            </function>
-            <function name="qt_metacall" fullname="QUsbInfo::qt_metacall" href="qusbinfo.html#qt_metacall" status="internal" access="private" location="usb\qusbinfo.h" filepath="C:/projects/qtusb/src/usb\qusbinfo.h" lineno="13" meta="plain" virtual="virtual" const="false" static="false" final="false" override="true" type="int" signature="int qt_metacall(QMetaObject::Call , int , void **) override">
+            <function name="product" fullname="QHidDevice::product" href="qhiddevice.html#product" status="active" access="public" location="usb\qhiddevice.h" filepath="C:/projects/qtusb/src/usb\qhiddevice.h" lineno="29" documented="true" meta="plain" virtual="non" const="false" static="false" final="false" override="false" type="QString" brief="Returns the product string" signature="QString product()"/>
+            <function name="qt_metacall" fullname="QHidDevice::qt_metacall" href="qhiddevice.html#qt_metacall" status="internal" access="private" location="usb\qhiddevice.h" filepath="C:/projects/qtusb/src/usb\qhiddevice.h" lineno="13" meta="plain" virtual="virtual" const="false" static="false" final="false" override="true" type="int" signature="int qt_metacall(QMetaObject::Call , int , void **) override">
                 <parameter type="QMetaObject::Call" name="" default=""/>
                 <parameter type="int" name="" default=""/>
                 <parameter type="void **" name="" default=""/>
             </function>
-            <function name="qt_metacast" fullname="QUsbInfo::qt_metacast" href="qusbinfo.html#qt_metacast" status="internal" access="private" location="usb\qusbinfo.h" filepath="C:/projects/qtusb/src/usb\qusbinfo.h" lineno="13" meta="plain" virtual="virtual" const="false" static="false" final="false" override="true" type="void *" signature="void * qt_metacast(const char *) override">
+            <function name="qt_metacast" fullname="QHidDevice::qt_metacast" href="qhiddevice.html#qt_metacast" status="internal" access="private" location="usb\qhiddevice.h" filepath="C:/projects/qtusb/src/usb\qhiddevice.h" lineno="13" meta="plain" virtual="virtual" const="false" static="false" final="false" override="true" type="void *" signature="void * qt_metacast(const char *) override">
                 <parameter type="const char *" name="" default=""/>
             </function>
-            <function name="qt_static_metacall" fullname="QUsbInfo::qt_static_metacall" href="qusbinfo.html#qt_static_metacall" status="internal" access="private" location="usb\qusbinfo.h" filepath="C:/projects/qtusb/src/usb\qusbinfo.h" lineno="13" meta="plain" virtual="non" const="false" static="true" final="false" override="false" type="void" signature="void qt_static_metacall(QObject *, QMetaObject::Call , int , void **)">
+            <function name="qt_static_metacall" fullname="QHidDevice::qt_static_metacall" href="qhiddevice.html#qt_static_metacall" status="internal" access="private" location="usb\qhiddevice.h" filepath="C:/projects/qtusb/src/usb\qhiddevice.h" lineno="13" meta="plain" virtual="non" const="false" static="true" final="false" override="false" type="void" signature="void qt_static_metacall(QObject *, QMetaObject::Call , int , void **)">
                 <parameter type="QObject *" name="" default=""/>
                 <parameter type="QMetaObject::Call" name="" default=""/>
                 <parameter type="int" name="" default=""/>
                 <parameter type="void **" name="" default=""/>
             </function>
-            <function name="removeDevice" fullname="QUsbInfo::removeDevice" href="qusbinfo.html#removeDevice" status="active" access="public" location="usb\qusbinfo.h" filepath="C:/projects/qtusb/src/usb\qusbinfo.h" lineno="35" documented="true" meta="slot" virtual="non" const="false" static="false" final="false" override="false" type="bool" brief="Remove id device from the list" signature="bool removeDevice(const QUsbDevice::Id &amp;id)">
-                <parameter type="const QUsbDevice::Id &amp;" name="id" default=""/>
+            <function name="read" fullname="QHidDevice::read" href="qhiddevice.html#read" status="active" access="public" location="usb\qhiddevice.h" filepath="C:/projects/qtusb/src/usb\qhiddevice.h" lineno="25" documented="true" meta="plain" virtual="non" const="false" static="false" final="false" override="false" type="qint32" brief="Read from device to data" signature="qint32 read(QByteArray *data, int len, int timeout)">
+                <parameter type="QByteArray *" name="data" default=""/>
+                <parameter type="int" name="len" default="-1"/>
+                <parameter type="int" name="timeout" default="-1"/>
             </function>
-            <function name="setLogLevel" fullname="QUsbInfo::setLogLevel" href="qusbinfo.html#setLogLevel" status="active" access="public" location="usb\qusbinfo.h" filepath="C:/projects/qtusb/src/usb\qusbinfo.h" lineno="26" documented="true" meta="plain" virtual="non" const="false" static="false" final="false" override="false" associated-property="logLevel" type="void" signature="void setLogLevel(QUsbDevice::LogLevel level)">
-                <parameter type="QUsbDevice::LogLevel" name="level" default=""/>
+            <function name="serialNumber" fullname="QHidDevice::serialNumber" href="qhiddevice.html#serialNumber" status="active" access="public" location="usb\qhiddevice.h" filepath="C:/projects/qtusb/src/usb\qhiddevice.h" lineno="27" documented="true" meta="plain" virtual="non" const="false" static="false" final="false" override="false" type="QString" brief="Returns the serial number string" signature="QString serialNumber()"/>
+            <function name="write" fullname="QHidDevice::write" href="qhiddevice.html#write" status="active" access="public" location="usb\qhiddevice.h" filepath="C:/projects/qtusb/src/usb\qhiddevice.h" lineno="24" documented="true" meta="plain" virtual="non" const="false" static="false" final="false" override="false" type="qint32" brief="Write data to device" signature="qint32 write(const QByteArray *data, int len)">
+                <parameter type="const QByteArray *" name="data" default=""/>
+                <parameter type="int" name="len" default="-1"/>
             </function>
-            <function name="~QUsbInfo" fullname="QUsbInfo::~QUsbInfo" href="qusbinfo.html#dtor.QUsbInfo" status="active" access="public" location="usb\qusbinfo.h" filepath="C:/projects/qtusb/src/usb\qusbinfo.h" lineno="20" documented="true" meta="destructor" virtual="virtual" const="false" static="false" final="false" override="false" type="" signature="~QUsbInfo()"/>
-            <variable name="m_system_list" fullname="QUsbInfo::m_system_list" href="qusbinfo.html#m_system_list-var" status="internal" access="private" location="usb\qusbinfo.h" filepath="C:/projects/qtusb/src/usb\qusbinfo.h" lineno="44" type="QUsbDevice::IdList" static="false"/>
-            <variable name="d_dummy" fullname="QUsbInfo::d_dummy" href="qusbinfo.html#d_dummy-var" status="internal" access="private" location="usb\qusbinfo.h" filepath="C:/projects/qtusb/src/usb\qusbinfo.h" lineno="47" type="QUsbInfoPrivate *const" static="false"/>
-            <variable name="m_log_level" fullname="QUsbInfo::m_log_level" href="qusbinfo.html#m_log_level-var" status="internal" access="private" location="usb\qusbinfo.h" filepath="C:/projects/qtusb/src/usb\qusbinfo.h" lineno="42" type="QUsbDevice::LogLevel" static="false"/>
-            <variable name="m_list" fullname="QUsbInfo::m_list" href="qusbinfo.html#m_list-var" status="internal" access="private" location="usb\qusbinfo.h" filepath="C:/projects/qtusb/src/usb\qusbinfo.h" lineno="43" type="QUsbDevice::IdList" static="false"/>
-            <variable name="staticMetaObject" fullname="QUsbInfo::staticMetaObject" href="qusbinfo.html#staticMetaObject-var" status="internal" access="private" location="usb\qusbinfo.h" filepath="C:/projects/qtusb/src/usb\qusbinfo.h" lineno="13" type="const QMetaObject" static="true"/>
-            <struct name="QPrivateSignal" fullname="QUsbInfo::QPrivateSignal" href="qusbinfo-qprivatesignal.html" status="internal" access="private" location="usb\qusbinfo.h" filepath="C:/projects/qtusb/src/usb\qusbinfo.h" lineno="13"/>
-            <property name="logLevel" fullname="QUsbInfo::logLevel" href="qusbinfo.html#logLevel-prop" status="active" access="public" location="usb\qusbinfo.h" filepath="C:/projects/qtusb/src/usb\qusbinfo.h" lineno="16" documented="true" type="QUsbDevice::LogLevel" brief="The log level for hotplug/detection">
-                <getter name="logLevel"/>
-                <setter name="setLogLevel"/>
-            </property>
+            <function name="~QHidDevice" fullname="QHidDevice::~QHidDevice" href="qhiddevice.html#dtor.QHidDevice" status="internal" access="private" location="usb\qhiddevice.h" filepath="C:/projects/qtusb/src/usb\qhiddevice.h" lineno="18" meta="destructor" virtual="virtual" const="false" static="false" final="false" override="false" type="" signature="~QHidDevice()"/>
+            <struct name="QPrivateSignal" fullname="QHidDevice::QPrivateSignal" href="qhiddevice-qprivatesignal.html" status="internal" access="private" location="usb\qhiddevice.h" filepath="C:/projects/qtusb/src/usb\qhiddevice.h" lineno="13"/>
+            <variable name="d_dummy" fullname="QHidDevice::d_dummy" href="qhiddevice.html#d_dummy-var" status="internal" access="private" location="usb\qhiddevice.h" filepath="C:/projects/qtusb/src/usb\qhiddevice.h" lineno="32" type="QHidDevicePrivate *const" static="false"/>
+            <variable name="staticMetaObject" fullname="QHidDevice::staticMetaObject" href="qhiddevice.html#staticMetaObject-var" status="internal" access="private" location="usb\qhiddevice.h" filepath="C:/projects/qtusb/src/usb\qhiddevice.h" lineno="13" type="const QMetaObject" static="true"/>
         </class>
         <class threadsafety="reentrant" name="QUsbEndpoint" href="qusbendpoint.html" status="active" access="public" location="usb\qusbendpoint.h" filepath="C:/projects/qtusb/src/usb\qusbendpoint.h" lineno="10" documented="true" bases="QIODevice" module="QtUsb" groups="usb-main" brief="This class handles transfers between endpoints and the host">
             <function name="QUsbEndpoint" fullname="QUsbEndpoint::QUsbEndpoint" href="qusbendpoint.html#QUsbEndpoint" status="active" access="public" location="usb\qusbendpoint.h" filepath="C:/projects/qtusb/src/usb\qusbendpoint.h" lineno="68" documented="true" meta="constructor" virtual="non" const="false" static="false" final="false" override="false" type="" brief="Constructor" signature="QUsbEndpoint(QUsbDevice *dev, QUsbEndpoint::Type type, quint8 ep)">
@@ -407,6 +340,18 @@
             </function>
             <function name="~QUsbEndpoint" fullname="QUsbEndpoint::~QUsbEndpoint" href="qusbendpoint.html#dtor.QUsbEndpoint" status="active" access="public" location="usb\qusbendpoint.h" filepath="C:/projects/qtusb/src/usb\qusbendpoint.h" lineno="69" documented="true" meta="destructor" virtual="virtual" const="false" static="false" final="false" override="false" type="" brief="Will cancel all transfers on exit" signature="~QUsbEndpoint()"/>
             <struct name="QPrivateSignal" fullname="QUsbEndpoint::QPrivateSignal" href="qusbendpoint-qprivatesignal.html" status="internal" access="private" location="usb\qusbendpoint.h" filepath="C:/projects/qtusb/src/usb\qusbendpoint.h" lineno="11"/>
+            <variable name="d_dummy" fullname="QUsbEndpoint::d_dummy" href="qusbendpoint.html#d_dummy-var" status="internal" access="private" location="usb\qusbendpoint.h" filepath="C:/projects/qtusb/src/usb\qusbendpoint.h" lineno="104" type="QUsbEndpointPrivate *const" static="false"/>
+            <variable name="m_status" fullname="QUsbEndpoint::m_status" href="qusbendpoint.html#m_status-var" status="internal" access="private" location="usb\qusbendpoint.h" filepath="C:/projects/qtusb/src/usb\qusbendpoint.h" lineno="107" type="QUsbEndpoint::Status" static="false"/>
+            <variable name="staticMetaObject" fullname="QUsbEndpoint::staticMetaObject" href="qusbendpoint.html#staticMetaObject-var" status="internal" access="private" location="usb\qusbendpoint.h" filepath="C:/projects/qtusb/src/usb\qusbendpoint.h" lineno="11" type="const QMetaObject" static="true"/>
+            <enum name="Status" fullname="QUsbEndpoint::Status" href="qusbendpoint.html#Status-enum" status="active" access="public" location="usb\qusbendpoint.h" filepath="C:/projects/qtusb/src/usb\qusbendpoint.h" lineno="24" documented="true">
+                <value name="transferCompleted" value="0"/>
+                <value name="transferError" value="1"/>
+                <value name="transferTimeout" value="2"/>
+                <value name="transferCanceled" value="3"/>
+                <value name="transferStall" value="4"/>
+                <value name="transferNoDevice" value="5"/>
+                <value name="transferOverflow" value="6"/>
+            </enum>
             <enum name="bmRequestType" fullname="QUsbEndpoint::bmRequestType" href="qusbendpoint.html#bmRequestType-enum" status="active" access="public" location="usb\qusbendpoint.h" filepath="C:/projects/qtusb/src/usb\qusbendpoint.h" lineno="35" documented="true">
                 <value name="requestStandard" value="(0x00 &lt; 5)"/>
                 <value name="requestClass" value="(0x01 &lt; 5)"/>
@@ -417,19 +362,15 @@
                 <value name="recipientEndpoint" value="0x02"/>
                 <value name="recipientOther" value="0x03"/>
             </enum>
-            <enum name="Status" fullname="QUsbEndpoint::Status" href="qusbendpoint.html#Status-enum" status="active" access="public" location="usb\qusbendpoint.h" filepath="C:/projects/qtusb/src/usb\qusbendpoint.h" lineno="24" documented="true">
-                <value name="transferCompleted" value="0"/>
-                <value name="transferError" value="1"/>
-                <value name="transferTimeout" value="2"/>
-                <value name="transferCanceled" value="3"/>
-                <value name="transferStall" value="4"/>
-                <value name="transferNoDevice" value="5"/>
-                <value name="transferOverflow" value="6"/>
-            </enum>
-            <variable name="m_dev" fullname="QUsbEndpoint::m_dev" href="qusbendpoint.html#m_dev-var" status="internal" access="private" location="usb\qusbendpoint.h" filepath="C:/projects/qtusb/src/usb\qusbendpoint.h" lineno="108" type="const QUsbDevice *" static="false"/>
             <variable name="m_type" fullname="QUsbEndpoint::m_type" href="qusbendpoint.html#m_type-var" status="internal" access="private" location="usb\qusbendpoint.h" filepath="C:/projects/qtusb/src/usb\qusbendpoint.h" lineno="109" type="const QUsbEndpoint::Type" static="false"/>
-            <variable name="m_status" fullname="QUsbEndpoint::m_status" href="qusbendpoint.html#m_status-var" status="internal" access="private" location="usb\qusbendpoint.h" filepath="C:/projects/qtusb/src/usb\qusbendpoint.h" lineno="107" type="QUsbEndpoint::Status" static="false"/>
             <variable name="m_ep" fullname="QUsbEndpoint::m_ep" href="qusbendpoint.html#m_ep-var" status="internal" access="private" location="usb\qusbendpoint.h" filepath="C:/projects/qtusb/src/usb\qusbendpoint.h" lineno="110" type="const quint8" static="false"/>
+            <enum name="Type" fullname="QUsbEndpoint::Type" href="qusbendpoint.html#Type-enum" status="active" access="public" location="usb\qusbendpoint.h" filepath="C:/projects/qtusb/src/usb\qusbendpoint.h" lineno="15" documented="true">
+                <value name="controlEndpoint" value="0"/>
+                <value name="isochronousEndpoint" value="1"/>
+                <value name="bulkEndpoint" value="2"/>
+                <value name="interruptEndpoint" value="3"/>
+                <value name="streamEndpoint" value="4"/>
+            </enum>
             <enum name="bRequest" fullname="QUsbEndpoint::bRequest" href="qusbendpoint.html#bRequest-enum" status="active" access="public" location="usb\qusbendpoint.h" filepath="C:/projects/qtusb/src/usb\qusbendpoint.h" lineno="47" documented="true">
                 <value name="requestGetStatus" value="0x00"/>
                 <value name="requestClearFeature" value="0x01"/>
@@ -445,25 +386,84 @@
                 <value name="requestSetSel" value="0x30"/>
                 <value name="requestIsochDelay" value="0x31"/>
             </enum>
-            <variable name="staticMetaObject" fullname="QUsbEndpoint::staticMetaObject" href="qusbendpoint.html#staticMetaObject-var" status="internal" access="private" location="usb\qusbendpoint.h" filepath="C:/projects/qtusb/src/usb\qusbendpoint.h" lineno="11" type="const QMetaObject" static="true"/>
-            <enum name="Type" fullname="QUsbEndpoint::Type" href="qusbendpoint.html#Type-enum" status="active" access="public" location="usb\qusbendpoint.h" filepath="C:/projects/qtusb/src/usb\qusbendpoint.h" lineno="15" documented="true">
-                <value name="controlEndpoint" value="0"/>
-                <value name="isochronousEndpoint" value="1"/>
-                <value name="bulkEndpoint" value="2"/>
-                <value name="interruptEndpoint" value="3"/>
-                <value name="streamEndpoint" value="4"/>
-            </enum>
-            <variable name="d_dummy" fullname="QUsbEndpoint::d_dummy" href="qusbendpoint.html#d_dummy-var" status="internal" access="private" location="usb\qusbendpoint.h" filepath="C:/projects/qtusb/src/usb\qusbendpoint.h" lineno="104" type="QUsbEndpointPrivate *const" static="false"/>
-            <property name="polling" fullname="QUsbEndpoint::polling" href="qusbendpoint.html#polling-prop" status="active" access="public" location="usb\qusbendpoint.h" filepath="C:/projects/qtusb/src/usb\qusbendpoint.h" lineno="66" documented="true" type="bool" brief="Status">
-                <getter name="polling"/>
-                <setter name="setPolling"/>
-            </property>
+            <variable name="m_dev" fullname="QUsbEndpoint::m_dev" href="qusbendpoint.html#m_dev-var" status="internal" access="private" location="usb\qusbendpoint.h" filepath="C:/projects/qtusb/src/usb\qusbendpoint.h" lineno="108" type="const QUsbDevice *" static="false"/>
             <property name="endpoint" fullname="QUsbEndpoint::endpoint" href="qusbendpoint.html#endpoint-prop" status="internal" access="private" location="usb\qusbendpoint.h" filepath="C:/projects/qtusb/src/usb\qusbendpoint.h" lineno="65" type="quint8">
                 <getter name="endpoint"/>
             </property>
             <property name="type" fullname="QUsbEndpoint::type" href="qusbendpoint.html#type-prop" status="active" access="public" location="usb\qusbendpoint.h" filepath="C:/projects/qtusb/src/usb\qusbendpoint.h" lineno="64" documented="true" type="Type" brief="Transfer type">
                 <getter name="type"/>
             </property>
+            <property name="polling" fullname="QUsbEndpoint::polling" href="qusbendpoint.html#polling-prop" status="active" access="public" location="usb\qusbendpoint.h" filepath="C:/projects/qtusb/src/usb\qusbendpoint.h" lineno="66" documented="true" type="bool" brief="Status">
+                <getter name="polling"/>
+                <setter name="setPolling"/>
+            </property>
+        </class>
+        <class threadsafety="reentrant" name="QUsbInfo" href="qusbinfo.html" status="active" access="public" location="usb\qusbinfo.h" filepath="C:/projects/qtusb/src/usb\qusbinfo.h" lineno="11" documented="true" bases="QObject" module="QtUsb" groups="usb-main" brief="This class handles hotplug and device detection">
+            <function name="QUsbInfo" fullname="QUsbInfo::QUsbInfo" href="qusbinfo.html#QUsbInfo" status="internal" access="private" location="usb\qusbinfo.h" filepath="C:/projects/qtusb/src/usb\qusbinfo.h" lineno="19" meta="constructor" virtual="non" const="false" static="false" final="false" override="false" type="" signature="QUsbInfo(QObject *parent)">
+                <parameter type="QObject *" name="parent" default="Q_NULLPTR"/>
+            </function>
+            <function name="QUsbInfo" fullname="QUsbInfo::QUsbInfo" href="qusbinfo.html#QUsbInfo-1" status="internal" access="private" location="usb\qusbinfo.h" filepath="C:/projects/qtusb/src/usb\qusbinfo.h" lineno="48" meta="constructor" virtual="non" const="false" static="false" final="false" override="false" overload="true" overload-number="1" type="" signature="QUsbInfo(const QUsbInfo &amp;)">
+                <parameter type="const QUsbInfo &amp;" name="" default=""/>
+            </function>
+            <function name="addDevice" fullname="QUsbInfo::addDevice" href="qusbinfo.html#addDevice" status="active" access="public" location="usb\qusbinfo.h" filepath="C:/projects/qtusb/src/usb\qusbinfo.h" lineno="34" documented="true" meta="slot" virtual="non" const="false" static="false" final="false" override="false" type="bool" signature="bool addDevice(const QUsbDevice::Id &amp;id)">
+                <parameter type="const QUsbDevice::Id &amp;" name="id" default=""/>
+            </function>
+            <function name="checkDevices" fullname="QUsbInfo::checkDevices" href="qusbinfo.html#checkDevices" status="active" access="protected" location="usb\qusbinfo.h" filepath="C:/projects/qtusb/src/usb\qusbinfo.h" lineno="39" documented="true" meta="slot" virtual="non" const="false" static="false" final="false" override="false" type="void" signature="void checkDevices()"/>
+            <function name="d_func" fullname="QUsbInfo::d_func" href="qusbinfo.html#d_func" status="internal" access="private" location="usb\qusbinfo.h" filepath="C:/projects/qtusb/src/usb\qusbinfo.h" lineno="14" meta="plain" virtual="non" const="false" static="false" final="false" override="false" type="QUsbInfoPrivate *" signature="QUsbInfoPrivate * d_func()"/>
+            <function name="d_func" fullname="QUsbInfo::d_func" href="qusbinfo.html#d_func-1" status="internal" access="private" location="usb\qusbinfo.h" filepath="C:/projects/qtusb/src/usb\qusbinfo.h" lineno="14" meta="plain" virtual="non" const="true" static="false" final="false" override="false" overload="true" overload-number="1" type="const QUsbInfoPrivate *" signature="const QUsbInfoPrivate * d_func() const"/>
+            <function name="deviceInserted" fullname="QUsbInfo::deviceInserted" href="qusbinfo.html#deviceInserted" status="internal" access="private" location="usb\qusbinfo.h" filepath="C:/projects/qtusb/src/usb\qusbinfo.h" lineno="30" meta="signal" virtual="non" const="false" static="false" final="false" override="false" type="void" signature="void deviceInserted(QUsbDevice::Id id)">
+                <parameter type="QUsbDevice::Id" name="id" default=""/>
+            </function>
+            <function name="deviceRemoved" fullname="QUsbInfo::deviceRemoved" href="qusbinfo.html#deviceRemoved" status="internal" access="private" location="usb\qusbinfo.h" filepath="C:/projects/qtusb/src/usb\qusbinfo.h" lineno="31" meta="signal" virtual="non" const="false" static="false" final="false" override="false" type="void" signature="void deviceRemoved(QUsbDevice::Id id)">
+                <parameter type="QUsbDevice::Id" name="id" default=""/>
+            </function>
+            <function name="findDevice" fullname="QUsbInfo::findDevice" href="qusbinfo.html#findDevice" status="active" access="public" location="usb\qusbinfo.h" filepath="C:/projects/qtusb/src/usb\qusbinfo.h" lineno="24" documented="true" meta="plain" virtual="non" const="true" static="false" final="false" override="false" type="int" signature="int findDevice(const QUsbDevice::Id &amp;id, const QUsbDevice::IdList &amp;list) const">
+                <parameter type="const QUsbDevice::Id &amp;" name="id" default=""/>
+                <parameter type="const QUsbDevice::IdList &amp;" name="list" default=""/>
+            </function>
+            <function name="getPresentDevices" fullname="QUsbInfo::getPresentDevices" href="qusbinfo.html#getPresentDevices" status="active" access="public" location="usb\qusbinfo.h" filepath="C:/projects/qtusb/src/usb\qusbinfo.h" lineno="22" documented="true" meta="plain" virtual="non" const="true" static="false" final="false" override="false" type="QUsbDevice::IdList" signature="QUsbDevice::IdList getPresentDevices() const"/>
+            <function name="isPresent" fullname="QUsbInfo::isPresent" href="qusbinfo.html#isPresent" status="active" access="public" location="usb\qusbinfo.h" filepath="C:/projects/qtusb/src/usb\qusbinfo.h" lineno="23" documented="true" meta="plain" virtual="non" const="true" static="false" final="false" override="false" type="bool" signature="bool isPresent(const QUsbDevice::Id &amp;id) const">
+                <parameter type="const QUsbDevice::Id &amp;" name="id" default=""/>
+            </function>
+            <function name="logLevel" fullname="QUsbInfo::logLevel" href="qusbinfo.html#logLevel" status="active" access="public" location="usb\qusbinfo.h" filepath="C:/projects/qtusb/src/usb\qusbinfo.h" lineno="27" documented="true" meta="plain" virtual="non" const="true" static="false" final="false" override="false" associated-property="logLevel" type="QUsbDevice::LogLevel" signature="QUsbDevice::LogLevel logLevel() const"/>
+            <function name="metaObject" fullname="QUsbInfo::metaObject" href="qusbinfo.html#metaObject" status="internal" access="private" location="usb\qusbinfo.h" filepath="C:/projects/qtusb/src/usb\qusbinfo.h" lineno="13" meta="plain" virtual="virtual" const="true" static="false" final="false" override="true" type="const QMetaObject *" signature="const QMetaObject * metaObject() const override"/>
+            <function name="monitorDevices" fullname="QUsbInfo::monitorDevices" href="qusbinfo.html#monitorDevices" status="active" access="protected" location="usb\qusbinfo.h" filepath="C:/projects/qtusb/src/usb\qusbinfo.h" lineno="38" documented="true" meta="slot" virtual="non" const="false" static="false" final="false" override="false" type="void" signature="void monitorDevices(const QUsbDevice::IdList &amp;list)">
+                <parameter type="const QUsbDevice::IdList &amp;" name="list" default=""/>
+            </function>
+            <function name="operator=" fullname="QUsbInfo::operator=" href="qusbinfo.html#operator-eq" status="internal" access="private" location="usb\qusbinfo.h" filepath="C:/projects/qtusb/src/usb\qusbinfo.h" lineno="48" meta="copy-assign" virtual="non" const="false" static="false" final="false" override="false" type="QUsbInfo &amp;" signature="QUsbInfo &amp; operator=(const QUsbInfo &amp;)">
+                <parameter type="const QUsbInfo &amp;" name="" default=""/>
+            </function>
+            <function name="qt_metacall" fullname="QUsbInfo::qt_metacall" href="qusbinfo.html#qt_metacall" status="internal" access="private" location="usb\qusbinfo.h" filepath="C:/projects/qtusb/src/usb\qusbinfo.h" lineno="13" meta="plain" virtual="virtual" const="false" static="false" final="false" override="true" type="int" signature="int qt_metacall(QMetaObject::Call , int , void **) override">
+                <parameter type="QMetaObject::Call" name="" default=""/>
+                <parameter type="int" name="" default=""/>
+                <parameter type="void **" name="" default=""/>
+            </function>
+            <function name="qt_metacast" fullname="QUsbInfo::qt_metacast" href="qusbinfo.html#qt_metacast" status="internal" access="private" location="usb\qusbinfo.h" filepath="C:/projects/qtusb/src/usb\qusbinfo.h" lineno="13" meta="plain" virtual="virtual" const="false" static="false" final="false" override="true" type="void *" signature="void * qt_metacast(const char *) override">
+                <parameter type="const char *" name="" default=""/>
+            </function>
+            <function name="qt_static_metacall" fullname="QUsbInfo::qt_static_metacall" href="qusbinfo.html#qt_static_metacall" status="internal" access="private" location="usb\qusbinfo.h" filepath="C:/projects/qtusb/src/usb\qusbinfo.h" lineno="13" meta="plain" virtual="non" const="false" static="true" final="false" override="false" type="void" signature="void qt_static_metacall(QObject *, QMetaObject::Call , int , void **)">
+                <parameter type="QObject *" name="" default=""/>
+                <parameter type="QMetaObject::Call" name="" default=""/>
+                <parameter type="int" name="" default=""/>
+                <parameter type="void **" name="" default=""/>
+            </function>
+            <function name="removeDevice" fullname="QUsbInfo::removeDevice" href="qusbinfo.html#removeDevice" status="active" access="public" location="usb\qusbinfo.h" filepath="C:/projects/qtusb/src/usb\qusbinfo.h" lineno="35" documented="true" meta="slot" virtual="non" const="false" static="false" final="false" override="false" type="bool" brief="Remove id device from the list" signature="bool removeDevice(const QUsbDevice::Id &amp;id)">
+                <parameter type="const QUsbDevice::Id &amp;" name="id" default=""/>
+            </function>
+            <function name="setLogLevel" fullname="QUsbInfo::setLogLevel" href="qusbinfo.html#setLogLevel" status="active" access="public" location="usb\qusbinfo.h" filepath="C:/projects/qtusb/src/usb\qusbinfo.h" lineno="26" documented="true" meta="plain" virtual="non" const="false" static="false" final="false" override="false" associated-property="logLevel" type="void" signature="void setLogLevel(QUsbDevice::LogLevel level)">
+                <parameter type="QUsbDevice::LogLevel" name="level" default=""/>
+            </function>
+            <function name="~QUsbInfo" fullname="QUsbInfo::~QUsbInfo" href="qusbinfo.html#dtor.QUsbInfo" status="active" access="public" location="usb\qusbinfo.h" filepath="C:/projects/qtusb/src/usb\qusbinfo.h" lineno="20" documented="true" meta="destructor" virtual="virtual" const="false" static="false" final="false" override="false" type="" signature="~QUsbInfo()"/>
+            <variable name="staticMetaObject" fullname="QUsbInfo::staticMetaObject" href="qusbinfo.html#staticMetaObject-var" status="internal" access="private" location="usb\qusbinfo.h" filepath="C:/projects/qtusb/src/usb\qusbinfo.h" lineno="13" type="const QMetaObject" static="true"/>
+            <variable name="m_list" fullname="QUsbInfo::m_list" href="qusbinfo.html#m_list-var" status="internal" access="private" location="usb\qusbinfo.h" filepath="C:/projects/qtusb/src/usb\qusbinfo.h" lineno="43" type="QUsbDevice::IdList" static="false"/>
+            <variable name="d_dummy" fullname="QUsbInfo::d_dummy" href="qusbinfo.html#d_dummy-var" status="internal" access="private" location="usb\qusbinfo.h" filepath="C:/projects/qtusb/src/usb\qusbinfo.h" lineno="47" type="QUsbInfoPrivate *const" static="false"/>
+            <variable name="m_system_list" fullname="QUsbInfo::m_system_list" href="qusbinfo.html#m_system_list-var" status="internal" access="private" location="usb\qusbinfo.h" filepath="C:/projects/qtusb/src/usb\qusbinfo.h" lineno="44" type="QUsbDevice::IdList" static="false"/>
+            <variable name="m_log_level" fullname="QUsbInfo::m_log_level" href="qusbinfo.html#m_log_level-var" status="internal" access="private" location="usb\qusbinfo.h" filepath="C:/projects/qtusb/src/usb\qusbinfo.h" lineno="42" type="QUsbDevice::LogLevel" static="false"/>
+            <property name="logLevel" fullname="QUsbInfo::logLevel" href="qusbinfo.html#logLevel-prop" status="active" access="public" location="usb\qusbinfo.h" filepath="C:/projects/qtusb/src/usb\qusbinfo.h" lineno="16" documented="true" type="QUsbDevice::LogLevel" brief="The log level for hotplug/detection">
+                <getter name="logLevel"/>
+                <setter name="setLogLevel"/>
+            </property>
+            <struct name="QPrivateSignal" fullname="QUsbInfo::QPrivateSignal" href="qusbinfo-qprivatesignal.html" status="internal" access="private" location="usb\qusbinfo.h" filepath="C:/projects/qtusb/src/usb\qusbinfo.h" lineno="13"/>
         </class>
         <group name="modules" href="modules.html" status="internal" seen="false" title="" members="QtUsb"/>
         <group name="qtusb-examples" href="qtusb-examples.html" status="active" location="qtusb-examples.qdoc" filepath="C:/projects/qtusb/src/usb/doc/src/qtusb-examples.qdoc" lineno="28" documented="true" seen="true" title="Qt Usb Examples" module="QtUsb" brief="List of usb examples">
