@@ -55,7 +55,9 @@
 <a name="public-functions"></a>
 <h2 id="public-functions">Public Functions</h2>
 <div class="table"><table class="alignedsummary">
-<tr><td class="memItemLeft rightAlign topAlign"> Id &amp;</td><td class="memItemRight bottomAlign"><b><a href="qusbdevice-id.html#operator-eq">operator=</a></b>(const Id &amp;<i>other</i>)</td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> </td><td class="memItemRight bottomAlign"><b><a href="qusbdevice-id.html#Id-1">Id</a></b>(const Id &amp;<i>other</i>)</td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> </td><td class="memItemRight bottomAlign"><b><a href="qusbdevice-id.html#Id">Id</a></b>(quint16 <i>_pid</i> = 0, quint16 <i>_vid</i> = 0, quint8 <i>_bus</i> = busAny, quint8 <i>_port</i> = portAny, quint8 <i>_class</i> = 0, quint8 <i>_subclass</i> = 0)</td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> Id &amp;</td><td class="memItemRight bottomAlign"><b><a href="qusbdevice-id.html#operator-eq">operator=</a></b>(Id <i>other</i>)</td></tr>
 <tr><td class="memItemLeft rightAlign topAlign"> bool </td><td class="memItemRight bottomAlign"><b><a href="qusbdevice-id.html#operator-eq-eq">operator==</a></b>(const Id &amp;<i>other</i>) const</td></tr>
 </table></div>
 <a name="public-variables"></a>
@@ -77,12 +79,20 @@
 <!-- @@@Id -->
 <div class="func">
 <h2>Member Function Documentation</h2>
-<!-- $$$operator=[overload1]$$$operator=constId& -->
-<h3 class="fn" id="operator-eq"><a name="operator-eq"></a><span class="type"><a href="qusbdevice-id.html">Id</a></span> &amp;Id::<span class="name">operator=</span>(const <span class="type"><a href="qusbdevice-id.html">Id</a></span> &amp;<i>other</i>)</h3>
+<!-- $$$Id$$$IdconstId& -->
+<h3 class="fn" id="Id-1"><a name="Id-1"></a>Id::<span class="name">Id</span>(const <span class="type"><a href="qusbdevice-id.html#Id">Id</a></span> &amp;<i>other</i>)</h3>
+<p>Copy constructor.</p>
+<!-- @@@Id -->
+<!-- $$$Id[overload1]$$$Idquint16quint16quint8quint8quint8quint8 -->
+<h3 class="fn" id="Id"><a name="Id"></a>Id::<span class="name">Id</span>(<span class="type"><a href="../qtcore/qtglobal.html#quint16-typedef">quint16</a></span> <i>_pid</i> = 0, <span class="type"><a href="../qtcore/qtglobal.html#quint16-typedef">quint16</a></span> <i>_vid</i> = 0, <span class="type"><a href="../qtcore/qtglobal.html#quint8-typedef">quint8</a></span> <i>_bus</i> = busAny, <span class="type"><a href="../qtcore/qtglobal.html#quint8-typedef">quint8</a></span> <i>_port</i> = portAny, <span class="type"><a href="../qtcore/qtglobal.html#quint8-typedef">quint8</a></span> <i>_class</i> = 0, <span class="type"><a href="../qtcore/qtglobal.html#quint8-typedef">quint8</a></span> <i>_subclass</i> = 0)</h3>
+<p>Default constructor.</p>
+<!-- @@@Id -->
+<!-- $$$operator=[overload1]$$$operator=Id -->
+<h3 class="fn" id="operator-eq"><a name="operator-eq"></a><span class="type"><a href="qusbdevice-id.html#Id">Id</a></span> &amp;Id::<span class="name">operator=</span>(<span class="type"><a href="qusbdevice-id.html#Id">Id</a></span> <i>other</i>)</h3>
 <p>Copy operator.</p>
 <!-- @@@operator= -->
 <!-- $$$operator==[overload1]$$$operator==constId& -->
-<h3 class="fn" id="operator-eq-eq"><a name="operator-eq-eq"></a><span class="type">bool</span> Id::<span class="name">operator==</span>(const <span class="type"><a href="qusbdevice-id.html">Id</a></span> &amp;<i>other</i>) const</h3>
+<h3 class="fn" id="operator-eq-eq"><a name="operator-eq-eq"></a><span class="type">bool</span> Id::<span class="name">operator==</span>(const <span class="type"><a href="qusbdevice-id.html#Id">Id</a></span> &amp;<i>other</i>) const</h3>
 <p>Comparision operator.</p>
 <p>Returns <code>true</code> if all <i>other</i> attributes match.</p>
 <!-- @@@operator== -->

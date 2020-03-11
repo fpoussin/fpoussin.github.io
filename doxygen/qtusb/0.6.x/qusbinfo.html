@@ -41,6 +41,7 @@
 <li class="level1"><a href="#properties">Properties</a></li>
 <li class="level1"><a href="#public-functions">Public Functions</a></li>
 <li class="level1"><a href="#public-slots">Public Slots</a></li>
+<li class="level1"><a href="#static-public-members">Static Public Members</a></li>
 <li class="level1"><a href="#protected-slots">Protected Slots</a></li>
 <li class="level1"><a href="#details">Detailed Description</a></li>
 </ul>
@@ -66,7 +67,6 @@
 <div class="table"><table class="alignedsummary">
 <tr><td class="memItemLeft rightAlign topAlign"> virtual </td><td class="memItemRight bottomAlign"><b><a href="qusbinfo.html#dtor.QUsbInfo">~QUsbInfo</a></b>()</td></tr>
 <tr><td class="memItemLeft rightAlign topAlign"> int </td><td class="memItemRight bottomAlign"><b><a href="qusbinfo.html#findDevice">findDevice</a></b>(const QUsbDevice::Id &amp;<i>id</i>, const QUsbDevice::IdList &amp;<i>list</i>) const</td></tr>
-<tr><td class="memItemLeft rightAlign topAlign"> QUsbDevice::IdList </td><td class="memItemRight bottomAlign"><b><a href="qusbinfo.html#getPresentDevices">getPresentDevices</a></b>() const</td></tr>
 <tr><td class="memItemLeft rightAlign topAlign"> bool </td><td class="memItemRight bottomAlign"><b><a href="qusbinfo.html#isPresent">isPresent</a></b>(const QUsbDevice::Id &amp;<i>id</i>) const</td></tr>
 <tr><td class="memItemLeft rightAlign topAlign"> QUsbDevice::LogLevel </td><td class="memItemRight bottomAlign"><b><a href="qusbinfo.html#logLevel">logLevel</a></b>() const</td></tr>
 <tr><td class="memItemLeft rightAlign topAlign"> void </td><td class="memItemRight bottomAlign"><b><a href="qusbinfo.html#setLogLevel">setLogLevel</a></b>(QUsbDevice::LogLevel <i>level</i>)</td></tr>
@@ -76,6 +76,11 @@
 <div class="table"><table class="alignedsummary">
 <tr><td class="memItemLeft rightAlign topAlign"> bool </td><td class="memItemRight bottomAlign"><b><a href="qusbinfo.html#addDevice">addDevice</a></b>(const QUsbDevice::Id &amp;<i>id</i>)</td></tr>
 <tr><td class="memItemLeft rightAlign topAlign"> bool </td><td class="memItemRight bottomAlign"><b><a href="qusbinfo.html#removeDevice">removeDevice</a></b>(const QUsbDevice::Id &amp;<i>id</i>)</td></tr>
+</table></div>
+<a name="static-public-members"></a>
+<h2 id="static-public-members">Static Public Members</h2>
+<div class="table"><table class="alignedsummary">
+<tr><td class="memItemLeft rightAlign topAlign"> QUsbDevice::IdList </td><td class="memItemRight bottomAlign"><b><a href="qusbinfo.html#devices">devices</a></b>()</td></tr>
 </table></div>
 <a name="protected-slots"></a>
 <h2 id="protected-slots">Protected Slots</h2>
@@ -128,15 +133,15 @@
 <h3 class="fn" id="dtor.QUsbInfo"><a name="dtor.QUsbInfo"></a><code>[virtual] </code>QUsbInfo::<span class="name">~QUsbInfo</span>()</h3>
 <p>Unregister callbacks and close the usb context.</p>
 <!-- @@@~QUsbInfo -->
+<!-- $$$devices[overload1]$$$devices -->
+<h3 class="fn" id="devices"><a name="devices"></a><code>[static] </code><span class="type"><a href="qusbdevice.html#IdList-typedef">QUsbDevice::IdList</a></span> QUsbInfo::<span class="name">devices</span>()</h3>
+<p>Returns all present <code>devices</code>.</p>
+<!-- @@@devices -->
 <!-- $$$findDevice[overload1]$$$findDeviceconstQUsbDevice::Id&constQUsbDevice::IdList& -->
 <h3 class="fn" id="findDevice"><a name="findDevice"></a><span class="type">int</span> QUsbInfo::<span class="name">findDevice</span>(const <span class="type"><a href="qusbdevice-id.html">QUsbDevice::Id</a></span> &amp;<i>id</i>, const <span class="type"><a href="qusbdevice.html#IdList-typedef">QUsbDevice::IdList</a></span> &amp;<i>list</i>) const</h3>
 <p>Search an <i>id</i> device in a device <i>list</i>.</p>
 <p>Return index of the filter, returns -1 if not found.</p>
 <!-- @@@findDevice -->
-<!-- $$$getPresentDevices[overload1]$$$getPresentDevices -->
-<h3 class="fn" id="getPresentDevices"><a name="getPresentDevices"></a><span class="type"><a href="qusbdevice.html#IdList-typedef">QUsbDevice::IdList</a></span> QUsbInfo::<span class="name">getPresentDevices</span>() const</h3>
-<p>Gets a list of devices present in the system.</p>
-<!-- @@@getPresentDevices -->
 <!-- $$$isPresent[overload1]$$$isPresentconstQUsbDevice::Id& -->
 <h3 class="fn" id="isPresent"><a name="isPresent"></a><span class="type">bool</span> QUsbInfo::<span class="name">isPresent</span>(const <span class="type"><a href="qusbdevice-id.html">QUsbDevice::Id</a></span> &amp;<i>id</i>) const</h3>
 <p>Check if <i>id</i> device is present.</p>

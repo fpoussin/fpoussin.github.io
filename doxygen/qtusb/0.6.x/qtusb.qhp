@@ -129,11 +129,10 @@
             <keyword name="connectionChanged" id="QUsbDevice::connectionChanged" ref="qusbdevice.html#connected-prop"/>
             <keyword name="dClass" id="Id::dClass" ref="qusbdevice-id.html#dClass-var"/>
             <keyword name="dSubClass" id="Id::dSubClass" ref="qusbdevice-id.html#dSubClass-var"/>
-            <keyword name="devices" id="QUsbDevice::devices" ref="qusbdevice.html#devices"/>
+            <keyword name="devices" id="QUsbInfo::devices" ref="qusbinfo.html#devices"/>
             <keyword name="endpoint" id="QUsbEndpoint::endpoint" ref="qusbendpoint.html#endpoint"/>
             <keyword name="error" id="QUsbEndpoint::error" ref="qusbendpoint.html#error"/>
             <keyword name="findDevice" id="QUsbInfo::findDevice" ref="qusbinfo.html#findDevice"/>
-            <keyword name="getPresentDevices" id="QUsbInfo::getPresentDevices" ref="qusbinfo.html#getPresentDevices"/>
             <keyword name="id" id="QUsbDevice::id" ref="qusbdevice.html#id"/>
             <keyword name="id" id="QUsbDevice::id" ref="qusbdevice.html#id-prop"/>
             <keyword name="interface" id="Config::interface" ref="qusbdevice-config.html#interface-var"/>
@@ -151,6 +150,7 @@
             <keyword name="open" id="QHidDevice::open" ref="qhiddevice.html#open"/>
             <keyword name="open" id="QUsbDevice::open" ref="qusbdevice.html#open"/>
             <keyword name="open" id="QUsbEndpoint::open" ref="qusbendpoint.html#open"/>
+            <keyword name="operator=" id="Config::operator=" ref="qusbdevice-config.html#operator-eq"/>
             <keyword name="operator=" id="Id::operator=" ref="qusbdevice-id.html#operator-eq"/>
             <keyword name="operator==" id="Config::operator==" ref="qusbdevice-config.html#operator-eq-eq"/>
             <keyword name="operator==" id="Id::operator==" ref="qusbdevice-id.html#operator-eq-eq"/>

@@ -55,6 +55,9 @@
 <a name="public-functions"></a>
 <h2 id="public-functions">Public Functions</h2>
 <div class="table"><table class="alignedsummary">
+<tr><td class="memItemLeft rightAlign topAlign"> </td><td class="memItemRight bottomAlign"><b><a href="qusbdevice-config.html#Config-1">Config</a></b>(const Config &amp;<i>other</i>)</td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> </td><td class="memItemRight bottomAlign"><b><a href="qusbdevice-config.html#Config">Config</a></b>(quint8 <i>_config</i> = 1, quint8 <i>_interface</i> = 0, quint8 <i>_alternate</i> = 0)</td></tr>
+<tr><td class="memItemLeft rightAlign topAlign"> Config &amp;</td><td class="memItemRight bottomAlign"><b><a href="qusbdevice-config.html#operator-eq">operator=</a></b>(Config <i>other</i>)</td></tr>
 <tr><td class="memItemLeft rightAlign topAlign"> bool </td><td class="memItemRight bottomAlign"><b><a href="qusbdevice-config.html#operator-eq-eq">operator==</a></b>(const Config &amp;<i>other</i>) const</td></tr>
 </table></div>
 <a name="public-variables"></a>
@@ -72,8 +75,20 @@
 <!-- @@@Config -->
 <div class="func">
 <h2>Member Function Documentation</h2>
+<!-- $$$Config$$$ConfigconstConfig& -->
+<h3 class="fn" id="Config-1"><a name="Config-1"></a>Config::<span class="name">Config</span>(const <span class="type"><a href="qusbdevice-config.html#Config">Config</a></span> &amp;<i>other</i>)</h3>
+<p>Copy constructor.</p>
+<!-- @@@Config -->
+<!-- $$$Config[overload1]$$$Configquint8quint8quint8 -->
+<h3 class="fn" id="Config"><a name="Config"></a>Config::<span class="name">Config</span>(<span class="type"><a href="../qtcore/qtglobal.html#quint8-typedef">quint8</a></span> <i>_config</i> = 1, <span class="type"><a href="../qtcore/qtglobal.html#quint8-typedef">quint8</a></span> <i>_interface</i> = 0, <span class="type"><a href="../qtcore/qtglobal.html#quint8-typedef">quint8</a></span> <i>_alternate</i> = 0)</h3>
+<p>Default constructor.</p>
+<!-- @@@Config -->
+<!-- $$$operator=[overload1]$$$operator=Config -->
+<h3 class="fn" id="operator-eq"><a name="operator-eq"></a><span class="type"><a href="qusbdevice-config.html#Config">Config</a></span> &amp;Config::<span class="name">operator=</span>(<span class="type"><a href="qusbdevice-config.html#Config">Config</a></span> <i>other</i>)</h3>
+<p>Copy operator.</p>
+<!-- @@@operator= -->
 <!-- $$$operator==[overload1]$$$operator==constConfig& -->
-<h3 class="fn" id="operator-eq-eq"><a name="operator-eq-eq"></a><span class="type">bool</span> Config::<span class="name">operator==</span>(const <span class="type"><a href="qusbdevice-config.html">Config</a></span> &amp;<i>other</i>) const</h3>
+<h3 class="fn" id="operator-eq-eq"><a name="operator-eq-eq"></a><span class="type">bool</span> Config::<span class="name">operator==</span>(const <span class="type"><a href="qusbdevice-config.html#Config">Config</a></span> &amp;<i>other</i>) const</h3>
 <p>Comparision operator.</p>
 <p>Returns <code>true</code> if all <i>other</i> attributes match.</p>
 <!-- @@@operator== -->
